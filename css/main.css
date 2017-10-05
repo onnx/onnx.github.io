@@ -25,7 +25,7 @@ a {
 
 html, body {
   font-family: 'Freight Sans', 'Helvetica', arial, sans-serif;
-  background: #282828;
+  background: #333333;
   color: #dedede;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -69,7 +69,7 @@ header {
       -ms-flex-pack: center;
           justify-content: center;
   height: 350px;
-  background: #282828 repeat-x center bottom;
+  background: #333333 repeat-x center bottom;
   background-size: auto 100%;
   /* font-family: 'Dosis', 'Helvetica', arial, sans-serif; */
 }
@@ -150,7 +150,7 @@ header .oneliner {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  background: #1f1f1f;
+  background: #333333;
   -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
           box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
 }
@@ -557,7 +557,7 @@ footer.nav-footer {
   border: none;
   font-weight: 400;
   line-height: 24px;
-  background: #282828;
+  background: #333333;
   color: #bcbcbc;
   padding-top: 2em;
   padding-bottom: 2em;
@@ -815,7 +815,7 @@ footer .copyright {
   margin-bottom: 0.4em;
 }
 .fp-section p, .fp-section ul {
-  font-size: 1.5em;
+  font-size: 1.3em;
   font-weight: 300;
 }
 .fp-section p {
@@ -855,6 +855,7 @@ footer .copyright {
 .fp-people .right {
   background: url(../assets/people-fg.png) no-repeat center center;
   background-size: contain;
+  background-position-y: top;
 }
 .fp-share video {
   width: 100%;
