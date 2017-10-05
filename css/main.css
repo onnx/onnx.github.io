@@ -670,7 +670,7 @@ footer .copyright {
   position: absolute;
   z-index: 1;
   top: 0; right: 0; bottom: 0; left: 0;
-  background: #222222 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAFElEQVQYV2NkYGD4z8DAwMjIAAUADikBA/gvnngAAAAASUVORK5CYII=);
+  background: #222222;
   opacity: 0.6;
 }
 
