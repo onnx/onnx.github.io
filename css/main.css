@@ -863,6 +863,12 @@ footer .copyright {
   background-size: contain;
   background-position-y: top;
 }
+
+.fp-people .hardware-image {
+    background: url(../assets/hardware-optimization.jpg) no-repeat center center;
+    background-size: 90%;
+}
+
 .fp-share video {
   width: 100%;
 }
