@@ -819,7 +819,7 @@ footer .copyright {
     text-align: center;
 }
 .page-logos img {
-    width: 11em;
+    width: 24em;
     vertical-align: middle;
 }
 .fp-section h3 {
@@ -1034,6 +1034,10 @@ footer .copyright {
   .fp-section, .content {
     padding-left: 20px;
     padding-right: 20px;
+  }
+  .page-logos img {
+      width: 100%;
+      vertical-align: middle;
   }
 }
 
