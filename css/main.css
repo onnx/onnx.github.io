@@ -814,6 +814,13 @@ footer .copyright {
 .fp-section .text-content {
   padding: 40px 20px;
 }
+.page-logos {
+    padding-top: 2em;
+    text-align: center;
+}
+.page-logos img {
+    height: 3em;
+}
 .fp-section h3 {
   text-transform: none;
   font-size: 2.6em;
@@ -867,6 +874,7 @@ footer .copyright {
 .fp-people .hardware-image {
     background: url(../assets/hardware-optimization.jpg) no-repeat center center;
     background-size: 90%;
+    min-height: 300px;
 }
 
 .fp-share video {
@@ -1026,4 +1034,26 @@ footer .copyright {
     padding-left: 20px;
     padding-right: 20px;
   }
+}
+
+/* news */
+
+.news .fp-section-wide.fp-people {
+    border-top: 10px solid #efefef;
+}
+.news .fp-section-wide.fp-people:first-of-type {
+    border-top: none;
+}
+p.news-date {
+    width: 100%;
+    font-size: 1.2em;
+}
+h3.headline {
+    text-align: left;
+    width: 100%;
+    margin-top: 0;
+    font-size: 2.2em;
+}
+.read-more {
+    font-weight: bold;
 }
