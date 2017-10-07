@@ -819,7 +819,8 @@ footer .copyright {
     text-align: center;
 }
 .page-logos img {
-    height: 3em;
+    width: 11em;
+    vertical-align: middle;
 }
 .fp-section h3 {
   text-transform: none;
