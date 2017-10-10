@@ -977,6 +977,9 @@ footer .copyright {
   .fp-section .grid .card:last-child {
     display: none;
   }
+  .fp-reach {
+      background-position-x: 32%;
+  }
 }
 
 @media (max-width: 900px) {
@@ -1019,18 +1022,16 @@ footer .copyright {
   .fp-section .iframe-container {
     margin-top: 0 !important;
   }
-  .fp-reach {
-    background-size: 200% auto;
-  }
   .fp-people .right {
     min-height: 300px;
   }
   .fp-reach {
-      background: #ededed url(../assets/linework.png);
-      background-size: auto 88%;
-      background-position-y: -7em;
-      background-position-x: 4em;
-      background-repeat: no-repeat;
+    padding: 0 0 5em;
+    background: #ededed url(../assets/linework_cropped.png);
+    background-size: 50%;
+    background-position-y: 92%;
+    background-position-x: center;
+    background-repeat: no-repeat;
   }
 }
 
@@ -1058,11 +1059,14 @@ footer .copyright {
   #covervid {
     display: none;
   }
+  .fp-reach {
+    padding: 0 0 5em;
+  }
 }
 
 @media (max-width: 420px) {
   .fp-reach {
-    background-size: auto 68%;
+    /*background-size: auto 68%;*/
   }
 }
 
@@ -1088,3 +1092,4 @@ h3.headline {
 .read-more {
     font-weight: bold;
 }
+
