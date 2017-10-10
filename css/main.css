@@ -854,6 +854,7 @@ footer .copyright {
 .fp-reach {
   background: #ededed url(../assets/linework.png) repeat center center;
   background-size: auto 100%;
+  background-repeat: no-repeat;
   text-shadow: 0 0 20px #ededed, 0 0 15px #ededed, 0 0 10px #ededed, 0 0 5px #ededed, 0 0 5px #ededed;
 }
 .fp-share .right {
@@ -1038,6 +1039,9 @@ footer .copyright {
   .page-logos img {
       width: 100%;
       vertical-align: middle;
+  }
+  .fp-section-wide {
+      padding: 20px 0;
   }
 }
 
