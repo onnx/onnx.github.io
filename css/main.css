@@ -621,7 +621,7 @@ footer .fbOpenSource {
   display: inline-block;
   /*display: block;*/
   margin: 1em auto;
-  opacity: 0.4;
+  /*opacity: 0.4;*/
   -webkit-transition: opacity 0.15s ease-in-out;
   transition: opacity 0.15s ease-in-out;
   width: 170px;
@@ -632,6 +632,7 @@ footer .fbOpenSource img {
   -webkit-box-shadow: none;
           box-shadow: none;
   margin: 0;
+  width: 100%;
 }
 
 footer .fbOpenSource:hover {
