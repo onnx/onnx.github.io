@@ -1043,6 +1043,16 @@ footer .copyright {
   .fp-section-wide {
       padding: 20px 0;
   }
+  .fp-people .right {
+      min-height: 216px;
+  }
+  .fp-reach {
+      background: #ededed url(../assets/linework.png);
+      background-size: auto 100%;
+      background-position-y: -36px;
+      background-position-x: center;
+      background-repeat: no-repeat;
+  }
 }
 
 /* news */
