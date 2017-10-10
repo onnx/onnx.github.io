@@ -1023,6 +1023,13 @@ footer .copyright {
   .fp-people .right {
     min-height: 300px;
   }
+  .fp-reach {
+      background: #ededed url(../assets/linework.png);
+      background-size: auto 88%;
+      background-position-y: -7em;
+      background-position-x: 4em;
+      background-repeat: no-repeat;
+  }
 }
 
 @media (max-width: 600px) {
@@ -1046,14 +1053,15 @@ footer .copyright {
   .fp-people .right {
       min-height: 216px;
   }
+
+}
+
+@media (max-width: 420px) {
   .fp-reach {
-      background: #ededed url(../assets/linework.png);
-      background-size: auto 100%;
-      background-position-y: -36px;
-      background-position-x: center;
-      background-repeat: no-repeat;
+    background-size: auto 68%;
   }
 }
+
 
 /* news */
 

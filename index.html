@@ -148,7 +148,7 @@
 //
 </script>
 <script src="js/prism.js" async defer></script>
-<script src="js/covervid.js" async defer></script>
+<!--<script src="js/covervid.js" async defer></script>-->
 
 
   <footer class="nav-footer">
@@ -216,7 +216,8 @@
       window.history.replaceState({}, '', window.location.origin);
     }
 
-    // $("covervid").play;
+    var video = document.getElementById("covervid");
+    video.play();
   </script>
 </body>
 </html>
