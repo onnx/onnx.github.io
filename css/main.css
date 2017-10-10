@@ -1054,7 +1054,9 @@ footer .copyright {
   .fp-people .right {
       min-height: 216px;
   }
-
+  #covervid {
+    display: none;
+  }
 }
 
 @media (max-width: 420px) {
