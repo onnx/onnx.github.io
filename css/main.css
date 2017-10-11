@@ -872,7 +872,7 @@ footer .copyright {
 .fp-people .right {
   background: url(../assets/people-fg.png) no-repeat center center;
   background-size: contain;
-  background-position-y: top;
+  background-position-y: center;
 }
 
 .fp-people .hardware-image {
