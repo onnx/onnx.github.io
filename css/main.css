@@ -643,6 +643,15 @@ footer .copyright {
   text-align: center;
 }
 
+footer .social-media-links a {
+    display: inline-block;
+    font-size: 2rem;
+}
+
+footer .social-media-links a + * {
+    margin-left: .1rem;
+}
+
 /* PAGE */
 
 .about .content {
