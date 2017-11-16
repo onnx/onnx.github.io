@@ -25,6 +25,16 @@
         .fp-section {
             align-items: flex-start;
         }
+        .getting-started .fp-section h2 {
+            border: 0;
+            text-align: left;
+            margin: 1em 0 10px 0;
+            padding: 0 !important;
+        }
+
+        .getting-started p {
+
+        }
     </style>
 </head>
 
@@ -51,7 +61,7 @@
         </div>
     </div>
 
-    <div class="fp-section-wide fp-people">
+    <div class="fp-section-wide fp-people getting-started">
         <div class="fp-section">
             <h3>Importing and Exporting from Frameworks</h3>
             <div>
@@ -62,13 +72,19 @@
                         <strong>Installing</strong>
                         <p>Caffe2 bindings live in the <a href="https://github.com/onnx/onnx-caffe2">
                            https://github.com/onnx/onnx-caffe2</a> repo.</p>
-                       <ul>
-                           <li>It can be installed as a separate package: pip install onnx-caffe2.</li>
+                       <ul style="margin: 6px;">
+                           <li style="list-style-type: disc; padding: 0 0 1em;">
+                               It can be installed as a separate package:
+                               <code>pip install onnx-caffe2</code>.</li>
                        </ul>
                         <strong>Exporting ONNX Models</strong>
-                        <p>To export models, you can follow the tutorial at </p>
+                        <p>To export models, you can follow the tutorial at 
+                            <a href="https://github.com/onnx/tutorials/blob/master/tutorials/Caffe2OnnxExport.ipynb">https://github.com/onnx/tutorials/blob/master/tutorials/Caffe2OnnxExport.ipynb</a>.
+                        </p>
                         <strong>Importing ONNX Models</strong>
-                        <p>To export models, you can follow the tutorial at </p>
+                        <p>To export models, you can follow the tutorial at
+                            <a href="https://github.com/onnx/tutorials/blob/master/tutorials/OnnxCaffe2Import.ipynb">https://github.com/onnx/tutorials/blob/master/tutorials/OnnxCaffe2Import.ipynb</a>.
+                        </p>
                     </div>
 
 
@@ -107,7 +123,7 @@
     </div>
 
 
-    <div class="fp-section-wide">
+    <div class="fp-section-wide getting-started">
         <div class="fp-section">
             <h3>Convertors for additional frameworks and tools</h3>
             <h2>CoreML</h2>
