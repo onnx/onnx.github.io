@@ -35,6 +35,10 @@
         .getting-started p {
 
         }
+        .framework-instructions {
+            margin-left: 2em;
+            margin-top: 1.5em;
+        }
     </style>
 </head>
 
@@ -67,43 +71,46 @@
             <div>
                 ONNX support is integrated into different frameworks and deep learning tools:
                 <div class="frameworks-list">
-                    <h2>Caffe2:</h2>
+                    <h2>Caffe2</h2>
                     <div class="framework-instructions">
                         <strong>Installing</strong>
                         <p>Caffe2 bindings live in the <a href="https://github.com/onnx/onnx-caffe2">
-                           https://github.com/onnx/onnx-caffe2</a> repo.</p>
-                       <ul style="margin: 6px;">
-                           <li style="list-style-type: disc; padding: 0 0 1em;">
-                               It can be installed as a separate package:
-                               <code>pip install onnx-caffe2</code>.</li>
-                       </ul>
+                            https://github.com/onnx/onnx-caffe2</a> repo.</p>
+                        <ul style="margin: 6px;">
+                            <li style="list-style-type: disc; padding: 0 0 1em;">
+                                It can be installed as a separate package:
+                                <code>pip install onnx-caffe2</code>.</li>
+                        </ul>
                         <strong>Exporting ONNX Models</strong>
-                        <p>To export models, you can follow the tutorial at 
-                            <a href="https://github.com/onnx/tutorials/blob/master/tutorials/Caffe2OnnxExport.ipynb">https://github.com/onnx/tutorials/blob/master/tutorials/Caffe2OnnxExport.ipynb</a>.
+                        <p>To export models, you can follow the tutorial at
+                        <a href="https://github.com/onnx/tutorials/blob/master/tutorials/Caffe2OnnxExport.ipynb">https://github.com/onnx/tutorials/blob/master/tutorials/Caffe2OnnxExport.ipynb</a>.
                         </p>
                         <strong>Importing ONNX Models</strong>
                         <p>To export models, you can follow the tutorial at
-                            <a href="https://github.com/onnx/tutorials/blob/master/tutorials/OnnxCaffe2Import.ipynb">https://github.com/onnx/tutorials/blob/master/tutorials/OnnxCaffe2Import.ipynb</a>.
+                        <a href="https://github.com/onnx/tutorials/blob/master/tutorials/OnnxCaffe2Import.ipynb">https://github.com/onnx/tutorials/blob/master/tutorials/OnnxCaffe2Import.ipynb</a>.
                         </p>
                     </div>
 
 
                     <h2>Cognitive Toolkit</h2>
                     <div class="framework-instructions">
-                        <strong>Installing</strong><br/>
-                        <strong>Exporting ONNX Models</strong><br/>
+                        <strong>Installing</strong>
+                        <p>Coming Soon!</p>
+                        <strong>Exporting ONNX Models</strong>
+                        <p>Coming Soon!</p>
                         <strong>Importing ONNX Models</strong>
+                        <p>Coming Soon!</p>
                     </div>
 
 
                     <h2>MXNet</h2>
                     <div class="framework-instructions">
                         <strong>Installing</strong>
-                        <p>MXNet bindings live in the <a href="https://github.com/onnx/onnx-mxnet">https://github.com/onnx/onnx-mxnet</a> repo.  It can be installed as a separate package: pip install onnx-mxnet</p>
+                        <p>MXNet bindings live in the <a href="https://github.com/onnx/onnx-mxnet">https://github.com/onnx/onnx-mxnet</a> repo.  It can be installed as a separate package: <code>pip install onnx-mxnet</code></p>
                         <strong>Exporting ONNX Models</strong>
                         <p>Export functionality for MXNet is coming soon!</p>
                         <strong>Importing ONNX Models</strong>
-                        <p>To import models, you can follow the tutorial at </p>
+                        <p>To import models, you can follow the tutorial at <a href="https://github.com/onnx/tutorials/blob/master/tutorials/OnnxMxnetImport.ipynb">https://github.com/onnx/tutorials/blob/master/tutorials/OnnxMxnetImport.ipynb</a>.</p>
                     </div>
 
 
@@ -112,9 +119,9 @@
                         <strong>Installing</strong>
                         <p>The ONNX exporter is a part of PyTorch — no installation required! You can check out the documentation at <a href="http://pytorch.org/docs/master/onnx.html">http://pytorch.org/docs/master/onnx.html</a></p>
                         <strong>Exporting ONNX Models</strong>
-                        <p>To export models, you can follow the tutorial at </p>
+                        <p>To export models, you can follow the tutorial at <a href="https://github.com/onnx/tutorials/blob/master/tutorials/PytorchExportBasic.ipynb">https://github.com/onnx/tutorials/blob/master/tutorials/PytorchExportBasic.ipynb</a>.</p>
                         <strong>Importing ONNX Models</strong>
-                        <p>PyTorch does not currently have support for importing ONNX models. We're open to contributions! </p>
+                        <p>PyTorch does not currently have support for importing ONNX models. We're open to contributions!</p>
                     </div>
 
                 </div>
@@ -127,16 +134,35 @@
         <div class="fp-section">
             <h3>Convertors for additional frameworks and tools</h3>
             <h2>CoreML</h2>
-            We have an early stage CoreML converter that can be found at https://github.com/onnx/onnx-coreml. We'd love for you to
-help improve it. Check back soon for tutorial on converting to and from CoreML.
+            <p>
+            We have an early stage CoreML converter that can be found at <a href="https://github.com/onnx/onnx-coreml">https://github.com/onnx/onnx-coreml</a>. We'd love for you to help improve it.  To import into CoreML, you can follow the tutorial at <a href="https://github.com/onnx/tutorials/blob/master/tutorials/OnnxCoremlImport.ipynb">https://github.com/onnx/tutorials/blob/master/tutorials/OnnxCoremlImport.ipynb</a>.
+            </p>
+
             <h2>TensorFlow</h2>
-            We have an early stage TensorFlow converter that can be found at https://github.com/onnx/onnx-tensorflow. We'd love for you to help improve it. Check back soon for tutorial on converting to and from TensorFlow.
+            <p>
+            We have an early stage TensorFlow-to-ONNX converter that can be found at <a href="https://github.com/onnx/onnx-tensorflow">https://github.com/onnx/onnx-tensorflow</a>. We'd love for you to help improve it. To import into TensorFlow, you can follow the tutorial at <a href="https://github.com/onnx/tutorials/blob/master/tutorials/OnnxTensorflowImport.ipynb">https://github.com/onnx/tutorials/blob/master/tutorials/OnnxTensorflowImport.ipynb</a>.
+            </p>
         </div>
     </div>
 
-    <div class="fp-section-wide fp-people">
+    <div class="fp-section-wide fp-people getting-started">
         <div class="fp-section">
             <h3>Ready for More?</h3>
+            <h2>More Tutorials</h2>
+            <p>
+            Explore additional functionality and advanced features in other tutorials at <a href="https://github.com/onnx/tutorials">https://github.com/onnx/tutorials</a>.
+            </p>
+
+            <h2>Model Zoo</h2>
+            <p>
+            Try out all the ONNX models contributed by the community in our <a href="https://github.com/onnx/models">model zoo</a> or add your own for others to use!
+            </p>
+
+            <h2>Contributing</h2>
+            <p>
+            Contribute to ONNX or add support for your tool! You can start by exploring our <a href="https://github.com/onnx/onnx/blob/master/docs/CONTRIBUTING.md">contribution guide</a>.
+            </p>
+
         </div>
     </div>
 
