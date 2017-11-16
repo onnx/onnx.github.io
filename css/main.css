@@ -164,8 +164,15 @@ header .oneliner {
   padding: 0 1em;
   line-height: 50px;
   color: #eaf5f9;
-  font-size: 1.15em;
+  /*font-size: 1.15em;*/
+  font-size: 0.95em;
 }
+
+/*@media (max-width: 996px) {*/
+    /*.topnav a {*/
+        /*font-size: 0.95em;*/
+    /*}*/
+/*}*/
 
 .topnav a.active {
   background: #333;
@@ -555,6 +562,39 @@ header.showcase a[href]:hover {
   background: #1f1f1f;
 }
 
+/* GET INVOLVED */
+.get-involved-table {
+    text-align: center;
+}
+.get-involved-table h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+.get-involved-table p {
+    font-size: 18px;
+}
+.get-involved-table td {
+    width: 33.3%;
+    padding: 10px 20px;
+    vertical-align: top;
+}
+.get-involved-table .social-media-links {
+    font-size: 36px;
+}
+.get-involved-table .social-media-links a {
+    text-decoration: none;
+}
+.get-involved-table .social-media-links a:hover {
+    color: #666666;
+    text-decoration: none;
+}
+@media (max-width: 768px) {
+    .get-involved-table td {
+        display: block;
+        width: 100%;
+    }
+}
+
 /* FOOTER */
 
 footer.nav-footer {
@@ -665,7 +705,7 @@ footer .social-media-links a + * {
     flex-direction: row;
     flex-basis: 100%;
     justify-content: center;
-    margin: 0 auto;
+    margin: 0 auto 2em;
 }
 .footer-logo {
     display: flex;

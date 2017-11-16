@@ -18,172 +18,64 @@
   <link rel="stylesheet" href="css/main.css?v=2.1">
   <link rel="stylesheet" href="css/font.css?v=1.0">
   <link rel="icon" type="image/png" href="assets/mlogo.png">
+  <script src="https://www.w3schools.com/lib/w3.js"></script>
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
 </head>
 
 <body>
-  <nav class="topnav" role="navigation">
-    <ul class="navbar">
-      <li class="spacer"></li>
-      <li><a class="title" href="./"><img src="assets/mlogo.png">ONNX</a></li>
-      <li class="spacer"></li>
-      <li class="spacer-push"></li>
-      <li class="mobile-hide"><a href="/news">News</a></li>
-      <li class="mobile-hide"><a href="/about">About</a></li>
-      <li class="mobile-hide"><a href="https://github.com/onnx">GitHub </a></li>
-      <li class="spacer"></li>
-      <li class="mobile-show"><a id="mobile-nav-open"><i class="menu-icon"></i></a></li>
-    </ul>
-  </nav>
 
+    <div w3-include-html="partials/nav.html"></div>
 
-<header role="banner" class="fp-header">
-  <a class="brand">About</a>
-  <p>
-  </p>
-  <div class="overlay">
-  </div>
-  <div class="covervid-wrapper">
-    <!--<video id="covervid" autoplay loop muted preload="auto">-->
-      <!--<source src="assets/video.mp4" type="video/mp4">-->
-      <!--<source src="assets/video.ogv" type="video/ogg">-->
-      <!--<source src="assets/video.webm" type="video/webm">-->
-    <!--</video>-->
-  </div>
-</header>
-
-<main role="main" class="index">
-
-
-  <div class="fp-section-wide fp-people">
-    <div class="fp-section">
-          <p>
-          ONNX is a community project created by Facebook and Microsoft. We believe there is a need for greater interoperability in the AI tools community. Many people are working on great tools, but developers are often locked in to one framework or ecosystem. ONNX is the first step in enabling more of these tools to work together by allowing them to share models. Our goal is to make it possible for developers to use the right combinations of tools for their project. We want everyone to be able to take AI from research to reality as quickly as possible without artificial friction from toolchains. We hope you'll join us in this mission!
-          </p>
-    </div>
-  </div>
-
-  <div class="fp-section-wide">
-    <div class="fp-section">
-      <h2>Technical Design</h2>
-      <div class="fp-section">
-        <div class="left text-content">
-          <p>
-            ONNX provides a definition of an extensible computation graph model, as well as definitions of built-in operators and standard data types.</p>
-          <p>
-            Each computation dataflow graph is structured as a list of nodes that form an acyclic graph. Nodes have one or more inputs and one or more outputs. Each node is a call to an operator. The graph also has metadata to help document its purpose, author, etc.
-          </p>
-          <p>
-            Operators are implemented externally to the graph, but the set of built-in operators are portable across frameworks. Every framework supporting ONNX will provide implementations of these operators on the applicable data types.
-          </p>
-          <p>More details can be found on the <a href="https://github.com/onnx/onnx">GitHub site</a></p>
+    <header role="banner" class="fp-header">
+        <a class="brand">About</a>
+        <p>
+        </p>
+        <div class="overlay">
         </div>
-      </div>
+        <div class="covervid-wrapper">
+        </div>
+    </header>
+
+    <main role="main" class="index">
+
+
+    <div class="fp-section-wide fp-people">
+        <div class="fp-section">
+            <p>
+            ONNX is a community project created by Facebook and Microsoft. We believe there is a need for greater interoperability in the AI tools community. Many people are working on great tools, but developers are often locked in to one framework or ecosystem. ONNX is the first step in enabling more of these tools to work together by allowing them to share models. Our goal is to make it possible for developers to use the right combinations of tools for their project. We want everyone to be able to take AI from research to reality as quickly as possible without artificial friction from toolchains. We hope you'll join us in this mission!
+            </p>
+        </div>
     </div>
-  </div>
 
-
-
-</main>
-
-<script defer>
-//
-//  var tabs = [
-//    document.getElementById('fp-tab-proto'),
-//    document.getElementById('fp-tab-aspect')
-//  ];
-//  var pres = [
-//    document.getElementById('fp-pre-proto'),
-//    document.getElementById('fp-pre-aspect')
-//  ];
-//  var tab = 0;
-//  tabs.forEach(function (t, i) {
-//    t.addEventListener('click', function() {
-//      tabs[tab].classList.remove('active');
-//      pres[tab].classList.remove('active');
-//      tabs[i].classList.add('active');
-//      pres[i].classList.add('active');
-//      tab = i;
-//    });
-//  });
-//
-//  var prismCSS = document.createElement('link');
-//  prismCSS.rel = 'stylesheet';
-//  prismCSS.href = 'css/prism-dark.css';
-//  document.head.appendChild(prismCSS);
-//
-</script>
-<script src="js/prism.js" async defer></script>
-<!--<script src="js/covervid.js" async defer></script>-->
-
-
-  <footer class="nav-footer">
-    <section class="sitemap mobile-hide">
-      <a href="/metaversity/" class="nav-home">
-      </a>
-      <div>
-        <h3>Resources</h3>
-        <a href="https://caffe2.ai/">Caffe2</a>
-        <a href="https://github.com/Microsoft/CNTK">Cognitive Toolkit</a>
-        <a href="http://pytorch.org/">PyTorch</a>
-      </div>
-      <div>
-        <h3>Blogs</h3>
-        <a href="https://research.fb.com/facebook-and-microsoft-introduce-new-open-ecosystem-for-interchangeable-ai-frameworks/">Facebook Research</a>
-        <a href="https://www.microsoft.com/en-us/cognitive-toolkit/blog/2017/09/microsoft-facebook-create-open-ecosystem-ai-model-interoperability/">Microsoft</a>
-      </div>
-      <div>
-        <h3>Tutorials</h3>
-        <a href="http://pytorch.org/tutorials/advanced/super_resolution_with_caffe2.html">Super Resolution Tutorial</a>
-      </div>
-      <div>
-        <h3>Social Media</h3>
-        <a href="https://twitter.com/onnxai">@ONNXai on Twitter</a>
-        <a href="https://www.facebook.com/onnxai/">ONNX on Facebook</a>
-      </div>
-
-
-
-    </section>
-    <div class="footer-logos">
-        <a href="https://code.facebook.com/projects/" target="_blank" class="fbOpenSource">
-          <img src="assets/fos_logo_white_text.png" alt="Facebook Open Source"/>
-        </a>
+    <div class="fp-section-wide">
+        <div class="fp-section">
+            <h2>Technical Design</h2>
+            <div class="fp-section">
+                <div class="left text-content">
+                    <p>
+                    ONNX provides a definition of an extensible computation graph model, as well as definitions of built-in operators and standard data types.</p>
+                    <p>
+                    Each computation dataflow graph is structured as a list of nodes that form an acyclic graph. Nodes have one or more inputs and one or more outputs. Each node is a call to an operator. The graph also has metadata to help document its purpose, author, etc.
+                    </p>
+                    <p>
+                    Operators are implemented externally to the graph, but the set of built-in operators are portable across frameworks. Every framework supporting ONNX will provide implementations of these operators on the applicable data types.
+                    </p>
+                    <p>More details can be found on the <a href="https://github.com/onnx/onnx">GitHub site</a></p>
+                </div>
+            </div>
+        </div>
     </div>
-    <section class="copyright">
-      Copyright © 2017 Facebook Inc.
-    </section>
-  </footer>
+
+    </main>
 
 
-  <div id="mobile-nav" class="mobile-show">
-    <div class="side-menu">
-        <div><a href="/about">About</a></div>
-        <div><a href="/news">News</a></div>
-        <div><a href="https://github.com/onnx/onnx">GitHub</a></div>
-    </div>
-  </div>
+    <script src="js/prism.js" async defer></script>
+    <div w3-include-html="partials/footer.html"></div>
+    <div w3-include-html="partials/hamburger-menu.html"></div>
+    <script>w3.includeHTML();</script>
+    <script src="js/hamburger-menu.js"></script>
 
-  <script>
-    var mobileNavOpenBtn = document.getElementById('mobile-nav-open')
-    var mobileNav = document.getElementById('mobile-nav')
-    var toggleMobileNav = (e) => {
-      if (mobileNav.classList.contains('open')) {
-        mobileNav.classList.remove('open')
-        mobileNavOpenBtn.classList.remove('open')
-      } else {
-        mobileNav.classList.add('open')
-        mobileNavOpenBtn.classList.add('open')
-      }
-      e.stopPropagation();
-    }
-    mobileNavOpenBtn.addEventListener('click', toggleMobileNav);
-    mobileNav.addEventListener('click', toggleMobileNav);
-    if (window.location.search != '') {
-      window.history.replaceState({}, '', window.location.origin);
-    }
-  </script>
 </body>
 </html>
