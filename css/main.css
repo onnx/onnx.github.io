@@ -37,6 +37,8 @@ html, body {
           flex-direction: column;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 nav ul {
@@ -72,6 +74,7 @@ header {
   background: #333333 repeat-x center bottom;
   background-size: auto 100%;
   /* font-family: 'Dosis', 'Helvetica', arial, sans-serif; */
+  padding-top: 70px;
 }
 
 header .oneliner, header .brand {
@@ -80,6 +83,7 @@ header .oneliner, header .brand {
       -ms-user-select: none;
           user-select: none;
   margin: 0 10px;
+  position: relative;
 }
 
 header .brand {
@@ -617,27 +621,27 @@ footer .sitemap h3 {
 .footer-logos {
     text-align: center;
 }
-footer .fbOpenSource {
-  display: inline-block;
+/*footer .fbOpenSource {*/
+  /*display: inline-block;*/
   /*display: block;*/
-  margin: 1em auto;
+  /*margin: 1em auto;*/
   /*opacity: 0.4;*/
-  -webkit-transition: opacity 0.15s ease-in-out;
-  transition: opacity 0.15s ease-in-out;
-  width: 170px;
-}
+  /*-webkit-transition: opacity 0.15s ease-in-out;*/
+  /*transition: opacity 0.15s ease-in-out;*/
+  /*width: 170px;*/
+/*}*/
 
-footer .fbOpenSource img {
-  border: 0;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  margin: 0;
-  width: 100%;
-}
+/*footer .fbOpenSource img {*/
+  /*border: 0;*/
+  /*-webkit-box-shadow: none;*/
+          /*box-shadow: none;*/
+  /*margin: 0;*/
+  /*width: 100%;*/
+/*}*/
 
-footer .fbOpenSource:hover {
-  opacity: 1.0;
-}
+/*footer .fbOpenSource:hover {*/
+  /*opacity: 1.0;*/
+/*}*/
 footer .copyright {
   color: rgba(255, 255, 255, 0.4);
   text-align: center;
@@ -651,6 +655,61 @@ footer .social-media-links a {
 footer .social-media-links a + * {
     margin-left: .1rem;
 }
+
+
+.footer-logos {
+    /*text-align: center;*/
+    width: 90%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100%;
+    justify-content: center;
+    margin: 0 auto;
+}
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+    justify-content: center;
+    align-items: center;
+}
+.footer-logo img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+.footer-logos .aws-logo {
+    width: 36%;
+}
+.footer-logos .fb-logo {
+    width: 72%;
+}
+.footer-logos .ms-logo {
+    width: 67%;
+}
+@media (max-width: 600px) {
+    .footer-logos {
+        display: block;
+        height: unset;
+    }
+    .footer-logo {
+        margin-bottom: 2em;
+    }
+    .footer-logos .aws-logo {
+        height: unset;
+        width: 19%;
+    }
+    .footer-logos .ms-logo {
+        width: 32%;
+    }
+    .footer-logos .fb-logo {
+        width: 39%;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
 
 /* PAGE */
 

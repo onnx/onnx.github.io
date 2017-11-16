@@ -107,12 +107,12 @@
     <div class="fp-section">
       <h2>GitHub</h2>
       <div class="fp-section">
-        <div class="left text-content">
-			<p>ONNX is a community project. We encourage others to adopt ONNX and support it in their tools. We invite others to join the effort and contribute feedback, ideas, and code. Start experimenting today.</p>
-            <div class="page-logos">
+          <div class="left text-content">
+              <p>ONNX is a community project. We encourage others to adopt ONNX and support it in their tools. We invite others to join the effort and contribute feedback, ideas, and code. Start experimenting today.</p>
+            <!--<div class="page-logos">-->
                 <!--<img src="assets/oss_logo-2.png" style="width: 13em;" />-->
-                <img src="assets/oss_logos_color.png"/>
-            </div>
+                <!--<img src="assets/oss_logos_color.png"/>-->
+            <!--</div>-->
         </div>
       </div>
     </div>
@@ -185,13 +185,78 @@
 
 
     </section>
+
+    <style>
+    .footer-logos {
+        /*text-align: center;*/
+        width: 90%;
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        flex-basis: 100%;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .footer-logo {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 30%;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-logo img {
+        max-width: 100%;
+        max-height: 100%;
+        display: block;
+    }
+    .footer-logos .aws-logo {
+        width: 36%;
+    }
+    .footer-logos .fb-logo {
+        width: 72%;
+    }
+    .footer-logos .ms-logo {
+        width: 67%;
+    }
+    @media (max-width: 600px) {
+        .footer-logos {
+            display: block;
+            height: unset;
+        }
+        .footer-logo {
+            margin-bottom: 2em;
+        }
+        .footer-logos .aws-logo {
+            height: unset;
+            width: 19%;
+        }
+        .footer-logos .ms-logo {
+            width: 32%;
+        }
+        .footer-logos .fb-logo {
+            width: 39%;
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    </style>
     <div class="footer-logos">
-        <a href="https://code.facebook.com/projects/" target="_blank" class="fbOpenSource">
-          <img src="assets/fos_logo_white_text.png" alt="Facebook Open Source"/>
-        </a>
+        <!--<div class="footer-logos-inner">-->
+        <div class="footer-logo">
+            <img class="aws-logo" src="assets/AWS_Logo_White_@2x.png" alt="AWS" />
+        </div>
+        <div class="footer-logo">
+            <a href="https://code.facebook.com/projects/" target="_blank">
+                <img class="fb-logo" src="assets/fos_logo_white_text.png" alt="Facebook Open Source" />
+            </a>
+        </div>
+        <div class="footer-logo">
+            <img class="ms-logo" src="assets/Microsoft_logo_white2.png" alt="Microsoft" />
+        </div>
+        <!--</div>-->
     </div>
     <section class="copyright">
-      Copyright © 2017 Facebook Inc.
+        Copyright © 2017 Facebook Inc.
     </section>
   </footer>
 
