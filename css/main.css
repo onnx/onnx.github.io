@@ -74,7 +74,7 @@ header {
   background: #333333 repeat-x center bottom;
   background-size: auto 100%;
   /* font-family: 'Dosis', 'Helvetica', arial, sans-serif; */
-  padding-top: 70px;
+  /*padding-top: 70px;*/
 }
 
 header .oneliner, header .brand {

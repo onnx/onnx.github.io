@@ -13,18 +13,23 @@
   <meta property="og:type" content="website">
   <meta property="og:description" name="description" content="The new open ecosystem for interchangeable AI models">
   <meta property="og:image" content="assets/thumb.jpg">
+
   <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css?v=7.0">
   <!--<link rel="stylesheet" href="css/main.css?v=2.1">-->
   <!--<link rel="stylesheet" href="css/main.css?v=1.0">-->
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/news-feed.css">
   <link rel="stylesheet" href="css/font.css?v=1.0">
   <link rel="icon" type="image/png" href="assets/mlogo.png">
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
+
   <script src="https://use.fontawesome.com/e23d6c4fc6.js"></script>
   <script src="https://www.w3schools.com/lib/w3.js"></script>
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/news-feed.js"></script>
 </head>
 
 <body>
@@ -44,6 +49,20 @@
             </video>
         </div>
     </header>
+
+    <div id="news-feed">
+        <div class="news-prev">
+            <img src="assets/LeftArrow.png" />
+        </div>
+        <div class="news-info">
+            <div class="news-date"></div>
+            <div class="news-headline"></div>
+            <div class="news-more"><a class="news-more-href" href="">READ MORE</a></div>
+        </div>
+        <div class="news-next">
+            <img src="assets/RightArrow.png" />
+        </div>
+    </div>
 
     <main role="main" class="index">
 
@@ -100,8 +119,8 @@
                         <h3>Use ONNX</h3>
                         <p>
                         Start experimenting today.<br/>
-                        Check out our <!--<a href="">Getting Started Guide</a>, -->
-                        <a href="/supported-tools">Supported Tools</a><!--,--> and <a href="https://github.com/onnx/tutorials">Tutorials</a>.
+                        Check out our <a href="">Getting Started Guide</a>,
+                        <a href="/supported-tools">Supported Tools</a>, and <a href="https://github.com/onnx/tutorials">Tutorials</a>.
                         </p>
                     </td>
                     <td>
