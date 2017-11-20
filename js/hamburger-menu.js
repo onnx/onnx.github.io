@@ -1,4 +1,17 @@
-$(document).on("click", "#mobile-nav-open", function () {
+function checkForHamburgerMenu() {
+    var mobileNavOpenBtn = document.getElementById('mobile-nav-open');
+    var mobileNav = document.getElementById('mobile-nav');
+
+    if (mobileNavOpenBtn && mobileNav) {
+        initMobileNav();
+    } else {
+        console.log("can't find it");
+        setTimeout(checkForHamburgerMenu, 100);
+    }
+}
+
+//$(document).on("load", "#mobile-nav-open", function () {
+function initMobileNav() {
     var mobileNavOpenBtn = document.getElementById('mobile-nav-open');
     var mobileNav = document.getElementById('mobile-nav');
     var toggleMobileNav = function (e) {
@@ -19,5 +32,6 @@ $(document).on("click", "#mobile-nav-open", function () {
 
     var video = document.getElementById("covervid");
     if (video) video.play();
-});
-
+}
+//});
+checkForHamburgerMenu();
