@@ -19,5 +19,5 @@ setTimeout(function () {
 
     var video = document.getElementById("covervid");
     if (video) video.play();
-}, 400);
+}, 1000);
 
