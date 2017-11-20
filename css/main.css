@@ -978,8 +978,8 @@ footer .social-media-links a + * {
   position: relative;
 }
 .fp-people .right {
-  background: url(../assets/people-fg.png) no-repeat center center;
-  background-size: contain;
+  background: url(../assets/partner_logos_color_preview.png) no-repeat center center;
+  background-size: 85%;
   background-position-y: center;
 }
 
@@ -1132,6 +1132,7 @@ footer .social-media-links a + * {
   }
   .fp-people .right {
     min-height: 300px;
+    background-size: 65%;
   }
   .fp-reach {
     padding: 0 0 5em;
@@ -1163,6 +1164,7 @@ footer .social-media-links a + * {
   }
   .fp-people .right {
       min-height: 216px;
+      background-size: 85%;
   }
   #covervid {
     display: none;
