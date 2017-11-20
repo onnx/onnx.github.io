@@ -1,4 +1,4 @@
-setTimeout(function () {
+$(document).on("click", "#mobile-nav-open", function () {
     var mobileNavOpenBtn = document.getElementById('mobile-nav-open');
     var mobileNav = document.getElementById('mobile-nav');
     var toggleMobileNav = function (e) {
@@ -19,5 +19,5 @@ setTimeout(function () {
 
     var video = document.getElementById("covervid");
     if (video) video.play();
-}, 1000);
+});
 
