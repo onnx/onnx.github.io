@@ -1,4 +1,4 @@
-$(document).on("click", "#mobile-nav-open", function () {
+$(document).on("mouseover", "#mobile-nav-open", function () {
     var mobileNavOpenBtn = document.getElementById('mobile-nav-open');
     var mobileNav = document.getElementById('mobile-nav');
     var toggleMobileNav = function (e) {
