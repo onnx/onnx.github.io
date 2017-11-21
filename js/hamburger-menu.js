@@ -10,7 +10,6 @@ function checkForHamburgerMenu() {
     }
 }
 
-//$(document).on("load", "#mobile-nav-open", function () {
 function initMobileNav() {
     var mobileNavOpenBtn = document.getElementById('mobile-nav-open');
     var mobileNav = document.getElementById('mobile-nav');
@@ -33,5 +32,5 @@ function initMobileNav() {
     var video = document.getElementById("covervid");
     if (video) video.play();
 }
-//});
+
 checkForHamburgerMenu();

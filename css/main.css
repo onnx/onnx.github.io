@@ -978,7 +978,7 @@ footer .social-media-links a + * {
   position: relative;
 }
 .fp-people .right {
-  background: url(../assets/partner_logos_color_preview.png) no-repeat center center;
+  background: url(../assets/partner_logos_color.png) no-repeat center center;
   background-size: 85%;
   background-position-y: center;
 }
