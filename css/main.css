@@ -733,6 +733,7 @@ footer .social-media-links a + * {
 }
 .what-is-logos {
   margin-top: 2em;
+  margin-left: -1em;
   margin-bottom: 0;
 }
 
