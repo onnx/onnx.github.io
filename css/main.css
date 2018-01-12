@@ -737,21 +737,21 @@ footer .social-media-links a + * {
 }
 
 @media (max-width: 600px) {
-    .footer-logos {
+    .footer-logos:not(.what-is-logos) {
         display: block;
         height: unset;
     }
-    .footer-logo {
+    .footer-logos:not(.what-is-logos) .footer-logo {
         margin-bottom: 2em;
     }
-    .footer-logos .aws-logo {
+    .footer-logos:not(.what-is-logos) .aws-logo {
         height: unset;
         width: 19%;
     }
-    .footer-logos .ms-logo {
+    .footer-logos:not(.what-is-logos) .ms-logo {
         width: 32%;
     }
-    .footer-logos .fb-logo {
+    .footer-logos:not(.what-is-logos) .fb-logo {
         width: 39%;
         display: block;
         margin: 0 auto;
