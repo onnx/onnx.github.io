@@ -728,6 +728,14 @@ footer .social-media-links a + * {
 .footer-logos .ms-logo {
     width: 67%;
 }
+.what-is {
+  padding-top: 0;
+}
+.what-is-logos {
+  margin-top: 2em;
+  margin-bottom: 0;
+}
+
 @media (max-width: 600px) {
     .footer-logos {
         display: block;
@@ -924,6 +932,7 @@ footer .social-media-links a + * {
 .fp-section .text-content {
   padding: 40px 20px;
 }
+
 .page-logos {
     padding-top: 2em;
     text-align: center;
@@ -978,7 +987,7 @@ footer .social-media-links a + * {
   position: relative;
 }
 .fp-people .right {
-  background: url(../assets/partner_logos_color_120817.png) no-repeat center center;
+  background: url(../assets/ONNX_partner_logos_010818.png) no-repeat center center;
   background-size: 85%;
   background-position-y: center;
 }
@@ -1134,6 +1143,9 @@ footer .social-media-links a + * {
     min-height: 300px;
     background-size: 65%;
   }
+  .what-is .right {
+    min-height: 100px;
+  }
   .fp-reach {
     padding: 0 0 5em;
     background: #ededed url(../assets/linework_cropped.png);
@@ -1141,6 +1153,9 @@ footer .social-media-links a + * {
     background-position-y: 92%;
     background-position-x: center;
     background-repeat: no-repeat;
+  }
+  .what-is .text-content {
+    padding: 0 20px;
   }
 }
 
@@ -1172,6 +1187,7 @@ footer .social-media-links a + * {
   .fp-reach {
     padding: 0 0 5em;
   }
+
 }
 
 @media (max-width: 420px) {
