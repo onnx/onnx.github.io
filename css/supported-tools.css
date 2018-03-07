@@ -22,6 +22,10 @@
     width: 57%;
 }
 
+.runtimes img {
+    width: 50%;
+}
+
 @media (max-width: 600px) {
     .frameworks {
         display: block;
