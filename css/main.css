@@ -1197,6 +1197,11 @@ footer .social-media-links a + * {
   }
 }
 
+@media (min-width: 601px) {
+  .runtimes .framework {
+      width: calc(100% / 3);
+  }
+}
 
 /* news */
 
