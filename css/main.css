@@ -1198,8 +1198,11 @@ footer .social-media-links a + * {
 }
 
 @media (min-width: 601px) {
+  .frameworks.runtimes {
+    margin-bottom: 20px;
+  }
   .runtimes .framework {
-      width: calc(100% / 3);
+    width: calc(100% / 3);
   }
 }
 
