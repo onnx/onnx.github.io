@@ -988,7 +988,7 @@ footer .social-media-links a + * {
   position: relative;
 }
 .fp-people .right {
-  background: url(../assets/ONNX_partner_logos_042518.png) no-repeat center center;
+  background: url(http://onnx.github.io/assets/ONNX_partner_logos_042518.png) no-repeat center center;
   background-size: 85%;
   background-position-y: center;
 }
