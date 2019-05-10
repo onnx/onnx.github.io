@@ -731,6 +731,11 @@ footer .social-media-links a + * {
 .what-is {
   padding-top: 0;
 }
+
+.what-is h3 {
+  line-height: 1em;
+  height: 2em;
+}
 .what-is-logos {
   margin-top: 2em;
   margin-left: -1em;
@@ -847,6 +852,10 @@ footer .social-media-links a + * {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+
+.split.what-is {
+  min-height: unset;
 }
 .fp-section .split > div {
   -ms-flex-preferred-size: 50%;
@@ -999,9 +1008,21 @@ footer .social-media-links a + * {
   position: relative;
 }
 .fp-people .right {
-  background: url(../assets/ONNX_partnerlogos_Bigger_050319.png) no-repeat center center;
+  background: url(../assets/050819_ONNX_partnerlogos.png) no-repeat center center;
   background-size: 85%;
   background-position-y: center;
+}
+.what-is p {
+    margin-bottom: 3em;
+}
+.main-partner-logos {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 4em;
+  flex-basis: unset !important;
+}
+.main-partner-logos img {
+  width: 100%;
 }
 
 .fp-people .hardware-image {
@@ -1158,6 +1179,11 @@ footer .social-media-links a + * {
   .what-is .right {
     min-height: 100px;
   }
+  .what-is h3 {
+    line-height: 1em;
+    height: 2em;
+  }
+
   .fp-reach {
     padding: 0 0 5em;
     background: #ededed url(../assets/linework_cropped.png);
