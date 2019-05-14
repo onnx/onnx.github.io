@@ -1016,9 +1016,9 @@ footer .social-media-links a + * {
     margin-bottom: 3em;
 }
 .main-partner-logos {
-  width: 100%;
+  width: 60%;
   box-sizing: border-box;
-  margin-bottom: 4em;
+  margin: 1em auto 4em;
   flex-basis: unset !important;
 }
 .main-partner-logos img {
@@ -1225,7 +1225,12 @@ footer .social-media-links a + * {
   .fp-reach {
     padding: 0 0 5em;
   }
+}
 
+@media  (max-width: 576px) {
+  .main-partner-logos {
+    width: 100%;
+  }
 }
 
 @media (max-width: 420px) {
