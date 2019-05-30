@@ -1019,7 +1019,7 @@ footer .social-media-links a + * {
     margin-bottom: 3em;
 }
 .main-partner-logos {
-  width: 60%;
+  width: 100%;
   box-sizing: border-box;
   margin: 1em auto 4em;
   flex-basis: unset !important;
