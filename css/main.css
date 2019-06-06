@@ -686,7 +686,9 @@ footer .sitemap h3 {
 /*}*/
 footer .copyright {
   color: rgba(255, 255, 255, 0.4);
-  text-align: center;
+  /* text-align: center; */
+  text-align: left;
+  font-size: .8em;
 }
 
 footer .social-media-links a {
@@ -1273,3 +1275,14 @@ h3.headline {
     font-weight: bold;
 }
 
+@media (max-width: 420px) {
+  footer .copyright {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media (max-width: 576px) {
+  footer .logo {
+    display: none;
+  }
+}
