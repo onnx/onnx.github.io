@@ -1,581 +1,210 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
-
-  <title>ONNX - News</title>
-  <meta name="description" content="The new open ecosystem for interchangeable AI models">
-  <meta name="author" content="[author]">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <meta property="og:title" content="ONNX: Open Neural Network Exchange Format">
-  <meta property="og:type" content="website">
-  <meta property="og:description" name="description" content="The open ecosystem for interchangeable AI models.">
-  <meta property="og:image" content="assets/thumb.jpg">
-  <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
-  <link rel="stylesheet" href="css/normalize.css?v=7.0">
-  <!--<link rel="stylesheet" href="css/main.css?v=2.1">-->
-  <link rel="stylesheet" href="css/main.css?v=1.0">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/font.css?v=1.0">
-  <link rel="icon" type="image/png" href="assets/mlogo.png">
-  <script src="https://www.w3schools.com/lib/w3.js"></script>
-  <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-  <![endif]-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>ONNX | News</title>
+    <link rel="icon" href="./images/onnx-fevicon.png" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body>
+    <a class="skip-main" href="#skipMain">Skip to main content</a>
+    <div class="main-wrapper innerpage-main-wrapper">
 
-    <div w3-include-html="partials/nav.html"></div>
+        <div class="top-banner-bg news-page-wrapper">
+            <header class="fixed-top header-content">
+                <div class="text-center top-toast py-2 px-3 text-white" id="newsSlider" role="region" aria-live="polite" aria-label="News">
+                    <p class="mb-0 my-2"><span class="bold-text">NEWS: </span>Next ONNX Workshop in Shanghai
+                        <a aria-label="Read more about news" class="text-white ml-2 bold-text link p-2" href="./news.html#news46">
+                            <span class="link-content">Read more</span><span class="link-arrow fa fa-angle-right"></span></a></p>
+                </div>
+                <div class="bg-overlay">
+                    <nav class="navbar navbar-expand-lg navbar-custom" aria-label="Main menu">
+                        <a id="ONNXLogo" class="navbar-brand" href="./index.html">
+                            <img src="images/ONNX-Logo.svg" class="d-inline-block align-top onnx-logo" alt="ONNX Home">
+                        </a>
+                        <button class="navbar-toggler p-0" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse border-md-top mt-md-0 mt-2" id="navbarNav">
+                            <div class="mr-auto"></div>
+                            <div class="my-md-2 mb-0 mt-2 my-lg-0 pl-3 pl-lg-0">
+                                <ul class="navbar-nav navbar-nav mr-auto text-uppercase" id="navigation">
+                                    <li class="nav-item">
+                                        <a class="nav-link pr-3" href="./get-started.html">GET STARTED</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link pr-3" href="./supported-tools.html">SUPPORTED TOOLS</a>
+                                    </li>
+                                    <li class="nav-item active">
+                                        <a class="nav-link pr-3" href="./news.html">NEWS</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link pr-3" href="./about.html">ABOUT</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link pr-3" href="https://gitter.im/onnx/Lobby" target="_blank">GITTER</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" target="_blank" href="https://github.com/onnx">GITHUB</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+        </div>
 
-    <header role="banner" class="fp-header">
-        <a class="brand">ONNX News</a>
-        <div class="overlay">
-        </div>
-        <div class="covervid-wrapper"></div>
-    </header>
+            <div id="skipMain" role="main" tabindex="-1">
+                <section class="blue-page-title-bar py-3 pb-3">
+                    <div class="outer-container mx-auto">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h1 id="latestNews" class="text-uppercase">News</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="outer-container mx-auto">
 
-  
-  <main role="main" class="index news">
-    <div class="fp-section-wide fp-people" id="article46">
-        <div class="fp-section">
-            <p class="news-date">November 14, 2019</p>
-            <h3 class="headline">ONNX Joins LF AI as Graduated Project</h3>
-          <p>ONNX is now part of Linux Foundation AI! Moving under the umbrella of LF AI governance and management fully establishes ONNX as a vendor-neutral open standard for deep learning and machine learning. 
-            <a class="read-more" href="https://lfai.foundation/press-release/2019/11/14/lf-ai-welcomes-onnx/">READ MORE</a>
-            </p>
-        </div>
-      </div> 
-    <div class="fp-section-wide fp-people" id="article45">
-        <div class="fp-section">
-            <p class="news-date">October 9, 2019</p>
-            <h3 class="headline">Next ONNX Workshop in Shanghai</h3>
-          <p>The next ONNX Community Workshop will be held on November 18 in Shanghai! If you are using ONNX in your services and applications, building software or hardware that supports ONNX, or contributing to ONNX, you should attend! This is a great opportunity to meet with and hear from people working with ONNX from many companies. You’ll also have opportunities to participate in technical breakout sessions. 
-Due to limited space, please submit a proposal for a short talk if you would like to attend. 
-            <a class="read-more" href="https://aka.ms/onnx-shanghai">SUBMIT PROPOSAL</a>
-            </p>
-        </div>
-      </div> 
-    <div class="fp-section-wide fp-people" id="article44">
-        <div class="fp-section">
-            <p class="news-date">September 27, 2019</p>
-            <h3 class="headline">ONNX v1.6 Released</h3>
-          <p>ONNX v1.6 is now available! More models than ever can be represented in ONNX with the new data types and new and updated operators. Based on community feedback, operator documentation has also been updated and reference implementations added to improve clarity of expected behaviors. 
-            <a class="read-more" href="https://github.com/onnx/onnx/releases/tag/v1.6.0">READ MORE</a>
-            </p>
-        </div>
-      </div> 
-    <div class="fp-section-wide fp-people" id="article43">
-        <div class="fp-section">
-            <p class="news-date">August 5, 2019</p>
-            <h3 class="headline">Upcoming ONNX Community Workshop</h3>
-          <p>NVIDIA is hosting the next ONNX Community Workshop on August 23rd in Santa Clara, CA. If you are using ONNX in your services and applications, building software or hardware that supports ONNX, or contributing to ONNX, you should attend! This is a great opportunity to meet with and hear from people working with ONNX from many companies. You’ll also have opportunities to participate in technical breakout sessions.
-Due to limited space, please submit a proposal for a 5-10 minute talk if you would like to attend.
-            <a class="read-more" href="https://docs.google.com/forms/d/e/1FAIpQLSczH0bc7SXEVJUFrzQQX-FAe-8BjKwhVAOPoDTDTeaMIkjN3Q/viewform">SUBMIT PROPOSAL</a>
-            </p>
-        </div>
-      </div>
-    <div class="fp-section-wide fp-people" id="article42">
-        <div class="fp-section">
-            <p class="news-date">May 23, 2019</p>
-            <h3 class="headline">Expanded ONNX Steering Committee Announced!</h3>
-          <p>The ONNX community continues to grow with more than 28 companies and dozen's of tools supporting the spec. With the project undergoing significant growth, we are excited to announce that the [governance structure](https://github.com/onnx/onnx/tree/master/community) is expanding to include additional steering committee members and new leaders for a number of special interest groups (SIGs).
-            <a class="read-more" href="https://github.com/onnx/onnx/wiki/Expanded-ONNX-Steering-Committee-Announced!">READ MORE</a>
-            </p>
-        </div>
-      </div>
-    <div class="fp-section-wide fp-people" id="article41">
-        <div class="fp-section">
-            <p class="news-date">May 2, 2019</p>
-            <h3 class="headline">Support for ONNX added to Sony's Neural Network Libraries</h3>
-          <p>Sony’s Neural Network Libraries now supports ONNX, furthering interoperability between the open source deep learning framework and other ML tools. Neural Network Libraries is a deep learning framework that is intended to be used for research, development and production, with the aim of having it running everywhere: desktop PCs, HPC clusters, embedded devices and production servers. It’s used in various products like the Sony Aibo robot, Sony’s Real Estate Price Estimate Engine, and Xperia Ear.
-            <a class="read-more" href="https://nnabla.org/">READ MORE</a>
-            </p>
-        </div>
-      </div>
-    <div class="fp-section-wide fp-people" id="article40">
-        <div class="fp-section">
-            <p class="news-date">April 25, 2019</p>
-            <h3 class="headline">ONNX v1.5 Released</h3>
-          <p>We are excited to announce the v1.5 release of ONNX is now available! The ONNX project now includes support for Quantization, Object Detection models and the wheels now support python 3.7 among other improvements. pip install onnx --update to give it a try!
-            <a class="read-more" href="https://github.com/onnx/onnx/releases/tag/v1.5.0">READ MORE</a>
-            </p>
-        </div>
-      </div> 
-      <div class="fp-section-wide fp-people" id="article39">
-        <div class="fp-section">
-            <p class="news-date">January 23, 2019</p>
-            <h3 class="headline">ONNX v1.4 Released</h3>
-          <p>We are excited to announce the v1.4 release of ONNX is now available! The ONNX project now has more than 27 companies on board and 31 runtimes, converters, frameworks and other tools officially supporting ONNX. This release added several big features including support for large models (larger than 2GB) and storing the data externally, enhanced support for control flow operators, and the addition of a test driver for ONNXIFI enabling C++ tests. The IR version is bumped from 3 to 4 and the opset version from 8 to 9. All told, this release included 270+ commits since the last release.
-            <a class="read-more" href="https://github.com/onnx/onnx/releases/tag/v1.4.0">READ MORE</a>
-            </p>
-        </div>
-      </div> 
-      <div class="fp-section-wide fp-people" id="article38">
-        <div class="fp-section">
-            <p class="news-date">December 4, 2018</p>
-            <h3 class="headline">ONNX Runtime for inferencing machine learning models open sourced by Microsoft</h3>
-          <p>ONNX Runtime, a high-performance inference engine for machine learning models in the ONNX format, is now open source. ONNX Runtime is the first publicly available inference engine that fully implements the ONNX specification, including the ONNX-ML profile. Python, C#, and C APIs are available for Linux, Windows, and Mac. ONNX Runtime can deliver an average performance gain of 2X for inferencing. Partners in the ONNX community including Intel and NVIDIA are actively integrating their technology with ONNX Runtime to enable more acceleration.
-<a class="read-more" href="https://azure.microsoft.com/en-us/blog/onnx-runtime-is-now-open-source/">READ MORE</a>
-            </p>
-        </div>
-      </div>      
-     <div class="fp-section-wide fp-people" id="article37">
-        <div class="fp-section">
-            <p class="news-date">November 29, 2018</p>
-            <h3 class="headline">ONNX.js for running ONNX models on browsers and Node.js</h3>
-          <p>ONNX.js, an open source Javascript library for running ONNX models on browsers and on Node.js, is now available. It allows web developers to score pre-trained ONNX models directly on browsers, and has adopted WebAssembly and WebGL technologies for providing an optimized ONNX model inference runtime for both CPUs and GPUs. ONNX.js is the first solution to utilize multi-threading in a Javascript-based AI inference engine (via Web Workers), offering significant performance improvements over existing solutions on CPU.
-<a class="read-more" href="https://github.com/Microsoft/onnxjs">READ MORE</a>
-            </p>
-        </div>
-      </div> 
-      <div class="fp-section-wide fp-people" id="article36">
-        <div class="fp-section">
-            <p class="news-date">October 24, 2018</p>
-            <h3 class="headline">CEVA Adds ONNX Support to CDNN Neural Network Compiler</h3>
-          <p>CEVA, Inc., the leading licensor of signal processing platforms and artificial intelligence processors for smarter, connected devices, today announced that the latest release of its award-winning <a href="https://www.ceva-dsp.com/product/ceva-deep-neural-network-cdnn/">CEVA Deep Neural Network</a> (CDNN) compiler supports the Open Neural Network Exchange (ONNX) format.
-<a class="read-more" href="https://www.ceva-dsp.com/press-release-page/?id=137101">READ MORE</a>
-            </p>
-        </div>
-      </div> 
-     <div class="fp-section-wide fp-people" id="article35">
-        <div class="fp-section">
-            <p class="news-date">October 16, 2018</p>
-            <h3 class="headline">ONNX Runtime for inferencing machine learning models now in preview</h3>
-          <p>We are excited to release the preview of ONNX Runtime, a high-performance inference engine for machine learning models in the Open Neural Network Exchange (ONNX) format. ONNX Runtime is compatible with ONNX version 1.2 and comes in Python packages that support both <a href="https://pypi.org/project/onnxruntime/">CPU</a> and <a href="https://pypi.org/project/onnxruntime-gpu">GPU</a> to enable inferencing using <a href="https://azure.microsoft.com/en-us/blog/what-s-new-in-azure-machine-learning-service/">Azure Machine Learning service</a> and on any Linux machine running Ubuntu 16.
-<a class="read-more" href="https://azure.microsoft.com/en-us/blog/onnx-runtime-for-inferencing-machine-learning-models-now-in-preview/">READ MORE</a>
-            </p>
-        </div>
-      </div>
-      <div class="fp-section-wide fp-people" id="article34">
-        <div class="fp-section">
-            <p class="news-date">September 6, 2018</p>
-            <h3 class="headline">Synopsys Announces Support for the Open Neural Network Exchange Format in ARC MetaWare EV Development Toolkit</h3>
-          <p>Synopsys, Inc. today announced support for the Open Neural Network Exchange (ONNX) format in the upcoming release of its DesignWare® <a href="https://www.synopsys.com/dw/ipdir.php?ds=arc-metaware-ev">ARC® MetaWare EV Development Toolkit</a>, a complete set of tools, runtime software and libraries to develop vision and artificial intelligence (AI) applications for ARC EV6x Embedded Vision Processor IP.
-<a class="read-more" href="https://news.synopsys.com/2018-09-06-Synopsys-Announces-Support-for-the-Open-Neural-Network-Exchange-Format-in-ARC-MetaWare-EV-Development-Toolkit">READ MORE</a>
-            </p>
-        </div>
-      </div>
-      
-      <div class="fp-section-wide fp-people" id="article33">
-        <div class="fp-section">
-            <p class="news-date">September 6, 2018</p>
-            <h3 class="headline">ONNX version 1.3 Released</h3>
-<p>We are excited to announce the v1.3 release of ONNX is now available! 
-  For those who aren't aware of or know about ONNX, you can learn more about the project, 
-  who is involved and what tools are available at the <a href="http://onnx.ai">onnx.ai</a> site.
-<a class="read-more" href="https://github.com/onnx/onnx/wiki/ONNX-version-1.3-Released">READ MORE</a>
-            </p>
-        </div>
-      </div>
-      
-      <div class="fp-section-wide fp-people" id="article32">
-        <div class="fp-section">
-            <p class="news-date">July 23, 2018</p>
-            <h3 class="headline">ONNX Model Zoo: Developing a face recognition application with ONNX models</h3>
-<p>Today, Amazon Web Services (AWS), Facebook and Microsoft are pleased to announce that the 
-  <a href="https://github.com/onnx/models">Open 
-    Neural Network Exchange (ONNX) Model Zoo</a> is publicly available. <a href="https://onnx.ai/">ONNX</a> is an open standard 
-      format for deep learning models that enables interoperability between deep learning frameworks 
-      such as Apache MXNet, Caffe2, Microsoft Cognitive Toolkit, and PyTorch. ONNX Model Zoo enables 
-      developers to easily and quickly get started with deep learning using any framework supporting ONNX.
-<a class="read-more" href="https://medium.com/apache-mxnet/onnx-model-zoo-developing-a-face-recognition-application-with-onnx-models-64eeeddb9c7a">READ MORE</a>
-            </p>
-        </div>
-      </div>
-      
-     <div class="fp-section-wide fp-people" id="article31">
-        <div class="fp-section">
-            <p class="news-date">July 12, 2018</p>
-            <h3 class="headline">Vespa introduces ONNX support</h3>
-<p>ONNX (Open Neural Network Exchange) is an open format for the sharing of neural network and other machine learned 
-models between various machine learning and deep learning frameworks. As the open big data serving engine, 
-Vespa aims to make it simple to evaluate machine learned models at serving time at scale.
-<a class="read-more" href="http://blog.vespa.ai/post/175233055656/introducing-onnx-support">READ MORE</a>
-            </p>
-        </div>
-      </div>
-      
-      
-     <div class="fp-section-wide fp-people" id="article30">
-        <div class="fp-section">
-            <p class="news-date">July 9, 2018</p>
-            <h3 class="headline">Announcing ML.NET 0.3 with support for ONNX</h3>
-<p>Two months ago, at <a href="https://blogs.msdn.microsoft.com/dotnet/2018/05/07/introducing-ml-net-cross-platform-proven-and-open-source-machine-learning-framework/">//Build 2018</a>, Microsoft released ML.NET 0.1, a cross-platform, open source machine learning 
-      framework for .NET developers. Today they are happy to announce the latest version: ML.NET 0.3. 
-      This release supports exporting models to the ONNX format, enables creating new types of models with 
-      Factorization Machines, LightGBM, Ensembles, and LightLDA, and addressing a variety of issues and feedback 
-      received from the community.
-<a class="read-more" href="https://blogs.msdn.microsoft.com/dotnet/2018/07/09/announcing-ml-net-0-3/">READ MORE</a>
-            </p>
-        </div>
-      </div>
-      
-      
-      
-      <div class="fp-section-wide fp-people" id="article29">
-        <div class="fp-section">
-            <p class="news-date">July 3, 2018</p>
-            <h3 class="headline">MathWorks joins the Open Neural Network Exchange</h3>
-<p>AI/ML researchers and developers can now export a trained MathWorks Neural Network Toolbox deep learning network 
-to the ONNX (Open Neural Network Exchange) model format. They can then import the ONNX model to other deep learning 
-frameworks that support ONNX model import.
-<a class="read-more" href="https://www.mathworks.com/matlabcentral/fileexchange/67296-neural-network-toolbox-converter-for-onnx-model-format">READ MORE</a>
-            </p>
-        </div>
-      </div>
-      
-      
-      
-      
-      <div class="fp-section-wide fp-people" id="article28">
-        <div class="fp-section">
-            <p class="news-date">June 7, 2018</p>
-            <h3 class="headline">BITMAIN partners with Skymizer on an open source compiler for ONNX to speed up AI development</h3>
-<p>BITMAIN and Skymizer today announced their cooperation for ONNC, an open source compiler aiming to connect ONNX 
-to all AI ASICs. Sophon, BITMAIN’s AI ASIC solution, would be the first hardware platform for ONNC development. 
-It would greatly benefit the broad ONNX audience to utilize Sophon for their deep learning inference work.   
-<a class="read-more" href="https://sophon.ai/post/19.html">READ MORE</a>
-            </p>
-        </div>
-      </div>
-      
-      
-      
-           <div class="fp-section-wide fp-people" id="article27">
-        <div class="fp-section">
-            <p class="news-date">June 6, 2018</p>
-            <h3 class="headline">Type annotations for ONNX</h3>
-            <p>At Facebook, we work with community best practices to ensure high code quality, readability 
-and reliability. In line with this, we just added type annotations to our python code to help ONNX developers 
-              more easily contribute to the project.</p>
+                    <section>
+                        <div class="container-fluid news-content-wrapper">
+                            <div id="newsWrapper" class="row" role="region" aria-labelledby="latestNews" aria-live="polite" aria-atomic="true">
 
-<p>These type annotations are used by mypy within the ONNX CI systems to ensure a continuously high code quality standard. 
-We also have type annotations for our APIs, which means your tools built on top of the ONNX APIs can use static 
-analysis tools like mypy to ensure they are using the APIs correctly.   
-<a class="read-more" href="https://github.com/onnx/onnx/wiki/Type-annotations-for-ONNX">READ MORE</a>
-            </p>
-        </div>
-      </div>
-      
-      
-           <div class="fp-section-wide fp-people" id="article26">
-        <div class="fp-section">
-            <p class="news-date">June 5, 2018</p>
-            <h3 class="headline">HPE to join the Open Neural Network Exchange</h3>
-            <p>Hewlett Packard Enterprise is joining ONNX to work alongside industry leaders in pushing open AI standards. 
-            They will be joining Microsoft, Facebook, and Amazon, the founders of ONNX, and ONNX partners like AMD, NVIDIA, 
-            IBM and other industry leaders to push open artificial intelligence (AI) standards forward in the coming years.    
-<a class="read-more" href="https://news.hpe.com/hpe-to-join-the-open-neural-network-exchange/">READ MORE</a>
-            </p>
-        </div>
-      </div>
-      
-       
-     <div class="fp-section-wide fp-people" id="article25">
-        <div class="fp-section">
-            <p class="news-date">May 2, 2018</p>
-            <h3 class="headline">ONNX Expansion Speeds AI Development</h3>
-            <p>In the beginning of the recent deep learning revolution, 
-            researchers had only a handful of tools (such as Torch, Theano, and Caffe)
-            to work with, but today there is a robust ecosystem of deep learning 
-            frameworks and hardware runtimes. While this growing toolbox is 
-            extremely useful, each framework has the potential to become an 
-            island unto itself without interoperability. But interoperability 
-            requires a lot of custom integration work for each possible 
-            framework/runtime pair, and reimplementing models to move between 
-            frameworks is typically difficult and can slow development by weeks 
-            or months.  
-<a class="read-more" href="https://code.facebook.com/posts/1714175645317654">READ MORE</a>
-            </p>
-        </div>
-      </div>
-      
-      <div class="fp-section-wide fp-people" id="article24">
-        <div class="fp-section">
-            <p class="news-date">May 2, 2018</p>
-            <h3 class="headline">Introducing ONNX to Core ML model converter</h3>
-            <p>Today, we're pleased to add production-grade Core ML support through the availability of an ONNX 
-to Core ML model converter. Core ML enables developers to quickly build apps with intelligent new features 
-across Apple products. This new capability allows developers to use their favorite ONNX-compliant framework to 
-design, train, and test their models, and then seamlessly integrate them into apps for Apple products. 
-<a class="read-more" href="https://developer.apple.com/machine-learning/">READ MORE</a>
-            </p>
-        </div>
-      </div>  
-      
-        <div class="fp-section-wide fp-people" id="article23">
-        <div class="fp-section">
-            <p class="news-date">APRIL 20, 2018</p>
-            <h3 class="headline">Skymizer connects ONNX to all deep learning accelerator ASICs</h3>
-            <p>Skymizer, a compiler company founded in 2013, will launch the open source compiler “ONNC” 
-              (Open Neural Network Compiler) to ONNX backed by its unique compiler technologies.</p>
-            <p>Hundreds of AI chips are releasing in the near future, the latest figures indicate 34 IC and 
-              IP vendors will provide various AI chips and deep learning accelerator (DLA) ASICs in 2018. 
-              These all reflect the urgent need for an open compiler to support different AI chips. <a class="read-more" href="https://skymizer.com/onnx">READ MORE</a>
-            </p>
-        </div>
-      </div>  
-      
-      <div class="fp-section-wide fp-people" id="article22">
-        <div class="fp-section">
-            <p class="news-date">APRIL 10, 2018</p>
-            <h3 class="headline">AI chip company, BITMAIN, is officially joining and embracing ONNX AI software ecosystem</h3>
-            <p>BITMAIN, founded in 2013, was best known for its massive success in the digital currency. In 2017, BITMAIN launched its AI solution, Sophon, and the first AI chip, BM1680, and started to sell into the market. BITMAIN is committed to providing the most powerful and energy efficient AI solutions to the market. For the customers to unleash the power of Sophon with minimal development work, BITMAIN is implementing the inference platform to support all ONNX models for all Sophon solutions. <a class="read-more" href="https://sophon.ai/blog/view.html?id=15">READ MORE</a>
-            </p>
-        </div>
-      </div>  
-      
-      
-      <div class="fp-section-wide fp-people" id="article21">
-        <div class="fp-section">
-            <p class="news-date">MARCH 13, 2018</p>
-            <h3 class="headline">ONNX working groups established</h3>
-            <p>We are excited to announce the formation of community working groups. Working groups will bring together ONNX partners and members of the community to help steer the direction of ONNX. We have created 4 new working groups to provide guidance and feedback on the topics of Quantization, RNNs and Control Flow, Test and Compliance, and Training. <a class="read-more" href="https://github.com/onnx/onnx/wiki/%5BAnnouncement%5D-ONNX-working-groups-established">READ MORE</a>
-            </p>
-        </div>
-    </div>    
-      
-    <div class="fp-section-wide fp-people" id="article20">
-        <div class="fp-section">
-            <p class="news-date">MARCH 7, 2018</p>
-            <h3 class="headline">ONNX models to be runnable natively on 100s of millions of Windows devices</h3>
-            <p>Today Microsoft is announcing the next major update to Windows will include the ability to run Open Neural Network Exchange (ONNX) models natively with hardware acceleration. This brings 100s of millions of Windows devices, ranging from IoT edge devices to HoloLens to 2-in-1s and desktop PCs, into the ONNX ecosystem. Data scientists and developers creating AI models will be able to deploy their innovations to this large user base. And every developer building apps on Windows 10 will be able to use AI models to deliver more powerful and engaging experiences. <a class="read-more" href="https://blogs.technet.microsoft.com/machinelearning/2018/03/07/onnx-models-to-be-runnable-natively-on-100s-of-millions-of-windows-devices/">READ MORE</a>
-            </p>
-        </div>
-    </div>    
-      
-    <div class="fp-section-wide fp-people" id="article19">
-        <div class="fp-section">
-            <p class="news-date">FEBRUARY 22, 2018</p>
-            <h3 class="headline">MediaTek Joins Open Neural Network Exchange to Evolve its Edge AI Platform</h3>
-            <p>MediaTek today announced that it has joined the Open Neural Network Exchange (ONNX) to drive AI innovation 
-              and support the evolution of its edge AI platform. Existing involvement in the Android Neural Network (ANN), 
-              combined with its new support of and participation in ONNX, is part of MediaTek’s strategic imperative to 
-              continue integrating AI across its technology portfolio. <a class="read-more" href="https://www.mediatek.com/news-events/press-releases/mediatek-joins-open-neural-network-exchange-to-evolve-its-edge-ai-platform">READ MORE</a>
-            </p>
-        </div>
-    </div>      
-      
-    <div class="fp-section-wide fp-people" id="article18">
-        <div class="fp-section">
-            <p class="news-date">FEBRUARY 5, 2018</p>
-            <h3 class="headline">Model Server for Apache MXNet introduces ONNX support and Amazon CloudWatch integration</h3>
-            <p>
-              Today AWS released version 0.2 of <a href="https://github.com/awslabs/mxnet-model-server">Model Server for Apache MXNet (MMS)</a>, 
-              an open source library that packages and serves deep learning models for making predictions with just a few lines of code. 
-              With the new release, engineers are now able to serve ONNX models, and can publish operational metrics directly to 
-              Amazon CloudWatch, where they can create dashboards and alarms. <a class="read-more" href="https://aws.amazon.com/blogs/machine-learning/model-server-for-apache-mxnet-introduces-onnx-support-and-amazon-cloudwatch-integration/">READ MORE</a>
-            </p>
-        </div>
+                            </div>
+                        </div>
+                    </section>
+
+                </div>
+
+            </div>
+
+            <footer class="footer mt-auto py-4 py-md-5 text-white">
+                    <div class="outer-container mx-auto">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-12 co-md">
+                                    <h2 class="text-center pb-4 mb-2">Get Involved</h2>
+                                </div>
+                            </div>
+                            <div class="row pb-md-4 pb-0">
+                                <div class="col col-sm-5-1 col-md-5-1 pr-xl-4 mb-md-5 mb-lg-5 mb-4">
+                                    <h3 class="footer-heading">Use ONNX</h3>
+                                    <p class="mb-2">Transform or accelerate your model today.</p>
+                                    <a  href="./get-started.html">
+                                        <span class="link-content">Get Started</span><span class="link-arrow fa fa-angle-right"></span></a>
+                                </div>
+                                <div class="col col-sm-5-1 col-md-5-1 pr-xl-4 mb-md-5 mb-lg-0 mb-4">
+                                    <h3 class="footer-heading">Contribute</h3>
+                                    <p class="mb-2">ONNX is a community project. We encourage you to join the effort and contribute feedback, ideas and code.</p>
+                                    <a class="" target="_blank" href="https://github.com/onnx">
+                                        <span class="link-content">Join us on GitHub</span><span class="link-arrow fa fa-angle-right"></span></a>
+                                </div>
+                                <div class="col col-5-1 pr-xl-4 mb-md-0 mb-4">
+                                    <h3 class="footer-heading">Follow Us</h3>
+                                    <p class="mb-2">Stay up to date with the latest ONNX news.</p>
+                                    <a href="https://twitter.com/onnxai" target="_blank" title="Twitter" class="twitter-icon mr-2" aria-label="Social Icon Twitter">
+                                        <span class="fa fa-twitter" aria-hidden="true"></span></a>
+                                    <a href="https://www.facebook.com/onnxai/" target="_blank" title="Facebook" class="facebook-icon" aria-label="Social Icon Facebook">
+                                        <span class="fa fa-facebook" aria-hidden="true"></span></a>
+                                </div>
+                                <div class="col col-5-1 pr-xl-4 mb-md-0 mb-4">
+                                    <h3 class="footer-heading">ONNX</h3>
+                                     <ul class="list-unstyled text-small mb-0">
+                                        <li class="mb-2">
+                                            <a href="./get-started.html">
+                                                <span class="link-content">Get Started</span><span class="link-arrow fa fa-angle-right"></span></a>
+                                        </li>
+                                        <li class="mb-2">
+                                            <a href="./supported-tools.html">
+                                                <span class="link-content">Supported Tools</span><span class="link-arrow fa fa-angle-right"></span></a>
+                                        </li>
+                                        <li class="mb-2">
+                                            <a href="./news.html">
+                                                <span class="link-content">News</span><span class="link-arrow fa fa-angle-right"></span></a>
+                                        </li>
+                                        <li class="mb-0">
+                                            <a href="./about.html">
+                                                <span class="link-content">About</span><span class="link-arrow fa fa-angle-right"></span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col col-5-1 mb-md-0 mb-4">
+                                    <h3 class="footer-heading">Resources</h3>
+                                      <ul class="list-unstyled text-small mb-0">
+                                        <li class="mb-2">
+                                            <a target="_blank" href="https://github.com/onnx/tutorials">
+                                                <span class="link-content">Tutorials</span><span class="link-arrow fa fa-angle-right"></span></a>
+                                        </li>
+                                        <li class="mb-2">
+                                            <a target="_blank" href="https://github.com/onnx/models">
+                                                <span class="link-content">Model Zoo</span><span class="link-arrow fa fa-angle-right"></span></a>
+                                        </li>
+                                        <li class="mb-0">
+                                            <a target="_blank" href="https://github.com/onnx">
+                                                <span class="link-content">GitHub</span><span class="link-arrow fa fa-angle-right"></span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row py-0 pt-md-2 text-center-sm">
+                                <div class="col-md-3 col-lg-3 col-xl-2">
+                                    <a href="./index.html"><img class="mb-0 onnx-footer-logo" src="images/ONNX-Logo.svg" alt="ONNX Home"></a>
+                                </div>
+                                <div class="col-md-9 col-lg-9 col-xl-10 pl-md-5 pl-lg-3">
+                                    <p class="text-copyright py-3 ml-xl-5 ml-0 mb-0">
+                                        Copyright &copy; 2019 The Linux Foundation&reg;. All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our <a target="_blank" class="link" href="https://www.linuxfoundation.org/trademark-usage/">Trademark Usage</a> page. Linux is a registered trademark of Linus Torvalds. <a target="_blank" class="link" href="https://www.linuxfoundation.org/privacy/">Privacy Policy</a> and <a target="_blank" class="link" href="https://www.linuxfoundation.org/terms/">Terms of Use</a>.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+
+            <a id="back-to-top" href="#" class="btn btn-lg back-to-top" role="button" aria-label="Back to top"><span
+                    class="fa fa-angle-up"></span></a>
+        
     </div>
-      
-    <div class="fp-section-wide fp-people" id="article17">
-        <div class="fp-section">
-            <p class="news-date">JANUARY 17, 2018</p>
-            <h3 class="headline">ONNX support by Chainer</h3>
-            <p>
-                Today, we announce ONNX-Chainer, an open source Python package to export Chainer models to Open Neural Network Exchange (ONNX) format.  This blog post explains how to export a model written in Chainer into ONNX by using chainer/onnx-chainer.
-            <a class="read-more" href="https://chainer.org/general/2018/01/17/onnx-support-by-chainer.html">READ MORE</a>
-            </p>
-        </div>
-    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="./js/custom.js"></script>
+    <script>
+        $(document).ready(function() {
+            $.get("js/news.json", function(data, status) {
+                var newsData = '';
+                $.each(data["newsContent"], function(index, value) {
+                    if (index != 0) {
+                        newsData += '<hr class="border-top my-0 mx-15 w-100"/>'
+                    } 
+                    newsData += '<div class="col-12 py-md-5 py-4" id="' + value.newsId + '">';
+                    newsData += '<p class="mb-2 text-uppercase">' + value.newsDate + '</p>';
+                    if(value.newsTitle.length!=0){
+                        newsData += '<h2 class="news-subheading blue-text bold-text">' + value.newsTitle + '</h2>';
+                    }else{
+                        newsData += '<h2 class="news-subheading blue-text bold-text">' + value.newsShortTitle + '</h2>';
+                    }
+                    newsData += '<p class="text-break">' + value.newsDescription + '</p>';
+                    newsData += '<a target="_blank" aria-label="'+ value.newsLinkText +' - ' + value.newsShortTitle +'" class="link subheading-6" href="' + value.newsLinkURL + '"><span class="link-content">' + value.newsLinkText + '</span><span class="link-arrow fa fa-angle-right"></span></a>';
+                    newsData += '</div>';
 
-    <div class="fp-section-wide fp-people" id="article16">
-        <div class="fp-section">
-            <p class="news-date">DECEMBER 6, 2017</p>
-            <h3 class="headline">ONNX V1 released</h3>
-            <p>
-                In September, we released an early version of the <a href="http://onnx.ai/">Open Neural Network Exchange format</a> (ONNX) with a call to the community to join us and help create an open, flexible standard to enable deep learning frameworks and tools to interoperate. Today Facebook, AWS, and Microsoft are excited to announce that with the support of the community and new partners the first version of ONNX is now production-ready.
-            <a class="read-more" href="https://research.fb.com/onnx-v1-released/?">READ MORE</a>
-            </p>
-        </div>
-    </div>
+                });
+                $('#newsWrapper').append(newsData).fadeIn(200);
+            });
 
-
-    <div class="fp-section-wide fp-people" id="article15">
-        <div class="fp-section">
-            <p class="news-date">DECEMBER 6, 2017</p>
-            <h3 class="headline">Announcing ONNX 1.0</h3>
-            <p>
-                Today, the Open Neural Network Exchange (ONNX) working group, which includes Amazon Web Services (AWS), Facebook, and Microsoft, announces the availability of ONNX 1.0. This release introduces the stable and production-ready version of the ONNX format. ONNX is an open standard format for deep learning models that enables interoperability between deep learning frameworks such as Apache MXNet, PyTorch, Caffe2, and Microsoft Cognitive Toolkit. ONNX 1.0 enables users to move deep learning models between frameworks, making it easier to put them into production. For example, developers can build sophisticated computer vision models using frameworks such as PyTorch and run them for inference using CNTK or Apache MXNet.
-            <a class="read-more" href="https://aws.amazon.com/blogs/ai/announcing-the-availability-of-onnx-1-0/">READ MORE</a>
-            </p>
-        </div>
-    </div>
-
-
-    <div class="fp-section-wide fp-people" id="article14">
-        <div class="fp-section">
-            <p class="news-date">DECEMBER 6, 2017</p>
-            <h3 class="headline">Announcing ONNX 1.0 – An open ecosystem for AI</h3>
-            <p>
-                Today we are announcing that Open Neural Network Exchange (ONNX) is production-ready. ONNX is an open sourcemodel representation for interoperability and innovation in the AI ecosystem that Microsoft co-developed. The ONNX format is the basis of an open ecosystem that makes AI more accessible and valuable to all: developers can choose the right framework for their task, framework authors can focus on innovative enhancements, and hardware vendors can streamline optimizations.
-            <a class="read-more" href="https://www.microsoft.com/en-us/cognitive-toolkit/blog/2017/12/announcing-onnx-1-0-open-ecosystem-ai/">READ MORE</a>
-            </p>
-        </div>
-    </div>
-
-
-    <div class="fp-section-wide fp-people" id="article13">
-        <div class="fp-section">
-            <p class="news-date">DECEMBER 4, 2017</p>
-            <h3 class="headline">NVIDIA GPU Cloud Now Available to Hundreds of Thousands of AI Researchers Using NVIDIA Desktop GPUs</h3>
-            <p>
-                NVIDIA today announced that hundreds of thousands of AI researchers using desktop GPUs can now tap into the power of NVIDIA GPU Cloud (NGC) as the company has extended NGC support to NVIDIA TITAN.
-            </p>
-            <p>
-                NVIDIA also announced expanded NGC capabilities — adding new software and other key updates to the NGC container registry — to provide researchers a broader, more powerful set of tools to advance their AI and high performance computing research and development efforts.
-            <a class="read-more" href="https://globenewswire.com/news-release/2017/12/04/1220069/0/en/NVIDIA-GPU-Cloud-Now-Available-to-Hundreds-of-Thousands-of-AI-Researchers-Using-NVIDIA-Desktop-GPUs.html">READ MORE</a>
-            </p>
-        </div>
-    </div>
-
-
-    <div class="fp-section-wide fp-people" id="article12">
-        <div class="fp-section">
-            <p class="news-date">NOVEMBER 16, 2017</p>
-            <h3 class="headline">Announcing ONNX support for Apache MXNet</h3>
-            <p>
-            Today, AWS announces the availability of ONNX-MXNet, an open source Python package to import <a href="http://onnx.ai/">ONNX</a> (Open Neural Network Exchange) deep learning models into Apache MXNet (Incubating). MXNet is a fully featured and scalable deep learning framework, that offers APIs across popular languages such as Python, Scala and R. With ONNX format support for MXNet, developers can build and train models with other frameworks, such as PyTorch, Microsoft Cognitive Toolkit (CNTK), or Caffe2, and import these models into MXNet to run them for inference using MXNet’s highly optimized and scalable engine.
-            <a class="read-more" href="https://urldefense.proofpoint.com/v2/url?u=https-3A__aws.amazon.com_blogs_ai_announcing-2Donnx-2Dsupport-2Dfor-2Dapache-2Dmxnet_&d=DwMGaQ&c=5VD0RTtNlTh3ycd41b3MUw&r=XvCLXKjWkcHAx0F5Hf6oFA&m=-4c6xsFvcYE2IPc-M1Xon_OySXmZLpIwEHPqongxFhI&s=Tq0I4Vw1TNJ0WDm3txEYrs4pIpRvMUoT6FumEKpskQw&e=">READ MORE</a>
-            </p>
-        </div>
-    </div>
-
-
-    <div class="fp-section-wide fp-people" id="article11">
-        <div class="fp-section">
-            <p class="news-date">NOVEMBER 16, 2017</p>
-            <h3 class="headline">Amazon Web Services to join ONNX AI format, drive MXNET support</h3>
-            <p>
-            The Open Neural Network Exchange (ONNX) is a community project originally launched in September 2017 to increase interoperability between deep learning tools. ONNX is a standard for representing deep learning models that enables these models to be transferred between frameworks. It is the first step toward an open ecosystem where AI developers can easily move between state-of-the-art tools and choose the combination that works best for them.
-            <a class="read-more" href="https://l.facebook.com/l.php?u=https%3A%2F%2Fresearch.fb.com%2Famazon-to-join-onnx-ai-format-drive-mxnet-support%2F&h=ATPF5MsNfb-lu9eO8DxBngJIHVd7MaO12MTFaBGtKTv3Ur_FIk0wBxOgrpP6SAA27Hdjc90-VVS1PIDP_9P1Ey5scy12TAHVRlIO5wF_6kHoKOqRrCw9GaMJyfHbHU4gT87MnBen1KB2tbG9">READ MORE</a>
-            </p>
-        </div>
-    </div>
-
-
-    <div class="fp-section-wide fp-people" id="article10">
-        <div class="fp-section">
-            <p class="news-date">NOVEMBER 16, 2017</p>
-            <h3 class="headline">Support for open AI ecosystem grows as Amazon Web Services joins ONNX AI format</h3>
-            <p>
-            It’s been an exciting few months! In September we introduced the <a href="https://urldefense.proofpoint.com/v2/url?u=https-3A__www.microsoft.com_en-2Dus_cognitive-2Dtoolkit_blog_2017_09_microsoft-2Dfacebook-2Dcreate-2Dopen-2Decosystem-2Dai-2Dmodel-2Dinteroperability_&d=DwMGaQ&c=5VD0RTtNlTh3ycd41b3MUw&r=XvCLXKjWkcHAx0F5Hf6oFA&m=Qu3ikz08AtPf6-qh3YSsk3-CQwVCvlbbpdJTLYcltlI&s=Z4VBvieHZS_NE_4PMK6Ex5xgV2H46sYAHEbDFhF5eSs&e=">Open Neural Network Exchange (ONNX)</a> format that we created with Facebook to increase interoperability and reduce friction for developing and deploying AI. In October <a href="https://urldefense.proofpoint.com/v2/url?u=https-3A__www.microsoft.com_en-2Dus_cognitive-2Dtoolkit_blog_2017_10_support-2Dgrows-2Dopen-2Dai-2Decosystem_&d=DwMGaQ&c=5VD0RTtNlTh3ycd41b3MUw&r=XvCLXKjWkcHAx0F5Hf6oFA&m=Qu3ikz08AtPf6-qh3YSsk3-CQwVCvlbbpdJTLYcltlI&s=mntmXXkRiiH4OGwl_Q3HXERVgJ6jI1F5oOzVv1ReOjM&e=">a number of companies</a> that share our goals announced their support for ONNX.
-            <a class="read-more" href="https://www.microsoft.com/en-us/cognitive-toolkit/blog/2017/11/framework-support-open-ai-ecosystem-grows/">READ MORE</a>
-            </p>
-        </div>
-    </div>
-
-
-    <div class="fp-section-wide fp-people" id="article9">
-        <div class="fp-section">
-            <p class="news-date">OCTOBER 11, 2017</p>
-            <h3 class="headline">Open standards for deep learning to simplify development of neural networks</h3>
-            <p>
-            Among the various fields of exploration in artificial intelligence, deep learning is an exciting and increasingly important area of research that holds great potential for helping computers understand and extract meaning from data, e.g. deciphering images and sounds.
-            <br/><br/>
-            To help further the creation and adoption of interoperable deep learning models, IBM joined the Open Neural Network Exchange (ONNX), a new industry ecosystem that was established by Facebook and Microsoft in September. ONNX provides a common open format to represent deep learning models. The ONNX initiative envisions the flexibility to move deep learning models seamlessly between open-source frameworks to accelerate development for data scientists.  <a class="read-more" href="https://www.ibm.com/blogs/research/2017/10/open-standards-deep-learning-simplify-development-neural-networks/">READ MORE</a>
-            </p>
-        </div>
-    </div>
-
-
-    <div class="fp-section-wide fp-people" id="article8">
-        <div class="fp-section">
-            <p class="news-date">OCTOBER 10, 2017</p>
-            <h3 class="headline">ONNX AI Format Adds Partners</h3>
-            <p>
-            Today, following the <a href="https://research.fb.com/facebook-and-microsoft-introduce-new-open-ecosystem-for-interchangeable-ai-frameworks/">introduction of the Open Neural Network Exchange (ONNX)</a> format on September 7, <a href="https://instinct.radeon.com/en/onnx-amd-continues-to-support-open-source-platforms/">AMD</a>, <a href="https://community.arm.com/processors/b/blog/posts/arm-joins-facebook-and-microsoft-to-bring-next-generation-ai-to-life">ARM</a>, Huawei, IBM, <a href="https://www.intelnervana.com/intel-joins-open-neural-network-exchange-ecosystem/">Intel</a>, <a href="https://developer.qualcomm.com/blog/qti-announces-support-for-onnx">Qualcomm</a> have announced their support for <a href="http://www.onnx.ai/">ONNX</a>. These companies, like Facebook and <a href="https://www.microsoft.com/en-us/cognitive-toolkit/blog/2017/10/support-grows-open-ai-ecosystem/">Microsoft</a>, recognize the benefits ONNX’s open ecosystem provides engineers and researchers by allowing them to more easily move between state-of-the-art machine learning tools and choose the best combination for their projects. ONNX also makes it easier for optimizations to reach more developers. Any tools exporting ONNX models can benefit ONNX-compatible runtimes and libraries designed to maximize performance on some of the best AI hardware in the industry.  <a class="read-more" href="https://research.fb.com/onnx-ai-format-adds-partners/">READ MORE</a>
-            </p>
-        </div>
-    </div>
-
-
-    <div class="fp-section-wide fp-people" id="article7">
-        <div class="fp-section">
-            <p class="news-date">OCTOBER 10, 2017</p>
-            <h3 class="headline">Microsoft and Facebook Call for Open AI Ecosystem Gaining Broader Industry Momentum.</h3>
-            <p>
-            Last month we introduced the Open Neural Network Exchange (ONNX) format with Facebook to increase interoperability and reduce friction for developing and deploying AI. Since then we’ve talked with many companies that share our goals and recognize the benefits of the ONNX open ecosystem.  <a class="read-more" href="https://www.microsoft.com/en-us/cognitive-toolkit/blog/2017/10/support-grows-open-ai-ecosystem/">READ MORE</a>
-            </p>
-        </div>
-    </div>
-
-    <div class="fp-section-wide fp-people" id="article6">
-        <div class="fp-section">
-            <p class="news-date">OCTOBER 10, 2017</p>
-            <h3 class="headline">AMD announces ONNX support</h3>
-            <p>
-            AMD is excited to see the emergence of the Open Neural Network Exchange (ONNX) format bring common format model to bridge three industry-leading deep learning frameworks ( Pytorch, Caffe2, and CNTK)  to give our customer simpler path to explore their networks via rich foundation of framework interoperability.  <a class="read-more" href="https://radeon.com/ONNX">READ MORE</a>
-            </p>
-        </div>
-    </div>
-
-    <div class="fp-section-wide fp-people" id="article5">
-        <div class="fp-section">
-            <p class="news-date">OCTOBER 10, 2017</p>
-            <h3 class="headline">Arm joins Facebook and Microsoft to bring next-generation AI to life</h3>
-            <p>
-            At Arm, our commitment to artificial intelligence (AI) starts with developing and delivering technologies that are secure, scalable, and power-efficient. After all, AI is already simplifying and transforming our lives, but we’re really only scratching the surface of what’s possible. AI will increasingly happen on end device systems whether it’s your smartphone or your car, which means we’ll continue to see more compute power and AI algorithms.  As part of that effort, we’re excited to announce that we’ve joined industry leaders on an open-source project that aims to enable interoperability and innovation in the AI framework ecosystem. <a class="read-more" href="https://community.arm.com/processors/b/blog/posts/arm-joins-facebook-and-microsoft-to-bring-next-generation-ai-to-life">READ MORE</a>
-            </p>
-        </div>
-    </div>
-
-    <div class="fp-section-wide fp-people" id="article4">
-        <div class="fp-section">
-            <p class="news-date">OCTOBER 10, 2017</p>
-            <h3 class="headline">QTI announces support for ONNX, simplifying AI choices for developers</h3>
-            <p>
-            QUALCOMM - So you’ve started working with neural networks and artificial intelligence (AI), but did you find it hard to choose one machine learning framework over another – like Caffe/Caffe2, TensorFlow Cognitive Toolkit or PyTorch? Whether you’re training your own models or using freely available ones, you’ll want to choose a framework that you stick with all the way through production. <a href="http://developer.qualcomm.com/blog/qti-announces-support-for-onnx" class="read-more">READ MORE</a>
-            </p>
-        </div>
-    </div>
-
-    <div class="fp-section-wide fp-people" id="article3">
-        <div class="fp-section">
-            <p class="news-date">OCTOBER 10, 2017</p>
-            <h3 class="headline">Intel Joins Open Neural Network Exchange Ecosystem to Expand Developer Choice in Deep Learning Frameworks</h3>
-            <p>
-            As part of Intel’s commitment to furthering artificial intelligence across the industry, Intel is joining Microsoft*, Facebook*, and others to participate in the Open Neural Network Exchange (ONNX) project. By joining the project, we plan to further expand the choices developers have on top of frameworks powered by the <a href="https://www.intelnervana.com/intel-nervana-graph/">Intel® Nervana™</a> Graph library and deployment through our <a href="https://software.intel.com/en-us/dl-deployment-tool-devguide-introducing-intels-deep-learning-deployment-toolkit">Deep Learning Deployment Toolkit</a>. Developers should have the freedom to choose the best software and hardware to build their artificial intelligence model and not be locked into one solution based on a framework. Deep learning is better when developers can move models from framework to framework and use the best hardware platform for the job. <a class="read-more" href="http://intelnervana.com/intel-joins-open-neural-network-exchange-ecosystem/">READ MORE</a>
-            </p>
-        </div>
-    </div>
-
-    <div class="fp-section-wide fp-people" id="article2">
-        <div class="fp-section">
-            <p class="news-date">SEPTEMBER 7, 2017</p>
-            <h3 class="headline">Facebook and Microsoft introduce new open ecosystem for interchangeable AI frameworks</h3>
-            <p>
-            Facebook and Microsoft are today introducing Open Neural Network Exchange (ONNX) format, a standard for representing deep learning models that enables models to be transferred between frameworks. ONNX is the first step toward an open ecosystem where AI developers can easily move between state-of-the-art tools and choose the combination that is best for them.
-            <a class="read-more" href="https://research.fb.com/facebook-and-microsoft-introduce-new-open-ecosystem-for-interchangeable-ai-frameworks/">READ MORE</a>
-            </p>
-        </div>
-    </div>
-
-    <div class="fp-section-wide fp-people" id="article1">
-        <div class="fp-section">
-            <p class="news-date">SEPTEMBER 7, 2017</p>
-            <h3 class="headline">Microsoft and Facebook create open ecosystem for AI model interoperability</h3>
-            <p>
-            At Microsoft our commitment is to make AI more accessible and valuable for everyone. We offer a variety of platforms and tools to facilitate this, including our Cognitive Toolkit, an open source framework for building deep neural networks. We also work with other organizations that share our views to help the AI community.<br/><br/>
-            Today we are excited to announce the Open Neural Network Exchange (ONNX) format in conjunction with <a href="https://research.fb.com/facebook-and-microsoft-introduce-new-open-ecosystem-for-interchangeable-ai-frameworks/">Facebook</a>. ONNX provides a shared model representation for interoperability and innovation in the AI framework ecosystem. Cognitive Toolkit, Caffe2, and PyTorch will all be supporting ONNX. Microsoft and Facebook co-developed ONNX as an open source project, and we hope the community will help us evolve it. <a class="read-more" href="https://www.microsoft.com/en-us/cognitive-toolkit/blog/2017/09/microsoft-facebook-create-open-ecosystem-ai-model-interoperability/">READ MORE</a>
-            </p>
-        </div>
-    </div>
-
-
-    </main>
-
-
-    <script src="js/prism.js" async defer></script>
-    <div w3-include-html="partials/footer.html"></div>
-    <div w3-include-html="partials/hamburger-menu.html"></div>
-    <script>w3.includeHTML();</script>
-    <script src="js/hamburger-menu.js"></script>
-
-
+        });
+    </script>
 </body>
+
 </html>
