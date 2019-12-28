@@ -1,0 +1,333 @@
+
+/* Responsive css start */
+  
+  @media only screen and (max-width: 1366px) {
+    .outer-container{
+        padding: 0 3%;
+    }
+   
+    .deloy-modal-logo img{
+      height: 40px;
+    }
+    .about-partners-logo img {
+      width: 100px;
+    }
+  }
+ 
+  @media only screen and (max-width: 1199px) {
+    .navbar-custom .navbar-nav .nav-item {
+      padding: .5rem 0 .5rem 0.8rem;
+    }
+    .partners-logo img{
+      width:100px;
+    }
+    .supported-tools-logo img {
+      height: 48px;
+    }
+    .footer a{
+      font-size: 18px;
+    }
+    .deloy-modal-logo img {
+      height: 32px;
+    }
+    .about-partners-logo img {
+      width: 78px;
+    }
+    .community-card{
+      font-size: 18px;
+      min-height: 150px;
+      height: 150px;
+    }
+  }
+  
+  @media only screen and (max-width: 991px) {
+    body{
+        font-size: 16px;
+    }
+    .content-wrapper {
+        padding-bottom: 35px;
+      }
+    .navbar-custom .navbar-nav .nav-item {
+      padding: 0.7rem 0 0.7rem 0;
+    }
+    .navbar-custom .navbar-nav .nav-item:not(:last-child) .nav-link{
+      border-right: none;
+    }
+    header.header-collapse .navbar-custom .navbar-collapse{
+      border-top:1px solid #ffffff;
+      background-color: #000000;
+      -webkit-transition:0.3s;
+      transition:0.3s;
+    }
+    .bg-lightblue.mt-90{
+      margin-top: 75px;
+    }
+    .shadow-box .shadow {
+        top:-30px;
+    }
+    .community-intro{
+      max-width: 75%;
+      margin: 0 auto 30px;
+      text-align: center;
+    }
+    .LFAI-logo {
+        width: 200px;
+    }
+    .partners-logo{
+      text-align: center;
+    }
+    .partners-logo img {
+      width: 130px;
+    }
+    .supported-tools-logo img {
+      height: 55px;
+    }
+    .deloy-modal-logo img {
+      height: 55px;
+    }
+    .about-partners-logo img {
+      width: 130px;
+    }
+    .footer .footer-heading{
+      font-size: 21px;
+    }
+
+    .col-4-2, .col-8-4-2{
+      -ms-flex: 0 0 25%;
+      flex: 0 0 25%;
+      max-width: 25%;
+    }
+    .col-md-5-1{
+      -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+    .col-5-, .col-5-1, .col-7-3, .col-5-3{
+      -ms-flex: 0 0 33.3333%;
+      flex: 0 0 33.3333%;
+      max-width: 33.3333%;
+    }
+    .text-center-lg{
+      text-align: left;
+    }
+    section.blue-page-title-bar h1{
+      font-size: 26px;
+    }
+    h1 {
+      font-size: 32px;
+    }
+    .news-subheading{
+      font-size: 18px;
+    }
+    .subheading-1{
+        font-size: 26px;
+    }
+    .subheading-2{
+        font-size: 22px;
+    }
+    .subheading-3{
+      font-size: 20px;
+    }
+    .subheading-4{
+        font-size: 18px;
+    }
+    .subheading-6,
+    .col-news a.link {
+      font-size: 18px;
+    }
+    .subheading-5 {
+        font-size: 19px;
+    }
+    .community-card {
+      font-size: 16px;
+    }
+    .icon-wrapper{
+      top: 0;
+    }
+    .innerpage-main-wrapper header.fixed-top .navbar-custom {
+      padding: 27px 1rem;
+    }
+    .main-wrapper.innerpage-main-wrapper .top-banner-bg {
+      padding: 94px 0;
+    }
+    .bg-overlay{
+      background-image: linear-gradient(to top,rgba(0, 0, 0, 0) -50%, rgba(0, 0, 0, 0.95) 85%);
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    .main-wrapper .top-banner-bg{
+        background-position: top left;
+        background-size: auto 100%;
+    }
+    .main-wrapper.innerpage-main-wrapper .top-banner-bg{
+      background-size:auto;
+    }
+    .content-wrapper {
+      padding-bottom: 50px;
+    }
+    .content-wrapper .bg-overlay {
+      padding-top: 75px;
+  }
+    .header-content .container{
+        max-width: 100%;
+    }
+    
+    header.fixed-top .navbar-custom img.onnx-logo{
+      width: 200px;
+    }
+    .navbar-toggler .navbar-toggler-icon{
+      width: 35px;
+      height: 25px;
+    }
+    .outer-container {
+        padding: 0 5%;
+    }
+    .top-toast p{
+      max-width: 100%;
+      margin: 0 auto;
+    }
+    .btn-blue{
+      width: 220px;
+    }
+    .community-intro {
+      max-width: 100%;
+    }
+    .LFAI-logo {
+      width: 160px;
+    }
+    .partners-logo img {
+      width: 170px;
+    }
+    .supported-tools-logo img {
+        height: 45px;
+    }
+    .deloy-modal-logo img {
+      height: 45px;
+    }
+    .col-4-2, .col-5-3, .col-7-3, .col-8-4-2 {
+      -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .col-sm-5-1{
+      -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .col-5-1{
+      -ms-flex: 0 0 33.33333%;
+        flex: 0 0 33.33333%;
+        max-width: 33.33333%;
+    }
+    .text-center-sm{
+      text-align: center;
+    }
+    .pl-90, .pl-80{
+      padding-left: 75px;
+    }
+    .page-get-started h2, .page-get-started h2{
+      margin-bottom: 15px;
+    }
+    .img-tecnical-design {
+      height: 300px;
+    }
+    .community-card {
+      min-height: 180px;
+      height: 180px;
+	    margin-bottom:6px;
+    }
+    .back-to-top{
+      bottom: 16px;
+      right: 1rem;
+      width: 40px;
+      height: 35px;
+    }
+    .back-to-top .fa-angle-up{
+      font-size: 34px;
+    }
+    .icon-wrapper {
+      top: -1px;
+    }
+    .page-get-started .icon-wrapper {
+      position: relative;
+      left: 0;
+      top: 0;
+    }
+    .page-get-started .pl-90, .page-get-started .pl-80{
+      padding-left: 15px;
+    }
+  } 
+  
+  @media only screen and (max-width: 480px) {
+    .outer-container {
+        padding: 0 3%;
+    }
+    .home-heading{
+      font-size: 34px;
+    }
+    .top-toast p{
+      font-size: 16px;
+      max-width: 77%;
+    }
+    .content-wrapper .bg-overlay {
+      padding-top: 66px;
+  }
+    .community-card.subheading-5 {
+      font-size: 17px;
+    } 
+    .partners-logo img {
+      width: 130px;
+    }
+    .shadow-box .shadow {
+      top: -50px;
+    }
+    .col-5-1{
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+    .innerpage-main-wrapper header.fixed-top .navbar-custom {
+      padding: 16px 1rem;
+  }
+  }
+  
+  @media only screen and (max-width: 420px) {
+    .outer-container {
+        padding: 0 2%;
+    }
+    .supported-tools-logo img,
+    .deloy-modal-logo img {
+      height: 35px;
+    }
+    .additional-tools-icons img {
+      width: 110px;
+    }
+    .about-partners-logo img {
+      width: 100px;
+    }
+    .img-tecnical-design {
+      height: 220px;
+    }
+    .community-card {
+      min-height: 150px;
+      height: 150px;
+    }
+    .icon-container img {
+      width: 40px;
+      height: 50px;
+    }
+    .pl-90, .pl-80 {
+      padding-left: 70px;
+    }
+    a.link{
+      font-size: 15px;
+    }
+  }
+
+  @media screen and (max-width: 767px) and (max-height: 380px){
+    header .navbar-custom .navbar-collapse .navbar-nav{
+      height: 150px;
+      overflow-y: scroll;
+    }
+  }
