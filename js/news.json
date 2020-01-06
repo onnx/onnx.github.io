@@ -1,6 +1,16 @@
 {
     "newsContent": [
         {
+            "id": "47",
+            "newsId": "news47",
+            "newsTitle": "ONNX Joins LF AI as Graduated Project",
+            "newsShortTitle": "ONNX Joins LF AI as Graduated Project",
+            "newsDescription": "ONNX is now part of Linux Foundation AI! Moving under the umbrella of LF AI governance and management fully establishes ONNX as a vendor-neutral open standard for deep learning and machine learning.",
+            "newsLinkText": "READ MORE",
+            "newsLinkURL": "https://lfai.foundation/press-release/2019/11/14/lf-ai-welcomes-onnx/",
+            "newsDate": "November 14, 2019"
+        },
+        {
             "id": "46",
             "newsId": "news46",
             "newsTitle": "Next ONNX Workshop in Shanghai",
