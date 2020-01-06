@@ -352,9 +352,9 @@
                     newsData += '<div class="col-12 col-md-4 mb-4 mb-md-0">';
                     newsData += '<div class="col-news py-4 px-4 py-lg-5 px-lg-5">';
                     newsData += '<h3 class="subheading-3">' + value.newsTitle + '</h3>';
-                    len = value.newsDescription.length;
-                    str = value.newsDescription.substr(0,110);
-                    lastIndexOf = str.lastIndexOf(" "); 
+                    var len = value.newsDescription.length;
+                    var str = value.newsDescription.substr(0,110);
+                    var lastIndexOf = str.lastIndexOf(" "); 
                     if(len>110) {
                         newsData += '<p class="text-break">' + str.substr(0, lastIndexOf) + '…' + '</p>';
                     }else{
@@ -372,9 +372,9 @@
 
         $(function(){
             $(".news-text").each(function () {
-                len=$(this).text().length;
-                str= $(this).text().substr(0,80);
-                lastIndexOf = str.lastIndexOf(" "); 
+                var len=$(this).text().length;
+                var str= $(this).text().substr(0,80);
+                var lastIndexOf = str.lastIndexOf(" "); 
                 if(len>80) {
                     $(this).text(str.substr(0, lastIndexOf) + '…');
                 }
