@@ -245,39 +245,13 @@
                     <section class="py-md-5 pb-4 pt-4">
                         <div class="container-fluid">
                             <h2 class="subheading-1 text-center mb-4 pb-2">NEWS AND ANNOUNCEMENTS</h2>
-                            <div class="row equalHeight-2">
-                                <div class="col-12 col-md-4 mb-4 mb-md-0">
-                                    <div class="col-news py-4 px-4 py-lg-5 px-lg-5">
-                                        <h3 class="subheading-3">Next ONNX Workshop in Shanghai</h3>
-                                        <p>The next ONNX Community Workshop will be held on November 18 in Shanghai!</p>
-                                        <a href="./news.html#news46" aria-label="Learn more about next ONNX community workshop in Shanghai" class="link"><span class="link-content">LEARN
-                                                MORE</span><span class="link-arrow fa fa-angle-right"></span></a>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-4 mb-4 mb-md-0">
-                                    <div class="col-news py-4 px-4 py-lg-5 px-lg-5">
-                                        <h3 class="subheading-3">ONNX v1.6 Released</h3>
-                                        <p>ONNX v1.6 is now available! More models than ever can be represented in ONNX
-                                        </p>
-                                        <a href="./news.html#news45" aria-label="Learn more about ONNX v1.6 Released" class="link"><span class="link-content">LEARN
-                                                MORE</span><span class="link-arrow fa fa-angle-right"></span></a>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-4">
-                                    <div class="col-news py-4 px-4 py-lg-5 px-lg-5">
-                                        <h3 class="subheading-3">Upcoming ONNX Community Workshop</h3>
-                                        <p>NVIDIA is hosting the next ONNX Community Workshop on August 23rd in Santa Clara
-                                        </p>
-                                        <a href="./news.html#news44"  aria-label="Learn more about Upcoming ONNX Community Workshop" class="link"><span class="link-content">LEARN
-                                                MORE</span><span class="link-arrow fa fa-angle-right"></span></a>
-                                    </div>
-                                </div>
+                            <div class="row equalHeight-2" id="homeNewsWrapper">
+                               
                             </div>
                         </div>
                     </section>
                 </div>
             </div>
-
         </div>
 
     </div>
@@ -369,6 +343,44 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="./js/custom.js"></script>
+    <script>
+        $(document).ready(function() {
+            $.get("js/news.json", function(data, status) {
+                var newsData = '';
+                $.each(data["newsContent"], function(index, value) {
+                   if(index<3){
+                    newsData += '<div class="col-12 col-md-4 mb-4 mb-md-0">';
+                    newsData += '<div class="col-news py-4 px-4 py-lg-5 px-lg-5">';
+                    newsData += '<h3 class="subheading-3">' + value.newsTitle + '</h3>';
+                    len = value.newsDescription.length;
+                    str = value.newsDescription.substr(0,110);
+                    lastIndexOf = str.lastIndexOf(" "); 
+                    if(len>110) {
+                        newsData += '<p class="text-break">' + str.substr(0, lastIndexOf) + '…' + '</p>';
+                    }else{
+                        newsData += '<p class="text-break">' + value.newsDescription + '</p>';
+                    }
+                    newsData += '<a aria-label="Learn more about ' + value.newsShortTitle +'" class="link" href="./news.html#' + value.newsId + '"><span class="link-content">LEARN MORE</span><span class="link-arrow fa fa-angle-right"></span></a>';
+                    newsData += '</div>'; 
+                    newsData += '</div>';
+                }
+                });
+                $('#homeNewsWrapper').append(newsData);
+            });
+           
+        });
+
+        $(function(){
+            $(".news-text").each(function () {
+                len=$(this).text().length;
+                str= $(this).text().substr(0,80);
+                lastIndexOf = str.lastIndexOf(" "); 
+                if(len>80) {
+                    $(this).text(str.substr(0, lastIndexOf) + '…');
+                }
+            });
+        });
+    </script>
 
 </body>
 
