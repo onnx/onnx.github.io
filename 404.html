@@ -1,63 +1,191 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
-
-  <title>Oops!</title>
-  <meta name="description" content="The new open ecosystem for interchangeable AI models">
-  <meta name="author" content="[author]">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <meta property="og:title" content="ONNX: Open Neural Network Exchange Format">
-  <meta property="og:type" content="website">
-  <meta property="og:description" name="description" content="The new open ecosystem for interchangeable AI models">
-  <meta property="og:image" content="assets/thumb.jpg">
-
-  <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
-  <link rel="stylesheet" href="css/normalize.css?v=7.0">
-  <!--<link rel="stylesheet" href="css/main.css?v=2.1">-->
-  <!-- <link rel="stylesheet" href="css/main.css?v=1.0"> -->
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/news-feed.css">
-  <link rel="stylesheet" href="css/font.css?v=1.0">
-  <link rel="icon" type="image/png" href="assets/mlogo.png">
-  <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-  <![endif]-->
-
-  <script src="https://use.fontawesome.com/e23d6c4fc6.js"></script>
-  <script src="https://www.w3schools.com/lib/w3.js"></script>
-  <script src="js/jquery-3.2.1.min.js"></script>
-  <script src="js/news-feed.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>ONNX | Oops</title>
+    <link rel="icon" href="./images/onnx-fevicon.png" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body>
-    <div w3-include-html="partials/nav.html"></div>
-
-    <header role="banner" class="fp-header">
-        <a class="brand">Oops!</a>
-        <div class="oneliner">You've reached a dead end.</div>
-        <div class="oneliner">If you feel like something should be here, you can
-        <a target="_blank" href="https://github.com/onnx/onnx.github.io/issues/new">open an issue</a>
-        on GitHub.</div>
-        <div class="oneliner">Click <a href="https://onnx.ai/">here</a> to go back to the main page.</div>
-        <div class="overlay">
+    <a class="skip-main" href="#skipMain">Skip to main content</a>
+    <div class="main-wrapper innerpage-main-wrapper">
+        <div class="top-banner-bg">
+            
+            <header class="fixed-top header-content">
+                    <div class="text-center top-toast py-2 px-3 text-white" id="newsSlider" role="region" aria-live="polite" aria-label="News">
+                            <p class="mb-0 my-2"><span class="bold-text">NEWS: </span>
+                                <a aria-label="Read more about news" class="text-white ml-2 bold-text link p-2" href="./news.html">
+                                    <span class="link-content">Read more</span><span class="link-arrow fa fa-angle-right"></span></a></p>
+                        </div>
+                        <div class="bg-overlay">
+                <nav class="navbar navbar-expand-lg navbar-custom" aria-label="Main menu">
+                    <a id="ONNXLogo" class="navbar-brand" href="./index.html">
+                        <img src="images/ONNX-Logo.svg" class="d-inline-block align-top onnx-logo" alt="ONNX Home">
+                    </a>
+                    <button class="navbar-toggler p-0" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse border-md-top mt-md-0 mt-2" id="navbarNav">
+                        <div class="mr-auto"></div>
+                        <div class="my-md-2 mb-0 mt-2 my-lg-0 pl-3 pl-lg-0">
+                            <ul class="navbar-nav navbar-nav mr-auto text-uppercase" id="navigation">
+                                <li class="nav-item">
+                                    <a class="nav-link pr-3" href="./get-started.html">GET STARTED</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link pr-3" href="./supported-tools.html">SUPPORTED TOOLS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link pr-3" href="./news.html">NEWS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link pr-3" href="./about.html">ABOUT</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link pr-3" target="_blank" href="https://gitter.im/onnx/Lobby">GITTER</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" target="_blank" href="https://github.com/onnx">GITHUB</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            </header>
         </div>
-        <div class="covervid-wrapper">
-            <video id="covervid" autoplay loop muted preload="auto">
-                <source src="assets/video.webm" type="video/webm" />
-                <source src="assets/video.mp4" type="video/mp4" />
-                <source src="assets/video.ogv" type="video/ogg" />
-            </video>
-        </div>
-    </header>
+            <div id="skipMain" role="main" tabindex="-1">
 
-    <script src="js/prism.js" async defer></script>
-    <div w3-include-html="partials/footer.html"></div>
-    <div w3-include-html="partials/hamburger-menu.html"></div>
-    <script>w3.includeHTML();</script>
-    <script type="text/javascript" src="js/hamburger-menu.js"></script>
+                <section class="blue-page-title-bar py-3 pb-3">
+                    <div class="outer-container mx-auto">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h1 class="text-uppercase">Oops!</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="outer-container mx-auto py-4 py-md-5">
+
+                  <section class="blue-title-columns pb-4 pb-md-5">
+                      <div class="container-fluid">
+                          <div class="row">
+                              <div class="col-12 col-md-12">
+                                  <p class="subheading-4 bold-text mb-0">
+                                    You've reached a page that doesn't exist. If you feel something should be here, please 
+                                    <a target="_blank" href="https://github.com/onnx/onnx.github.io/issues/new">open an issue</a> on GitHub.
+                                    <br/>
+                                    Click <a href="https://onnx.ai/">here</a> to go to the main page.
+                                  </p>
+                              </div>
+
+                          </div>
+                      </div>
+                  </section>
+                </div>
+            </div>
+
+            <footer class="footer mt-auto py-4 py-md-5 text-white">
+                    <div class="outer-container mx-auto">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-12 co-md">
+                                    <h2 class="text-center pb-4 mb-2">Get Involved</h2>
+                                </div>
+                            </div>
+                            <div class="row pb-md-4 pb-0">
+                                <div class="col col-sm-5-1 col-md-5-1 pr-xl-4 mb-md-5 mb-lg-0 mb-4">
+                                    <h3 class="footer-heading">Use ONNX</h3>
+                                    <p class="mb-2">Transform or accelerate your model today.</p>
+                                    <a  href="./get-started.html">
+                                        <span class="link-content">Get Started</span><span class="link-arrow fa fa-angle-right"></span></a>
+                                </div>
+                                <div class="col col-sm-5-1 col-md-5-1 pr-xl-4 mb-md-5 mb-lg-0 mb-4">
+                                    <h3 class="footer-heading">Contribute</h3>
+                                    <p class="mb-2">ONNX is a community project. We encourage you to join the effort and contribute feedback, ideas and code.</p>
+                                    <a class="" target="_blank" href="https://github.com/onnx">
+                                        <span class="link-content">Join us on GitHub</span><span class="link-arrow fa fa-angle-right"></span></a>
+                                </div>
+                                <div class="col col-5-1 pr-xl-4 mb-md-0 mb-4">
+                                    <h3 class="footer-heading">Follow Us</h3>
+                                    <p class="mb-2">Stay up to date with the latest ONNX news.</p>
+                                    <a href="https://twitter.com/onnxai" target="_blank" title="Twitter" class="twitter-icon mr-2" aria-label="Social Icon Twitter">
+                                        <span class="fa fa-twitter" aria-hidden="true"></span></a>
+                                    <a href="https://www.facebook.com/onnxai/" target="_blank" title="Facebook" class="facebook-icon" aria-label="Social Icon Facebook">
+                                        <span class="fa fa-facebook" aria-hidden="true"></span></a>
+                                </div>
+                                <div class="col col-5-1 pr-xl-4 mb-md-0 mb-4">
+                                    <h3 class="footer-heading">ONNX</h3>
+                                     <ul class="list-unstyled text-small mb-0">
+                                        <li class="mb-2">
+                                            <a href="./get-started.html">
+                                                <span class="link-content">Get Started</span><span class="link-arrow fa fa-angle-right"></span></a>
+                                        </li>
+                                        <li class="mb-2">
+                                            <a href="./supported-tools.html">
+                                                <span class="link-content">Supported Tools</span><span class="link-arrow fa fa-angle-right"></span></a>
+                                        </li>
+                                        <li class="mb-2">
+                                            <a href="./news.html">
+                                                <span class="link-content">News</span><span class="link-arrow fa fa-angle-right"></span></a>
+                                        </li>
+                                        <li class="mb-0">
+                                            <a href="./about.html">
+                                                <span class="link-content">About</span><span class="link-arrow fa fa-angle-right"></span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col col-5-1 mb-md-0 mb-4">
+                                    <h3 class="footer-heading">Resources</h3>
+                                      <ul class="list-unstyled text-small mb-0">
+                                        <li class="mb-2">
+                                            <a target="_blank" href="https://github.com/onnx/tutorials">
+                                                <span class="link-content">Tutorials</span><span class="link-arrow fa fa-angle-right"></span></a>
+                                        </li>
+                                        <li class="mb-2">
+                                            <a target="_blank" href="https://github.com/onnx/models">
+                                                <span class="link-content">Model Zoo</span><span class="link-arrow fa fa-angle-right"></span></a>
+                                        </li>
+                                        <li class="mb-0">
+                                            <a target="_blank" href="https://github.com/onnx">
+                                                <span class="link-content">GitHub</span><span class="link-arrow fa fa-angle-right"></span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row py-0 pt-md-2 text-center-sm">
+                                <div class="col-md-3 col-lg-3 col-xl-2">
+                                    <a href="./index.html"><img class="mb-0 onnx-footer-logo" src="images/ONNX-Logo.svg" alt="ONNX Home"></a>
+                                </div>
+                                <div class="col-md-9 col-lg-9 col-xl-10 pl-md-5 pl-lg-3">
+                                    <p class="text-copyright py-3 ml-xl-5 ml-0 mb-0">
+                                        Copyright &copy; 2019 The Linux Foundation&reg;. All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our <a target="_blank" class="link" href="https://www.linuxfoundation.org/trademark-usage/">Trademark Usage</a> page. Linux is a registered trademark of Linus Torvalds. <a target="_blank" class="link" href="https://www.linuxfoundation.org/privacy/">Privacy Policy</a> and <a target="_blank" class="link" href="https://www.linuxfoundation.org/terms/">Terms of Use</a>.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+
+            <a id="back-to-top" href="#" class="btn btn-lg back-to-top" role="button" aria-label="Back to top"><span
+                    class="fa fa-angle-up"></span></a>
+       
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="./js/custom.js"></script>
 
 </body>
+
 </html>

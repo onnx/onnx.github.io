@@ -1,275 +1,402 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="utf-8">
-
-    <title>ONNX - Supported Tools</title>
-    <meta name="description" content="The new open ecosystem for interchangeable AI models">
-    <meta name="author" content="[author]">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <meta property="og:title" content="ONNX: Open Neural Network Exchange Format">
-    <meta property="og:type" content="website">
-    <meta property="og:description" name="description" content="The new open ecosystem for interchangeable AI models">
-    <meta property="og:image" content="assets/thumb.jpg">
-    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css?v=7.0">
-    <!--<link rel="stylesheet" href="css/main.css?v=2.1">-->
-    <link rel="stylesheet" href="css/main.css?v=1.0">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/font.css?v=1.0">
-    <link rel="stylesheet" href="css/supported-tools.css">
-    <link rel="icon" type="image/png" href="assets/mlogo.png">
-
-    <script src="https://www.w3schools.com/lib/w3.js"></script>
-
-    <style>
-
-    </style>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>ONNX | Supported Tools</title>
+    <link rel="icon" href="./images/onnx-fevicon.png" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body>
-
-    <div w3-include-html="partials/nav.html"></div>
-
-    <header role="banner" class="fp-header">
-        <a class="brand">Supported Tools</a>
-        <div class="overlay"></div>
-        <div class="covervid-wrapper"></div>
-    </header>
-
-    <main role="main" class="index">
-
-
-    <div class="fp-section-wide fp-people">
-        <div class="fp-section" style="margin-top: 2em;">
-            <h2>Frameworks</h2>
-            <div class="frameworks">
-                <div class="framework">
-                    <a href="https://caffe2.ai/" target="_blank">
-                        <img src="assets/og_image_caffe2.png" />
+    <a class="skip-main" href="#skipMain">Skip to main content</a>
+    <div class="main-wrapper innerpage-main-wrapper">
+        <div class="top-banner-bg">
+           
+            <header class="fixed-top header-content">
+                    <div class="text-center top-toast py-2 px-3 text-white" id="newsSlider" role="region" aria-live="polite" aria-label="News">
+                            <p class="mb-0 my-2"><span class="bold-text">NEWS: </span>
+                                <a aria-label="Read more about news" class="text-white ml-2 bold-text link p-2" href="./news.html">
+                                    <span class="link-content">Read more</span><span class="link-arrow fa fa-angle-right"></span></a></p>
+                        </div>
+                        <div class="bg-overlay">
+                <nav class="navbar navbar-expand-lg navbar-custom" aria-label="Main menu">
+                    <a id="ONNXLogo" class="navbar-brand" href="./index.html">
+                        <img src="images/ONNX-Logo.svg" class="d-inline-block align-top onnx-logo" alt="ONNX Home">
                     </a>
-                </div>
-                <div class="framework">
-                    <a href="https://www.chainer.org" target="_blank">
-                        <img src="assets/chainer_logo.png" />
-                    </a>
-                </div>
-                <div class="framework">
-                    <a href="https://www.microsoft.com/en-us/cognitive-toolkit/" target="_blank">
-                        <img src="assets/ms_cntk_horizontal.png" />
-                    </a>
-                </div>
-                    <div class="framework">
-                    <a href="https://mxnet.incubator.apache.org/" target="_blank">
-                        <img src="assets/mxnet.png" />
-                    </a>
-                </div>
+                    <button class="navbar-toggler p-0" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse border-md-top mt-md-0 mt-2" id="navbarNav">
+                        <div class="mr-auto"></div>
+                        <div class="my-md-2 mb-0 mt-2 my-lg-0 pl-3 pl-lg-0">
+                            <ul class="navbar-nav navbar-nav mr-auto text-uppercase" id="navigation">
+                                <li class="nav-item">
+                                    <a class="nav-link pr-3" href="./get-started.html">GET STARTED</a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link pr-3" href="./supported-tools.html">SUPPORTED TOOLS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link pr-3" href="./news.html">NEWS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link pr-3" href="./about.html">ABOUT</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link pr-3" target="_blank" href="https://gitter.im/onnx/Lobby">GITTER</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" target="_blank" href="https://github.com/onnx">GITHUB</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
             </div>
-            <div class="frameworks">
-                <div class="framework">
-                    <a href="http://pytorch.org/" target="_blank">
-                        <img src="assets/pytorch-logo-dark.png" />
-                    </a>
-                </div>
-                <div class="framework">
-                    <a href="https://github.com/PaddlePaddle/paddle-onnx" target="_blank">
-                        <img src="assets/PaddlePaddle_510x120.gif" />
-                    </a>
-                </div>
-                <div class="framework">
-                    <a href="https://www.mathworks.com/products/deep-learning.html" target="_blank">
-                        <img src="assets/Matlab-ONNX.png" />
-                    </a>
-                </div>
-                <div class="framework">
-                    <a href="https://github.com/sassoftware/python-dlpy" target="_blank">
-                        <img src="assets/SAS_Logo.png" />
-                    </a>
-                </div>
-                <div class="framework" style="width=20%;">	
-                    <a href="https://nnabla.org/" target="_blank">
-                        <img src="assets/NNL-logo1-400px.png" style="width=20%;" />
-                    </a>
-                </div>
-            </div>
+            </header>
+
         </div>
+
+            <div id="skipMain" role="main" tabindex="-1">
+
+                <section class="blue-page-title-bar py-3 pb-3">
+                    <div class="outer-container mx-auto">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h1 class="text-uppercase mb-0">SUPPORTED TOOLS</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="outer-container mx-auto py-4 py-md-5">
+
+                    <section class="blue-title-columns pb-4 pb-md-5">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-12 col-md-12">
+                                    <p class="subheading-4 bold-text mb-0">
+                                        The ONNX community provides tools to assist with creating and deploying your next deep learning model. Use the information below to select the tool that is right for your project.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </section>
+                    <hr class="border-top my-0 mx-15"/> 
+                    <section class="py-4 py-md-5">
+                        <div class="container-fluid">
+                            <div class="row" id="buildModel">
+                                <div class="col-12 col-md-12 pl-90 mb-4">
+                                    <div class="icon-container icon-wrapper">
+                                        <img src="images/icon/icon-build-model-1.svg" alt="">
+                                    </div>
+                                    <h2 class="subheading-2 blue-text">Build Model</h2>
+                                </div>
+                                <div class="col-12 col-md-12">
+                                    <div class="border p-3 p-sm-4">
+                                        <h3 class="subheading-4 blue-text">Frameworks & Converters</h3>
+                                        <p class="mb-4">Use the frameworks you already know and love.</p>
+                                        <div class="row supported-tools-logo text-center">
+                                            <div class="col col-5-3 mb-5">
+                                                <a href="https://caffe2.ai/" target="_blank"><img src="./images/logos/logo-Caffe2.png" alt="Caffe2 logo"></a>
+                                            </div>
+                                            <div class="col col-5-3 mb-5">
+                                                <a href="https://chainer.org/" target="_blank"><img src="./images/logos/logo-chainer.png" alt="Chainer logo"></a>
+                                            </div>
+                                            <div class="col col-5-3 mb-5">
+                                                <a href="https://docs.microsoft.com/en-us/windows/ai/windows-ml/convert-model-winmltools" target="_blank"><img src="./images/logos/logo-dmlc-XGBoost.png" alt="dmlc-XGBoost logo"></a>
+                                            </div>
+                                            <div class="col col-5-3 mb-5">
+                                                <a href="https://github.com/onnx/onnxmltools" target="_blank"><img src="./images/logos/logo-Keras.png" alt="Keras logo"></a>
+                                            </div>
+                                            <div class="col col-5-3 mb-5">
+                                                <a href="https://docs.microsoft.com/en-us/windows/ai/convert-model-winmltools" target="_blank"><img src="./images/logos/logo-LibSVM.png" alt="LibSVM logo"></a>
+                                            </div>
+
+                                            <div class="col col-5-3 mb-5">
+                                                <a href="https://www.mathworks.com/products/deep-learning.html" target="_blank"><img src="./images/logos/logo-Matlab.png" alt="Matlab logo"></a>
+                                            </div>
+                                            <div class="col col-5-3 mb-5">
+                                                <a href="https://www.microsoft.com/en-us/cognitive-toolkit/" target="_blank"><img src="./images/logos/logo-Cognitive-Tollkit.png" alt="Cognitive-Tollkit logo"></a>
+                                            </div>
+                                            <div class="col col-5-3 mb-5">
+                                                <a href="https://mxnet.incubator.apache.org/" target="_blank"><img src="./images/logos/logo-mxnet.png" alt="mxnet logo"></a>
+                                            </div>
+                                            <div class="col col-5-3 mb-5">
+                                                <a href="https://github.com/onnx/onnx-coreml" target="_blank"><img src="./images/logos/logo-ML.png" alt="ML logo"></a>
+                                            </div>
+                                            <div class="col col-5-3 mb-5">
+                                                <a href="https://github.com/Tencent/ncnn" target="_blank"><img src="./images/logos/logo-NCNN.png" alt="NCNN logo"></a>
+                                            </div>
+
+                                            <div class="col col-5-3 mb-5">
+                                                <a href="https://nnabla.org/" target="_blank"><img src="./images/logos/logo-Neural-Network-Libraries.png" alt="Neural-Network-Libraries logo"></a>
+                                            </div>
+                                            <div class="col col-5-3 mb-5">
+                                                <a href="https://github.com/PaddlePaddle/paddle-onnx" target="_blank"><img src="./images/logos/logo-PaddlePaddle.png" alt="PaddlePaddle logo"></a>
+                                            </div>
+                                            <div class="col col-5-3 mb-5">
+                                                <a href="https://pytorch.org/" target="_blank"><img src="./images/logos/logo-PyTorch.png" alt="PyTorch logo"></a>
+                                            </div>
+                                            <div class="col col-5-3 mb-5">
+                                                <a href="https://github.com/sassoftware/python-dlpy" target="_blank"><img src="./images/logos/logo-SAS.png" alt="SAS logo"></a>
+                                            </div>
+                                            <div class="col col-5-3 mb-5">
+                                                <a href="https://www.siemens.com/plm/simcenter-amesim" target="_blank"><img src="./images/logos/logo-siemens.png" alt="Siemens logo"></a>
+                                            </div>
+                                            <div class="col col-5-3 mb-0 mb-md-5">
+                                                <a href="https://github.com/onnx/onnxmltools" target="_blank"><img src="./images/logos/logo-sklearn.png" alt="sklearn logo"></a>
+                                            </div>
+
+                                            <div class="col col-5-3">
+                                                <a href="https://github.com/onnx/onnx-tensorflow" target="_blank"><img src="./images/logos/logo-Tensorflow-1.png" alt="Tensorflow logo"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row pt-4 equalHeight">
+                                <div class="col-12 col-md-6 mb-4 mb-md-0">
+                                    <div class="border p-3 p-sm-4 build-model">
+                                        <h3 class="subheading-4 blue-text">Cloud Services</h3>
+                                        <p>Leverage services from cloud providers to build, train and inference your models.</p>
+                                        <div class="row cloud-services-icon">
+                                            <div class="col-4 col-sm-3 col-md-4 col-lg-3 col-xl-2 mt-1">
+                                                <a href="https://docs.microsoft.com/en-us/azure/cognitive-services/Custom-Vision-Service/custom-vision-onnx-windows-ml" target="_blank"><img src="./images/icon/icon-cloud-services-1.png" alt="Azure Cognitive Services"></a>
+                                            </div>
+                                            <div class="col-4 col-sm-3 col-md-4 col-lg-3 col-xl-2">
+                                                <a href="https://docs.microsoft.com/en-us/azure/machine-learning/service/concept-automated-ml#use-with-onnx-in-c-apps" target="_blank">
+                                                    <img src="./images/icon/icon-cloud-services-2.png" class="icon-cloud-2" alt="Azure Machine Learning"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-md-6">
+                                    <div class="border p-3 p-sm-4 build-model">
+                                        <h3 class="subheading-4 blue-text">Pre-Trained Models</h3>
+                                        <p>Get started quickly with this collection of pre-trained models in ONNX format.</p>
+                                        <div class="row pre-trained-icon">
+                                            <div class="col-4 col-sm-3 col-md-4 col-lg-3 col-xl-2 top-m-5">
+                                                <a href="https://github.com/onnx/models#vision" target="_blank"><img src="./images/icon/icon-eye-view.svg" alt="Vision Models"></a>
+                                            </div>
+                                            <div class="col-4 col-sm-3 col-md-4 col-lg-3 col-xl-2">
+                                                <a href="https://github.com/onnx/models#language" target="_blank"><img src="./images/icon/icon-chat-comment.svg" alt="Language Models"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </section>
+                    <hr class="border-top my-0 mx-15"/> 
+                    <section class="py-md-5 py-4">
+                        <div class="container-fluid">
+                            <div class="row" id='deployModel'>
+                                <div class="col-12 col-md-12 pl-80 mb-4">
+                                    <div class="icon-container icon-wrapper">
+                                        <img src="images/icon/icon-deploy-model.svg" alt="">
+                                    </div>
+                                    <h2 class="subheading-2 blue-text">Deploy Model</h2>
+                                </div>
+                                <div class="col-12 col-md-12">
+                                    <div class="border p-3 p-sm-4">
+                                        <h3 class="subheading-4 blue-text">Inference</h3>
+                                        <p class="mb-4 pb-2">Deploy your ONNX model using runtimes designed to accelerate inferencing.</p>
+                                        <div class="row deloy-modal-logo text-center">
+                                            <div class="col col-5-3 mb-5">
+                                                <a href="http://sophon.ai/" target="_blank"><img src="./images/logos/logo-Bitmain.png" alt="Bitmain logo"></a>
+                                            </div>
+                                            <div class="col col-5-3 mb-5">
+                                                <a href="https://www.ceva-dsp.com/product/ceva-deep-neural-network-cdnn/" target="_blank"><img src="./images/logos/logo-Ceva.png" alt="Ceva logo"></a>
+                                            </div>
+                                            <div class="col col-5-3 mb-5">
+                                                <a href="https://habana.ai/" target="_blank"><img src="./images/logos/logo-habana.png" alt="habana logo"></a>
+                                            </div>
+                                            <div class="col col-5-3 mb-5">
+                                                <a href="https://intel.com/" target="_blank"><img src="./images/logos/logo-InterlAI.png" alt="InterlAI logo"></a>
+                                            </div>
+                                            <div class="col col-5-3 mb-5">
+                                                <a href="https://developer.nvidia.com/tensorrt" target="_blank"><img src="./images/logos/logo-nvidia.png" alt="nvidia logo"></a>
+                                            </div>
+                                            <div class="col col-5-3 mb-5">
+                                                <a href="https://github.com/microsoft/onnxruntime" target="_blank"><img src="./images/logos/logo-ONNX-Runtime.png" alt="ONNX-Runtime logo"></a>
+                                            </div>
+                                            <div class="col col-5-3 mb-5">
+                                                <a href="https://github.com/XiaoMi/mace" target="_blank"><img src="./images/logos/logo-mace.png" alt="mace logo"></a>
+                                            </div>
+
+                                            <div class="col col-5-3 mb-5 mb-lg-0">
+                                                <a href="http://www.qualcomm.com/" target="_blank"><img src="./images/logos/logo-Qualcomm.png" alt="Qualcomm logo"></a>
+                                            </div>
+                                            <div class="col col-5-3 mb-5 mb-lg-0">
+                                                <a href="http://www.rock-chips.com/a/en/products/RK18_Series/2019/0529/989.html" target="_blank"><img src="./images/logos/logo-rockchip.png" alt="Rockchip logo"></a>
+                                            </div>
+                                            <div class="col col-5-3 mb-5 mb-lg-0">
+                                                <a href="http://skymizer.com/" target="_blank"><img src="./images/logos/logo-Skymizer.png" alt="Skymizer logo"></a>
+                                            </div>
+                                            <div class="col col-5-3 mb-5 mb-lg-0">
+                                                <a href="https://www.synopsys.com/dw/ipdir.php?ds=arc-metaware-ev" target="_blank"><img src="./images/logos/logo-Synopsys.png" alt="Synopsys logo"></a>
+                                            </div>
+                                            <div class="col col-5-3 mb-5 mb-lg-0">
+                                                <a href="https://github.com/Tencent/ncnn" target="_blank"><img src="./images/logos/logo-Tencent.png" alt="Tencent logo"></a>
+                                            </div>
+                                            <div class="col col-5-3 mb-5 mb-lg-0">
+                                                <a href="https://docs.tvm.ai/tutorials/frontend/from_onnx.html#sphx-glr-tutorials-frontend-from-onnx-py" target="_blank"><img src="./images/logos/logo-tvm.png" alt="tvm logo"></a>
+                                            </div>
+                                            <div class="col col-5-3 mb-0 mb-md-0">
+                                                <a href="https://vespa.ai/" target="_blank"><img src="./images/logos/logo-Vespa.png" alt="Vespa logo"></a>
+                                            </div>
+                                            <div class="col col-5-3 mb-0 mb-md-0">
+                                                <a href="https://docs.microsoft.com/en-us/windows/uwp/machine-learning/" target="_blank"><img src="./images/logos/logo-windows.png" alt="windows logo"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </section>
+                    <hr class="border-top my-0 mx-15"/> 
+                    <section class="pt-md-5 pt-4">
+                        <div class="container-fluid">
+                            <div class="row equalHeight-1">
+                                <div class="col-12 col-md-12 pl-80 mb-4">
+                                    <div class="icon-container icon-wrapper">
+                                        <img src="images/icon/icon-additional-tools.svg" alt="">
+                                    </div>
+                                    <h2 class="subheading-2 blue-text">Additional Tools</h2>
+                                </div>
+                                <div class="col-12 col-md-6 mb-4 mb-md-0">
+                                    <div class="border p-3 p-sm-4 additional-tools">
+                                        <h3 class="subheading-4 blue-text">Optimize</h3>
+                                        <p>Fine tune your model for size, accuracy, resource utilization, and performance.</p>
+                                        <div class="additional-tools-icons">
+                                            <a href="https://github.com/onnx/onnx/blob/master/docs/Optimizer.md" target="_blank"><img class="onnx-logo" src="./images/icon/ONNX-Logo-Black.svg" alt="ONNX logo"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="border p-3 p-sm-4 additional-tools">
+                                        <h3 class="subheading-4 blue-text">Visualize</h3>
+                                        <p>Better understand your model by visualizing its computational graph.</p>
+                                        <div class="additional-tools-icons">
+                                                <a href="https://github.com/lutzroeder/Netron" target="_blank" class="mr-4"><img src="./images/logos/logo-netron.png" alt="netron logo"></a>
+                                                <a href="https://github.com/PaddlePaddle/VisualDL" target="_blank"><img src="./images/logos/logo-VsualDL.png" alt="VisualDL logo"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </section>
+
+                </div>
+
+            </div>
+
+            <footer class="footer mt-auto py-4 py-md-5 text-white">
+                    <div class="outer-container mx-auto">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-12 co-md">
+                                    <h2 class="text-center pb-4 mb-2">Get Involved</h2>
+                                </div>
+                            </div>
+                            <div class="row pb-md-4 pb-0">
+                                <div class="col col-sm-5-1 col-md-5-1 pr-xl-4 mb-md-5 mb-lg-0 mb-4">
+                                    <h3 class="footer-heading">Use ONNX</h3>
+                                    <p class="mb-2">Transform or accelerate your model today.</p>
+                                    <a  href="./get-started.html">
+                                        <span class="link-content">Get Started</span><span class="link-arrow fa fa-angle-right"></span></a>
+                                </div>
+                                <div class="col col-sm-5-1 col-md-5-1 pr-xl-4 mb-md-5 mb-lg-0 mb-4">
+                                    <h3 class="footer-heading">Contribute</h3>
+                                    <p class="mb-2">ONNX is a community project. We encourage you to join the effort and contribute feedback, ideas and code.</p>
+                                    <a class="" target="_blank" href="https://github.com/onnx">
+                                        <span class="link-content">Join us on GitHub</span><span class="link-arrow fa fa-angle-right"></span></a>
+                                </div>
+                                <div class="col col-5-1 pr-xl-4 mb-md-0 mb-4">
+                                    <h3 class="footer-heading">Follow Us</h3>
+                                    <p class="mb-2">Stay up to date with the latest ONNX news.</p>
+                                    <a href="https://twitter.com/onnxai" target="_blank" title="Twitter" class="twitter-icon mr-2" aria-label="Social Icon Twitter">
+                                        <span class="fa fa-twitter" aria-hidden="true"></span></a>
+                                    <a href="https://www.facebook.com/onnxai/" target="_blank" title="Facebook" class="facebook-icon" aria-label="Social Icon Facebook">
+                                        <span class="fa fa-facebook" aria-hidden="true"></span></a>
+                                </div>
+                                <div class="col col-5-1 pr-xl-4 mb-md-0 mb-4">
+                                    <h3 class="footer-heading">ONNX</h3>
+                                     <ul class="list-unstyled text-small mb-0">
+                                        <li class="mb-2">
+                                            <a href="./get-started.html">
+                                                <span class="link-content">Get Started</span><span class="link-arrow fa fa-angle-right"></span></a>
+                                        </li>
+                                        <li class="mb-2">
+                                            <a href="./supported-tools.html">
+                                                <span class="link-content">Supported Tools</span><span class="link-arrow fa fa-angle-right"></span></a>
+                                        </li>
+                                        <li class="mb-2">
+                                            <a href="./news.html">
+                                                <span class="link-content">News</span><span class="link-arrow fa fa-angle-right"></span></a>
+                                        </li>
+                                        <li class="mb-0">
+                                            <a href="./about.html">
+                                                <span class="link-content">About</span><span class="link-arrow fa fa-angle-right"></span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col col-5-1 mb-md-0 mb-4">
+                                    <h3 class="footer-heading">Resources</h3>
+                                      <ul class="list-unstyled text-small mb-0">
+                                        <li class="mb-2">
+                                            <a target="_blank" href="https://github.com/onnx/tutorials">
+                                                <span class="link-content">Tutorials</span><span class="link-arrow fa fa-angle-right"></span></a>
+                                        </li>
+                                        <li class="mb-2">
+                                            <a target="_blank" href="https://github.com/onnx/models">
+                                                <span class="link-content">Model Zoo</span><span class="link-arrow fa fa-angle-right"></span></a>
+                                        </li>
+                                        <li class="mb-0">
+                                            <a target="_blank" href="https://github.com/onnx">
+                                                <span class="link-content">GitHub</span><span class="link-arrow fa fa-angle-right"></span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row py-0 pt-md-2 text-center-sm">
+                                <div class="col-md-3 col-lg-3 col-xl-2">
+                                    <a href="./index.html"><img class="mb-0 onnx-footer-logo" src="images/ONNX-Logo.svg" alt="ONNX Home"></a>
+                                </div>
+                                <div class="col-md-9 col-lg-9 col-xl-10 pl-md-5 pl-lg-3">
+                                    <p class="text-copyright py-3 ml-xl-5 ml-0 mb-0">
+                                        Copyright &copy; 2019 The Linux Foundation&reg;. All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our <a target="_blank" class="link" href="https://www.linuxfoundation.org/trademark-usage/">Trademark Usage</a> page. Linux is a registered trademark of Linus Torvalds. <a target="_blank" class="link" href="https://www.linuxfoundation.org/privacy/">Privacy Policy</a> and <a target="_blank" class="link" href="https://www.linuxfoundation.org/terms/">Terms of Use</a>.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+
+            <a id="back-to-top" href="#" class="btn btn-lg back-to-top" role="button" aria-label="Back to top"><span
+                    class="fa fa-angle-up"></span></a>
+        
     </div>
-
-    <div class="fp-section-wide fp-people">
-        <div class="fp-section">
-            <h2>Converters</h2>
-            <div class="frameworks">
-                <div class="framework">
-                        &nbsp;
-                    </a>
-                </div>
-                <div class="framework">
-                    <a href="https://github.com/onnx/onnx-tensorflow" target="_blank">
-                        <img src="assets/Tensorflow_logo.png" />
-                    </a>
-                </div>
-                <div class="framework">
-                    <a href="https://github.com/onnx/onnxmltools" target="_blank">
-                        <img src="assets/Keras_logo.png" />
-                    </a>
-                </div>
-                <div class="framework">
-                    <a href="https://github.com/onnx/onnx-coreml" target="_blank">
-                        <img src="assets/ML_Logo2.png" />
-                    </a>
-                </div>
-                <div class="framework">
-                    <a href="https://github.com/onnx/onnxmltools" target="_blank">
-                        <img src="assets/sklearn_logo.png"/>
-                    </a>
-                </div>
-                <div class="framework">
-                    <a href="https://docs.microsoft.com/en-us/windows/ai/convert-model-winmltools" target="_blank">
-                        <img src="assets/dmlc_XGBoost.png"/>
-                    </a>
-                </div>
-                <div class="framework">
-                    <a href="https://docs.microsoft.com/en-us/windows/ai/convert-model-winmltools" target="_blank">
-                        <img src="assets/LibSVM.png"/>
-                    </a>
-                </div>
-                <div class="framework">
-                    <a href="https://github.com/Tencent/ncnn" target="_blank">
-                        <img src="assets/NCNN-Logo.png"/>
-                    </a>
-                </div>
-                <div class="framework">
-                        &nbsp;
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="fp-section-wide fp-people">
-        <div class="fp-section">
-            <h2>Runtimes</h2>
-            <div class="frameworks runtimes">
-                <div class="framework">
-                    <a href="https://developer.nvidia.com/tensorrt" target="_blank">
-                        <img src="assets/nvidia-logo.jpg" />
-                    </a>
-                </div>
-                <div class="framework">
-                    <a href="http://www.qualcomm.com" target="_blank">
-                        <img src="assets/Qualcomm_510x120.png"  />
-                    </a>
-                </div>
-                <div class="framework">
-                    <a href="http://sophon.ai/" target="_blank">
-                        <img src="assets/Bitmain.png"  />
-                    </a>
-                </div>
-                </div>
-            <div class="frameworks runtimes">
-                <div class="framework">
-                    <a href="https://github.com/Tencent/ncnn" target="_blank">
-                        <img src="assets/03_Tencent_English logo.png"  />
-                    </a>
-                </div>
-                <div class="framework">
-                    <a href="https://vespa.ai" target="_blank">
-                        <img src="assets/VespaLogoBlack.png"  />
-                    </a>
-                </div>
-                <div class="framework">
-                    <a href="https://docs.microsoft.com/en-us/windows/uwp/machine-learning/"
-                       target="_blank">
-                        <img src="assets/windows-logo.png" />
-                    </a>
-                </div>
-            </div>
-            <div class="frameworks runtimes">
-                <div class="framework">
-                    <a href="https://www.synopsys.com/dw/ipdir.php?ds=arc-metaware-ev" target="_blank">
-                        <img src="assets/Synopsys-Logo.png" />
-                    </a>
-                </div>
-                <div class="framework">
-                    <a href="https://github.com/microsoft/onnxruntime" target="_blank">
-                        <img src="assets/ONNX-Runtime.png" />
-                    </a>
-                </div>               
-                <div class="framework">
-                    <a href="https://www.ceva-dsp.com/product/ceva-deep-neural-network-cdnn/" target="_blank">
-                        <img src="assets/Ceva-Logo.png" />
-                    </a>
-                </div>
-            </div>
-            <div class="frameworks runtimes">
-                <div class="framework">
-                    <a href="https://github.com/XiaoMi/mace" target="_blank">
-                        <img src="assets/mace-logo.png" />
-                    </a>
-                </div>
-                <div class="framework">
-                    <a href="https://habana.ai/" target="_blank">
-                        <img src="assets/Habana-Labs-Logo-Large.png" />
-                    </a>
-                </div>
-                <div class="framework">
-                    <a href="http://www.rock-chips.com/a/en/products/RK18_Series/2019/0529/989.html" target="_blank">
-                        <img src="assets/Rockchip-Logo.png" />
-                    </a>
-                </div>
-            </div> 
-        </div>
-        <div class="fp-section-wide fp-people">
-        <div class="fp-section">
-            <h2>Compilers</h2>
-            <div class="frameworks runtimes">
-                <div class="framework">
-                    <a href="http://intel.com" target="_blank">
-                        <img src="assets/intel-ai-acrnym-rgb-3000.png" />
-                    </a>
-                </div>
-                <div class="framework">
-                    <a href="http://skymizer.com" target="_blank">
-                        <img src="assets/Skymizer_042018_510x120.png" />
-                    </a>
-                </div>
-                <div class="framework">
-                    <a href="https://docs.tvm.ai/tutorials/frontend/from_onnx.html#sphx-glr-tutorials-frontend-from-onnx-py" target="_blank">
-                        <img src="assets/tvm-logo-border-2x.gif" />
-                    </a>
-                </div>
-            </div>
-        </div>
-
-        <div class="fp-section-wide fp-people">
-        <div class="fp-section">
-            <h2>Visualizers</h2>
-            <div class="frameworks runtimes">
-                <div class="framework">
-                    <a href="https://github.com/lutzroeder/Netron" target="_blank">
-                        <img src="assets/netron.png" />
-                    </a>
-                </div>
-                <div class="framework">
-                    <a href="http://visualdl.paddlepaddle.org" target="_blank">
-                    <img src="assets/visualdl.png" />
-                    </a>
-                </div>
-            </div>
-        </div>
-
-    </div>
-    </main>
-
-
-    <script src="js/prism.js" async defer></script>
-
-    <div w3-include-html="partials/footer.html"></div>
-    <div w3-include-html="partials/hamburger-menu.html"></div>
-    <script>w3.includeHTML();</script>
-    <script src="js/hamburger-menu.js"></script>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="./js/custom.js"></script>
 
 </body>
+
 </html>
