@@ -1,16 +1,34 @@
+$.get("js/news.json", function(data, status){
+    var newsSlide = '';
+    newsSlide+='<p class="mb-0 my-2"><span class="bold-text">NEWS: </span>'+data["newsContent"][0].newsTitle;
+    newsSlide+='<a aria-label="Read more about news" class="text-white ml-1 bold-text link p-2" href="./news.html#'+data["newsContent"][0].newsId+'"><span class="link-content">Read more</span><span class="link-arrow fa fa-angle-right"></span></a></p>';    
+    $('#newsSlider').html(newsSlide);
+});
 $(window).scroll(function () {
     $('header').toggleClass('scrolled', $(this).scrollTop() > 50);
     $('.top-toast').toggleClass('scrolled', $(this).scrollTop() > 50);
     backTop();
 });
+
 $(document).ready(function () {
     equalHeight();
     backTop();
     shadowBoxHeight();
     newsTopScroll();
-    homeEqualHeight();
 
-    $('button.navbar-toggler').click(function (event) {
+    setTimeout(function(){
+        homeEqualHeight();
+        topNewsInnerHeight();
+        topNewsHeight();
+    },700);
+
+    let navItem = window.location.pathname.split('/').pop().split('.')[0];
+    setTimeout(function(){
+        $('.navbar-custom').find('.active').removeClass('active');  
+        $('.navbar-custom').find('.'+navItem).addClass('active');
+    },300);
+
+    $(document).on('click','button.navbar-toggler',function (event) {
         $('header').toggleClass('header-collapse');
     });
     $('header').toggleClass('scrolled', $(this).scrollTop() > 50);
@@ -51,7 +69,6 @@ $(document).ready(function () {
       });
 
       $('.top-toast p > a').click(function(){
-          debugger
         var newTop= $(this).attr('href').splite('#');
         $('body,html').animate({
             scrollTop: newTop-100
@@ -70,13 +87,6 @@ $(document).ready(function () {
         var docTop = $(this).offset().top;
         $(window).scrollTop(docTop);
       });
-
-      $.get("js/news.json", function(data, status){
-        var newsSlide = '';
-        newsSlide+='<p class="mb-0 my-2"><span class="bold-text">NEWS: </span>'+data["newsContent"][0].newsTitle;
-        newsSlide+='<a aria-label="Read more about news" class="text-white ml-2 bold-text link p-2" href="./news.html#'+data["newsContent"][0].newsId+'"><span class="link-content">Read more</span><span class="link-arrow fa fa-angle-right"></span></a></p>';    
-        $('#newsSlider').html(newsSlide);
-    });
     
     if (window.innerWidth < 768){
         setTimeout(function(){
@@ -99,6 +109,7 @@ $(window).resize(function(){
     shadowBoxHeight();
     homeEqualHeight();
     topNewsHeight();
+    topNewsInnerHeight()
 });
 
 function backTop(){
@@ -223,25 +234,23 @@ function equalHeight() {
 
 function homeEqualHeight(){
     if (window.innerWidth > 767) {
-        var maxHeight = 0;
+        var maxHeight1 = 0;
         $(".equalHeight-2 .col-news h3").height('auto');
         $(".equalHeight-2 .col-news h3").each(function () {
-            if ($(this).height() > maxHeight) {
-                maxHeight = $(this).height();
+            if ($(this).height() > maxHeight1) {
+                maxHeight1 = $(this).height();
             }
         });
-        $(".equalHeight-2 .col-news h3").height(maxHeight);
-        
-        setTimeout(function(){
-            var maxHeight = 0;
-            $(".equalHeight-2 .col-news p").height('auto');
-            $(".equalHeight-2 .col-news p").each(function () {
-                if ($(this).height() > maxHeight) {
-                    maxHeight = $(this).height();
-                }
-            });
-            $(".equalHeight-2 .col-news p").height(maxHeight);  
-        },400);
+        $(".equalHeight-2 .col-news h3").height(maxHeight1);
+
+        var maxHeight2 = 0;
+        $(".equalHeight-2 .col-news p").height('auto');
+        $(".equalHeight-2 .col-news p").each(function () {
+            if ($(this).height() > maxHeight2) {
+                maxHeight2 = $(this).height();
+            }
+        });
+        $(".equalHeight-2 .col-news p").height(maxHeight2);  
       
     }else {
         $(".equalHeight-2 .col-news h3").height('auto');
@@ -262,4 +271,14 @@ function shadowBoxHeight(){
 function topNewsHeight(){
     var newsHeight = $('#newsSlider').height();
     $('.content-wrapper').css('padding-top',newsHeight+16);
+}
+
+function topNewsInnerHeight(){
+    var newsHeight = $('#newsSlider').outerHeight();
+    // var navheight = $('.innerpage-main-wrapper header .bg-overlay').height();
+    if(window.innerWidth < 991){
+        $('.innerpage-main-wrapper .main-wrapper .top-banner-bg').css('padding-top',newsHeight+128);
+    }else{
+        $('.innerpage-main-wrapper .main-wrapper .top-banner-bg').css('padding-top',newsHeight+172);
+    }
 }

@@ -13,6 +13,7 @@ h1{
 .top-toast{
     font-family: "Open Sans", sans-serif;
     background-color: rgba(14, 176, 236, 0.8);
+    min-height: 50px
 }
 .top-toast.scrolled{
     background-color: #0eb0ec;
@@ -202,6 +203,7 @@ p a.link{
 .shadow-box .shadow a.link,
 .top-toast p a.link{
     text-decoration: none;
+    white-space: nowrap;
 }
 a.link .link-content{
     /*border-bottom: 2px solid #0071bc;*/
@@ -275,9 +277,9 @@ a.link:active .link-arrow{
 .home-page-wrapper .top-banner-bg{
     background-color: #01122b;
 }
-.main-wrapper.innerpage-main-wrapper .top-banner-bg{
+.innerpage-main-wrapper .main-wrapper .top-banner-bg{
     background-position: center;
-    padding: 114px 0;
+    padding-top: 226px;
 }
 .home-page-wrapper .bg-overlay{
     background-image: linear-gradient(to top,rgba(0, 0, 0, 0) -10%, rgba(0, 0, 0, 0.85) 85%);
