@@ -1,6 +1,16 @@
 {
     "newsContent": [
         {
+            "id": "48",
+            "newsId": "news48",
+            "newsTitle": "Models/Tutorials SIG Kick Off",
+            "newsShortTitle": "Models/Tutorials SIG Kick Off",
+            "newsDescription": "The first meeting of the Model Zoo + Tutorials SIG will be on Thursday, January 30th from 2 - 2:30 PM PST. We will discuss priorities for the SIG and proposals regarding upcoming work. Everyone is welcome.",
+            "newsLinkText": "GET THE INVITE",
+            "newsLinkURL": "https://lists.lfai.foundation/g/onnx-sig-modelstutorials",
+            "newsDate": "January 24, 2020"
+        },
+        {
             "id": "47",
             "newsId": "news47",
             "newsTitle": "ONNX Joins LF AI as Graduated Project",
