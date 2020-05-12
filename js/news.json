@@ -1,6 +1,16 @@
 {
     "newsContent": [
         {
+            "id": "50",
+            "newsId": "news50",
+            "newsTitle": "ONNX v1.7 Released",
+            "newsShortTitle": "ONNX v1.7 Released",
+            "newsDescription": "ONNX v1.7 is now available with exciting new features! Model training, introduced as a tech preview, expands ONNX beyond its original inference capabilities. Also added are new and updated operators to support more models and data types. Functions are enhanced to enable dynamic function body registration and multiple operator sets. The operator documentation is also updated with more details to clarify the expected behaviors.",
+            "newsLinkText": "READ MORE",
+            "newsLinkURL": "https://github.com/onnx/onnx/releases/tag/v1.7.0",
+            "newsDate": "May 8, 2020"
+        },
+        {
             "id": "49",
             "newsId": "news49",
             "newsTitle": "Virtual Community Meeting in April",
