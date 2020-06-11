@@ -1,6 +1,16 @@
 {
     "newsContent": [
         {
+            "id": "51",
+            "newsId": "news51",
+            "newsTitle": "New Steering Committee Elected",
+            "newsShortTitle": "New Steering Committee Elected",
+            "newsDescription": "We are excited to announce that the open governance structure is working well and elections have resulted in newly appointed steering committee members. Thanks to all who self-nominated as well as those who voted in the election.",
+            "newsLinkText": "READ MORE",
+            "newsLinkURL": "https://lfai.foundation/blog/2020/06/11/newly-elected-onnx-steering-committee-announced/",
+            "newsDate": "June 11, 2020"
+        },
+        {
             "id": "50",
             "newsId": "news50",
             "newsTitle": "ONNX v1.7 Released",
