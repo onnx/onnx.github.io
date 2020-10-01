@@ -1,11 +1,11 @@
-{
+﻿{
     "newsContent": [
         {
             "id": "52",
             "newsId": "news52",
             "newsTitle": "ONNX Slack Channel Opened",
             "newsShortTitle": "ONNX Slack Channel Opened",
-            "newsDescription": "We are migrating to Slack from Gitter to encourage open discussion among the community. Please join the ONNX Slack channel using the link.",
+            "newsDescription": "We are migrating to Slack from Gitter to encourage open discussion among the community. Please sign up at https://slack.lfai.foundation/ and join the ONNX Slack channel using the link.",
             "newsLinkText": "JOIN ONNX Slack Channel",
             "newsLinkURL": "https://lfaifoundation.slack.com/archives/C016UBNDBL2",
             "newsDate": "Sep 18, 2020"
