@@ -2,7 +2,7 @@
     "newsContent": [
         {
             "id": "53",
-            "newsId": "news53,
+            "newsId": "news53",
             "newsTitle": "October Virtual Community Meetup",
             "newsShortTitle": "Virtual Community Meetup on October 14",
             "newsDescription": "Amazon, ONNX, and the LF AI Foundation are pleased to sponsor the upcoming LF AI Day ONNX Community Virtual Meetup – Fall 2020, to be held via Zoom on October 14th. The virtual meetup will cover ONNX community updates, partner/end-user stories, and SIG/WG updates. If you are using ONNX in your services and applications, building software or hardware that supports ONNX, or contributing to ONNX, you should attend! This is a great opportunity to connect with and hear from people working with ONNX across many companies. Registration is now open and the event is free to attend. Capacity will be 500 attendees. For up to date information on this virtual meetup, please visit the event website.",
