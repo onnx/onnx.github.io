@@ -1,6 +1,16 @@
 {
     "newsContent": [
         {
+            "id": "54",
+            "newsId": "news54",
+            "newsTitle": "ONNX v1.8 Released",
+            "newsShortTitle": "ONNX v1.8 Released",
+            "newsDescription": "ONNX v1.8 is now available with exciting enhanced features! Windows conda package is also available in v1.8.0 Release (last supported version was v1.1.1). Training are enhanced by adding differentiable tags and removing GraphCall. Shape Inference and Checker become more robust and support models larger than 2GB. More operators are supported by Version Converter. Optimizer will move to another repo onnx/optimizer since next ONNX 1.9.0 Release. ",
+            "newsLinkText": "READ MORE",
+            "newsLinkURL": "https://github.com/onnx/onnx/releases/tag/v1.8.0",
+            "newsDate": "Nov 6, 2020"
+        },
+        {
             "id": "53",
             "newsId": "news53",
             "newsTitle": "October Virtual Community Meetup",
