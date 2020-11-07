@@ -5,7 +5,7 @@
             "newsId": "news54",
             "newsTitle": "ONNX v1.8 Released",
             "newsShortTitle": "ONNX v1.8 Released",
-            "newsDescription": "ONNX v1.8 is now available with exciting enhanced features! Opset13 added with support for bfloat16 among other updates. Windows conda package added after v1.1.1. Added differentiable tags to enhance training scenario. Numerous updates to shape inference and checker tools. Updates to version converter to improve operator coverage.",
+            "newsDescription": "ONNX v1.8 is now available with exciting enhanced features! Opset13 added with support for bfloat16 among other updates. Windows conda package with latest ONNX release now available. Added differentiable tags to enhance training scenario. Numerous updates to shape inference and checker tools. Updates to version converter to improve operator coverage.",
             "newsLinkText": "READ MORE",
             "newsLinkURL": "https://github.com/onnx/onnx/releases/tag/v1.8.0",
             "newsDate": "Nov 6, 2020"
