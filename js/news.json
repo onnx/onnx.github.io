@@ -1,6 +1,16 @@
 {
     "newsContent": [
         {
+            "id": "56",
+            "newsId": "news56",
+            "newsTitle": "ONNX v1.8.1 Released",
+            "newsShortTitle": "ONNX v1.8.1 Released",
+            "newsDescription": "ONNX v1.8.1 is now available! It comes with bug fixes for v1.8.0. Resolve memory crash on Windows. Fix bugs in external data helpers. Fix build issues on some distributions of linux due to hard dependency on python2. ",
+            "newsLinkText": "READ MORE",
+            "newsLinkURL": "https://github.com/onnx/onnx/releases/tag/v1.8.1",
+            "newsDate": "Feb 3, 2021"
+        },        
+        {
             "id": "55",
             "newsId": "news55",
             "newsTitle": "Call for Talks - Spring Community Meetup",
