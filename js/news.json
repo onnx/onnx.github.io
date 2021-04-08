@@ -1,6 +1,16 @@
 {
     "newsContent": [
         {
+            "id": "57",
+            "newsId": "news57",
+            "newsTitle": "Apply for the Steering Committee",
+            "newsShortTitle": "Apply to be on the Steering Committee",
+            "newsDescription": "You can help influence and drive the ONNX community! The candidates for the Steering Committee are self-nominated and they are not required to be existing Contributors. Applications for the ONNX Steering Committee for June 2021 - May 2022 are now open until April 19.",
+            "newsLinkText": "APPLY",
+            "newsLinkURL": "http://onnx.ai/sc-apply",
+            "newsDate": "April 7, 2021"
+        },
+        {
             "id": "56",
             "newsId": "news56",
             "newsTitle": "March Virtual Community Meetup",
