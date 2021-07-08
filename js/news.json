@@ -5,16 +5,7 @@
             "newsId": "news58",
             "newsTitle": "ONNX Roadmap, Seeking Input",
             "newsShortTitle": "ONNX Roadmap, Seeking Input",
-            "newsDescription": "We are seeking your help to shape the direction of ONNX & create a roadmap of our shared future!
-Please use either of these submission modes to capture your ideas for future development of ONNX
-Roadmap proposal document located at https://onnx.ai/roadmap OR
-#ONNX-roadmap slack channel (signup for the channels at https://slack.lfai.foundation/)
-
-If you had submitted roadmap items last year, please revisit/gauge and do appropriate addition of item(s) in case there is still an ask for the ONNX feature. In case you are revisiting the roadmap items this year and there is some overlap from the request last year, be sure to flag whether your request was completed / partially-done / work in progress.
-
-The proposals will be collected till July 16, 2021. Once the proposals have been entered, we will hold 6 sessions starting the week of July 19, 2021 for roadmap discussions alternating between Thursday 9:30 am PST (Europe friendly) and Wednesdays 5:30 pm PST (Asia friendly) to prioritize the roadmap items based on your suggestions. The result of the discussions analyzed based on impact assessments will be announced via social media.
-
-Looking forward to receiving some great suggestions from all the contributors!",
+            "newsDescription": "We are seeking your help to shape the direction of ONNX & create a roadmap of our shared future! Please use either of these submission modes to capture your ideas for future development of ONNX Roadmap proposal document located at https://onnx.ai/roadmap OR ONNX-roadmap slack channel (signup for the channels at https://slack.lfai.foundation/). If you had submitted roadmap items last year, please revisit/gauge and do appropriate addition of item(s) in case there is still an ask for the ONNX feature. In case you are revisiting the roadmap items this year and there is some overlap from the request last year, be sure to flag whether your request was completed / partially-done / work in progress. The proposals will be collected till July 16, 2021. Once the proposals have been entered, we will hold 6 sessions starting the week of July 19, 2021 for roadmap discussions alternating between Thursday 9:30 am PST (Europe friendly) and Wednesdays 5:30 pm PST (Asia friendly) to prioritize the roadmap items based on your suggestions. The result of the discussions analyzed based on impact assessments will be announced via social media. Looking forward to receiving some great suggestions from all the contributors!",
             "newsLinkText": "FEEDBACK",
             "newsLinkURL": "https://onnx.ai/roadmap",
             "newsDate": "July 16, 2021"
