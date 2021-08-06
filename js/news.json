@@ -1,6 +1,16 @@
 {
     "newsContent": [
         {
+            "id": "59",
+            "newsId": "news59",
+            "newsTitle": "ONNX v1.10.0 Released",
+            "newsShortTitle": "ONNX v1.10.0 Released",
+            "newsDescription": "ONNX v1.10.0 is now available with exciting new features! Key updates are: Added new Optional and SparseTensor types. Added model local functions to ModelProto. Shape inference enhancements for Reshape, Squeeze, NonZero, DynamicQuantizeLinear. Introduce symbolic shape inference support. New version converter tests. Add aarch64 wheel build support. Update ONNX IR version to 8 and opset version to 15.",
+            "newsLinkText": "READ MORE",
+            "newsLinkURL": "https://github.com/onnx/onnx/releases/tag/v1.10.0",
+            "newsDate": "Jul 30, 2021"
+        },
+        {
             "id": "58",
             "newsId": "news58",
             "newsTitle": "ONNX Roadmap, Seeking Input",
