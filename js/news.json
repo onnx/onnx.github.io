@@ -5,29 +5,8 @@
             "newsId": "new60",
             "newsTitle": "Upcoming ONNX Roadmap discussions",
             "newsShortTitle": "Upcoming ONNX Roadmap discussions",
-            "newsDescription": "The upcoming ONNX Roadmap discussions will be on Sept 8th, 17th, 22nd, and Oct 1st. Each meeting will last 30 min and will cover 3 topics. Join the discussion to provide valuable feedback. https://zoom.us/j/784475658?pwd=czhtNllVMnFPQkhEUXFMWlZLT2l6dz09
+            "newsDescription": "The upcoming ONNX Roadmap discussions will be on Sept 8th, 17th, 22nd, and Oct 1st. Each meeting will last 30 min and will cover 3 topics, which are listed in document linked to the READ MORE link below. Join the discussion to provide valuable feedback. https://zoom.us/j/784475658?pwd=czhtNllVMnFPQkhEUXFMWlZLT2l6dz09
 
-            Sept 8th (5:30 to 6pm – PST)
-            1. Takuya Nakaike (IBM) – New operators for data processing to cover ML pipeline (eg: String concatenator, Stringsplitter, Date)
-            2. Adam Pocock (Oracle labs) – C API for C++ components of ONNX (to assist in wrapper for model checker functionality)
-            3. Adam Pocock (Oracle labs) – Better support for emitting ONNX models from other languages beyond Python
-
-            Sept 17th (10 to 10:30am – PST)
-            1. Martin Croome (Greenwaves) – Add meta information in tensors
-            2. Andrew Sica (IBM) – E2E pipeline with ONNX operators (include Keras, TF, Scikit-learn/Spark pipeline preprocessing flows) using single graph
-            3. Andrew Sica (IBM) – Converters improvement suggestions (tensorflow-onnx, Keras2Onnx) for better graph optimizations
-
-            Sept 22 (5:30 to 6pm – PST)
-            1. Rajeev Nalawadi & Manuj Sabharwal (Intel) – Address gaps with Opset conversions across broad set of models
-            2. Rajeev Nalawadi (Intel) – ONNX model zoo example for E2E distributed training scenario of large models
-            3. Rajeev Nalawadi, Rodolfo Esteves (Intel) – Define concept of federated learning for ONNX (multi-edge training and model aggregation)
-
-            Oct 1 (10 to 10:30am – PST)
-            1. Calvin McCarter (Lightmatter) – Improvements to shape inference implementation
-            2. Rajeev Nalawadi, Bhargavi Karumanchi, Rodolfo Esteves (Intel) & Andrew Sica (IBM) – Introduce ONNX model provenance & security to safeguard against manipulations
-            3. Rajeev Nalawadi (Intel) & Andrew Sica (IBM) – ONNX model zoo support for quantized and mixed precision models
-
-            Thanks to all for submitting your roadmap proposals to shape the future direction of ONNX.The proposals submitted using the roadmap document and slack channels have been consolidated into 12 topics for these upcoming discussion with ONNX contributors.",
             "newsLinkText": "READ MORE",
             "newsLinkURL": "https://onnx.ai/roadmap",
             "newsDate": "Sept 8th (5:30 PST), 17th (10am PST), 22nd (5:30 PST), and Oct 1st (10am PST) 2021."
