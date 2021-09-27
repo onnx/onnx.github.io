@@ -1,6 +1,16 @@
 {
     "newsContent": [
         {
+            "id": "61",
+            "newsId": "new61",
+            "newsTitle": "October Virtual Community Meetup.",
+            "newsShortTitle": "October Virtual Community Meetup (Oct 21st, 8-11am US PST).",
+            "newsDescription": "Intel and the LF AI & Data Foundation are pleased to sponsor the upcoming LF AI & Data Day ONNX Community Virtual Meetup – Fall 2021, to be held via Zoom on October 21st 8-11am PST. The virtual meetup will cover ONNX community updates, partner/end-user stories, and SIG/WG updates. If you are using ONNX in your services and applications, building software or hardware that supports ONNX, or contributing to ONNX, you should attend! This is a great opportunity to connect with and hear from people working with ONNX across many companies. Registration is now open and the event is free to attend. Capacity will be 500 attendees. For up to date information on this virtual meetup, please visit the event website.",
+            "newsLinkText": "Register",
+            "newsLinkURL": "https://events.linuxfoundation.org/lf-ai-data-day-onnx-community-virtual-meetup-fall/",
+            "newsDate": "October 21st, 2021, 8-11am US PST."
+        }, 
+        {
             "id": "60",
             "newsId": "new60",
             "newsTitle": "Upcoming ONNX Roadmap discussions",
