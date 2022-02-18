@@ -1,6 +1,16 @@
 {
     "newsContent": [
         {
+            "id": "62",
+            "newsId": "new62",
+            "newsTitle": "ONNX v1.11.0 Released",
+            "newsShortTitle": "ONNX v1.11.0 Released",
+            "newsDescription": "ONNX v1.11.0 is now available with exciting new features and updates! A new Model Hub feature is available for users to get started with state-of-the-art pre-trained ONNX models from the ONNX Model Zoo and for researchers and model developers to share models. ai.onnx and ai.onnx.ml opset versions are moved to 16 and 3, respectively, with new and updated ops. Model composing and function builder functionalities are added. Also included in the release are numerous enhancements and some needed bug fixes.",
+            "newsLinkText": "READ MORE",
+            "newsLinkURL": "https://github.com/onnx/onnx/releases/tag/v1.11.0",
+            "newsDate": "Feb 17, 2022"
+        },
+        {
             "id": "61",
             "newsId": "new61",
             "newsTitle": "October Virtual Community Meetup.",
