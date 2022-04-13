@@ -1,6 +1,16 @@
 {
     "newsContent": [
         {
+            "id": "63",
+            "newsId": "new63",
+            "newsTitle": "ONNX Nomination for the Steering Committee",
+            "newsShortTitle": "ONNX Nomination for the Steering Committee",
+            "newsDescription": "The ONNX Steering Committee is elected every year by the Contributors of ONNX project. The candidates for the Steering Committee are self-nominated, and they are not required to be Contributors. The candidate information gathered with this form will be shared publicly on 4/25/2022 (Monday). Contributors will have access to the list of candidates on ONNX Github and will be able to participate in the Steering Committee election on 5/2/2022 (Monday).",
+            "newsLinkText": "Form to apply",
+            "newsLinkURL": "https://docs.google.com/forms/d/1SZ7M_44enxSRXV58nlomsnY52JUHQcJMBoZ5oEGhKu4",
+            "newsDate": "April 13, 2022"
+        },
+        {
             "id": "62",
             "newsId": "new62",
             "newsTitle": "ONNX v1.11.0 Released",
