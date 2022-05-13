@@ -1,6 +1,176 @@
 {
     "newsContent": [
         {
+            "id": "64",
+            "newsId": "new64",
+            "newsTitle": "June 2022 Community Meetup",
+            "newsShortTitle": "ONNX Community Meetup - June 24, 2022 - in-person and virtual",
+            "newsDescription": "Microsoft and the LF AI & Data Foundation are pleased to sponsor the upcoming ONNX Community Meetup on June 24th at the Microsoft Silicon Valley campus and online. Our meetups are a great way to connect with others in the ONNX community and share how you are using ONNX to solve your business needs or how your product supports ONNX. Register now to attend and optionally submit your proposal for a 10 minute talk.",
+            "newsLinkText": "Registration and call for talks",
+            "newsLinkURL": "https://community.linuxfoundation.org/events/details/lfhq-lf-ai-data-foundation-presents-lf-ai-day-onnx-community-meetup-silicon-valley/",
+            "newsDate": "May 2, 2022"
+        },
+        {
+            "id": "63",
+            "newsId": "new63",
+            "newsTitle": "Accepting Nominations for the Steering Committee",
+            "newsShortTitle": "Accepting Nominations for the Steering Committee",
+            "newsDescription": "The ONNX Steering Committee is elected every year by the Contributors of ONNX project. The candidates for the Steering Committee are self-nominated, and they are not required to be Contributors. The candidate information gathered with this form will be shared publicly on 5/4/2022 (Wednesday). Contributors will have access to the list of candidates on ONNX Github and will be able to participate in the Steering Committee election on 5/9/2022 (Monday).",
+            "newsLinkText": "Form to apply",
+            "newsLinkURL": "https://docs.google.com/forms/d/1SZ7M_44enxSRXV58nlomsnY52JUHQcJMBoZ5oEGhKu4",
+            "newsDate": "April 13, 2022"
+        },
+        {
+            "id": "62",
+            "newsId": "new62",
+            "newsTitle": "ONNX v1.11.0 Released",
+            "newsShortTitle": "ONNX v1.11.0 Released",
+            "newsDescription": "ONNX v1.11.0 is now available with exciting new features and updates! A new Model Hub feature is available for users to get started with state-of-the-art pre-trained ONNX models from the ONNX Model Zoo and for researchers and model developers to share models. ai.onnx and ai.onnx.ml opset versions are moved to 16 and 3, respectively, with new and updated ops. Model composing and function builder functionalities are added. Also included in the release are numerous enhancements and some needed bug fixes.",
+            "newsLinkText": "READ MORE",
+            "newsLinkURL": "https://github.com/onnx/onnx/releases/tag/v1.11.0",
+            "newsDate": "Feb 17, 2022"
+        },
+        {
+            "id": "61",
+            "newsId": "new61",
+            "newsTitle": "October Virtual Community Meetup.",
+            "newsShortTitle": "October Virtual Community Meetup (Oct 21st, 8-11am US PST).",
+            "newsDescription": "Intel and the LF AI & Data Foundation are pleased to sponsor the upcoming LF AI & Data Day ONNX Community Virtual Meetup – Fall 2021, to be held via Zoom on October 21st 8-11am PST. The virtual meetup will cover ONNX community updates, partner/end-user stories, and SIG/WG updates. If you are using ONNX in your services and applications, building software or hardware that supports ONNX, or contributing to ONNX, you should attend! This is a great opportunity to connect with and hear from people working with ONNX across many companies. Registration is now open and the event is free to attend. Capacity will be 500 attendees. For up to date information on this virtual meetup, please visit the event website.",
+            "newsLinkText": "Register",
+            "newsLinkURL": "https://events.linuxfoundation.org/lf-ai-data-day-onnx-community-virtual-meetup-fall/",
+            "newsDate": "October 21st, 2021, 8-11am US PST."
+        }, 
+        {
+            "id": "60",
+            "newsId": "new60",
+            "newsTitle": "Upcoming ONNX Roadmap discussions",
+            "newsShortTitle": "Upcoming ONNX Roadmap discussions",
+            "newsDescription": "The upcoming ONNX Roadmap discussions will be on Sept 8th (5:30 PST), 17th (10am PST), 22nd (5:30 PST), and Oct 1st (10am PST). Each meeting will last 30 min and will cover 3 topics, which are listed in document linked to the READ MORE link below. Join the discussion to provide valuable feedback. https://zoom.us/j/784475658?pwd=czhtNllVMnFPQkhEUXFMWlZLT2l6dz09",
+            "newsLinkText": "READ MORE",
+            "newsLinkURL": "https://onnx.ai/roadmap",
+            "newsDate": "Sept 8, 2021"
+        },
+        {
+            "id": "59",
+            "newsId": "news59",
+            "newsTitle": "ONNX v1.10.0 Released",
+            "newsShortTitle": "ONNX v1.10.0 Released",
+            "newsDescription": "ONNX v1.10.0 is now available with exciting new features! Key updates are: Added new Optional and SparseTensor types. Added model local functions to ModelProto. Shape inference enhancements for Reshape, Squeeze, NonZero, DynamicQuantizeLinear. Introduce symbolic shape inference support. New version converter tests. Add aarch64 wheel build support. Update ONNX IR version to 8 and opset version to 15.",
+            "newsLinkText": "READ MORE",
+            "newsLinkURL": "https://github.com/onnx/onnx/releases/tag/v1.10.0",
+            "newsDate": "Jul 30, 2021"
+        },
+        {
+            "id": "58",
+            "newsId": "news58",
+            "newsTitle": "ONNX Roadmap, Seeking Input",
+            "newsShortTitle": "ONNX Roadmap, Seeking Input",
+            "newsDescription": "We are seeking your help to shape the direction of ONNX & create a roadmap of our shared future! Please use either of these submission modes to capture your ideas for future development of ONNX Roadmap proposal document located at https://onnx.ai/roadmap OR ONNX-roadmap slack channel (signup for the channels at https://slack.lfai.foundation/). If you had submitted roadmap items last year, please revisit/gauge and do appropriate addition of item(s) in case there is still an ask for the ONNX feature. In case you are revisiting the roadmap items this year and there is some overlap from the request last year, be sure to flag whether your request was completed / partially-done / work in progress. The proposals will be collected till July 16, 2021. Once the proposals have been entered, we will hold 6 sessions starting the week of July 19, 2021 for roadmap discussions alternating between Thursday 9:30 am PST (Europe friendly) and Wednesdays 5:30 pm PST (Asia friendly) to prioritize the roadmap items based on your suggestions. The result of the discussions analyzed based on impact assessments will be announced via social media. Looking forward to receiving some great suggestions from all the contributors!",
+            "newsLinkText": "FEEDBACK",
+            "newsLinkURL": "https://onnx.ai/roadmap",
+            "newsDate": "July 16, 2021"
+        },
+        {
+            "id": "57",
+            "newsId": "news57",
+            "newsTitle": "Apply for the Steering Committee",
+            "newsShortTitle": "Apply to be on the Steering Committee",
+            "newsDescription": "You can help influence and drive the ONNX community! The candidates for the Steering Committee are self-nominated and they are not required to be existing Contributors. Applications for the ONNX Steering Committee for June 2021 - May 2022 are now open until April 19.",
+            "newsLinkText": "APPLY",
+            "newsLinkURL": "http://onnx.ai/sc-apply",
+            "newsDate": "April 7, 2021"
+        },
+        {
+            "id": "56",
+            "newsId": "news56",
+            "newsTitle": "March Virtual Community Meetup",
+            "newsShortTitle": "Virtual Community Meetup on March 24th",
+            "newsDescription": "Baidu and the LF AI & Data Foundation are pleased to sponsor the upcoming LF AI & Data Day ONNX Community Virtual Meetup – Spring 2021, to be held via Zoom on March 24th 5pm PST (March 25th 8am China Standard Time). The virtual meetup will cover ONNX community updates, partner/end-user stories, and SIG/WG updates. If you are using ONNX in your services and applications, building software or hardware that supports ONNX, or contributing to ONNX, you should attend! This is a great opportunity to connect with and hear from people working with ONNX across many companies. Registration is now open and the event is free to attend. Capacity will be 500 attendees. For up to date information on this virtual meetup, please visit the event website.",
+            "newsLinkText": "REGISTER",
+            "newsLinkURL": "https://events.linuxfoundation.org/lf-ai-data-day-onnx-community-virtual-meetup-spring/",
+            "newsDate": "March 4, 2021"
+        },
+        {
+            "id": "55",
+            "newsId": "news55",
+            "newsTitle": "Call for Talks - Spring Community Meetup",
+            "newsShortTitle": "Call for Talks - Spring Community Meetup",
+            "newsDescription": "Baidu and the LF AI & Data Foundation are pleased to sponsor the upcoming LF AI & Data Day ONNX Community Virtual Meetup – Spring 2021, to be held via Zoom on March 24th 5pm PST (March 25th 8am China Standard Time). This is a great opportunity to share with the community how you are using ONNX to solve your business needs or how your product supports ONNX. Submit your proposal for a 5-10 minute talk by February 17.",
+            "newsLinkText": "SUBMIT TALK",
+            "newsLinkURL": "https://onnx.ai/meetups/call_for_talks",
+            "newsDate": "Jan 21, 2021"
+        },
+        {
+            "id": "54",
+            "newsId": "news54",
+            "newsTitle": "ONNX v1.8 Released",
+            "newsShortTitle": "ONNX v1.8 Released",
+            "newsDescription": "ONNX v1.8 is now available with exciting enhanced features! Opset13 added with support for bfloat16 among other updates. Windows conda package with latest ONNX release now available. Added differentiable tags to enhance training scenario. Numerous updates to shape inference and checker tools. Updates to version converter to improve operator coverage.",
+            "newsLinkText": "READ MORE",
+            "newsLinkURL": "https://github.com/onnx/onnx/releases/tag/v1.8.0",
+            "newsDate": "Nov 6, 2020"
+        },
+        {
+            "id": "53",
+            "newsId": "news53",
+            "newsTitle": "October Virtual Community Meetup",
+            "newsShortTitle": "Virtual Community Meetup on October 14",
+            "newsDescription": "Amazon, ONNX, and the LF AI Foundation are pleased to sponsor the upcoming LF AI Day ONNX Community Virtual Meetup – Fall 2020, to be held via Zoom on October 14th. The virtual meetup will cover ONNX community updates, partner/end-user stories, and SIG/WG updates. If you are using ONNX in your services and applications, building software or hardware that supports ONNX, or contributing to ONNX, you should attend! This is a great opportunity to connect with and hear from people working with ONNX across many companies. Registration is now open and the event is free to attend. Capacity will be 500 attendees. For up to date information on this virtual meetup, please visit the event website.",
+            "newsLinkText": "REGISTER",
+            "newsLinkURL": "https://events.linuxfoundation.org/lf-ai-day-onnx-community-virtual-meetup-fall/",
+            "newsDate": "Oct 1, 2020"
+        },
+        {
+            "id": "52",
+            "newsId": "news52",
+            "newsTitle": "ONNX Slack Channel Opened",
+            "newsShortTitle": "ONNX Slack Channel Opened",
+            "newsDescription": "We are migrating to Slack from Gitter to encourage open discussion among the community. Please sign up at https://slack.lfai.foundation/ and join the ONNX Slack channel using the link.",
+            "newsLinkText": "JOIN ONNX Slack Channel",
+            "newsLinkURL": "https://lfaifoundation.slack.com/archives/C016UBNDBL2",
+            "newsDate": "Sep 18, 2020"
+        },
+        {
+            "id": "51",
+            "newsId": "news51",
+            "newsTitle": "New Steering Committee Elected",
+            "newsShortTitle": "New Steering Committee Elected",
+            "newsDescription": "We are excited to announce that the open governance structure is working well and elections have resulted in newly appointed steering committee members. Thanks to all who self-nominated as well as those who voted in the election.",
+            "newsLinkText": "READ MORE",
+            "newsLinkURL": "https://lfai.foundation/blog/2020/06/11/newly-elected-onnx-steering-committee-announced/",
+            "newsDate": "June 11, 2020"
+        },
+        {
+            "id": "50",
+            "newsId": "news50",
+            "newsTitle": "ONNX v1.7 Released",
+            "newsShortTitle": "ONNX v1.7 Released",
+            "newsDescription": "ONNX v1.7 is now available with exciting new features! Model training, introduced as a tech preview, expands ONNX beyond its original inference capabilities. Also added are new and updated operators to support more models and data types. Functions are enhanced to enable dynamic function body registration and multiple operator sets. The operator documentation is also updated with more details to clarify the expected behaviors.",
+            "newsLinkText": "READ MORE",
+            "newsLinkURL": "https://github.com/onnx/onnx/releases/tag/v1.7.0",
+            "newsDate": "May 8, 2020"
+        },
+        {
+            "id": "49",
+            "newsId": "news49",
+            "newsTitle": "Virtual Community Meeting in April",
+            "newsShortTitle": "Virtual Community Meeting in April",
+            "newsDescription": "IBM will be hosting the next ONNX Community meeting on April 9th. Due to the ongoing concerns and precautions taken over the COVID-19 coronavirus, the meeting will be held online using Zoom web conferencing tool. If you are using ONNX in your services and applications, building software or hardware that supports ONNX, or contributing to ONNX, please plan to join remotely! This is a great opportunity to get the latest updates and hear from people working with ONNX from many companies. There will be presentations, updates and discussions from the WG/SIG leadership teams. If you would like to present and share your company's latest activities with ONNX as part of the partner updates & end user stories, please contact Thomas Truong (jedi@us.ibm.com). If you plan to join, please register. Final agenda and Zoom meeting info will be sent to all registered attendees in early April.",
+            "newsLinkText": "REGISTER",
+            "newsLinkURL": "https://events.linuxfoundation.org/lf-ai-day-onnx-community-virtual-meetup/",
+            "newsDate": "March 12, 2020"
+        },
+        {
+            "id": "48",
+            "newsId": "news48",
+            "newsTitle": "Models/Tutorials SIG Kick Off",
+            "newsShortTitle": "Models/Tutorials SIG Kick Off",
+            "newsDescription": "The first meeting of the Model Zoo + Tutorials SIG will be on Thursday, January 30th from 2 - 2:30 PM PST. We will discuss priorities for the SIG and proposals regarding upcoming work. Everyone is welcome.",
+            "newsLinkText": "GET THE INVITE",
+            "newsLinkURL": "https://lists.lfai.foundation/g/onnx-sig-modelstutorials",
+            "newsDate": "January 24, 2020"
+        },
+        {
             "id": "47",
             "newsId": "news47",
             "newsTitle": "ONNX Joins LF AI as Graduated Project",

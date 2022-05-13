@@ -339,6 +339,13 @@ a.link:active .link-arrow{
 .supported-tools-logo img{
     height: 45px;
 }
+.icon-box div{
+    margin-top: 5px;
+    text-align: center;
+}
+.icon-box a{
+    color: #000000;
+}
 .deloy-modal-logo img{
     height: 45px;
 }
@@ -347,6 +354,11 @@ a.link:active .link-arrow{
 }
 .icon-cloud-2{
     width: 62px;
+    margin: 3px;
+}
+.icon-vision-models{
+    margin-top: -5px;
+    margin-bottom: 5px;
 }
 .pre-trained-icon img{
     height: 55px;
