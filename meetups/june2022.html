@@ -98,6 +98,9 @@
                                                     <td>Liqun Fu, Ganesan “Rama” Ramalingam, Kevin Chen, Jacky Chen, Joaquin Anton </td>
                                                 </tr>
                                                 <tr>
+                                                    <td>break</td>
+                                                </tr>
+                                                <tr>
                                                     <td>10:50 AM - 11:00 AM</td>
                                                     <td>
                                                         <strong>Designed to be Optimized</strong>
@@ -107,7 +110,7 @@
                                                         production could make effective optimization impossible. We will see the frequent mistakes 
                                                         and how to avoid them.
                                                     </td>
-                                                    <td>Mauro Bennici, GhostWriter.AI</td>
+                                                    <td>Mauro Bennici, <i>GhostWriter.AI</i></td>
                                                 </tr>
                                                 <tr>
                                                     <td>11:00 AM - 11:10 AM</td>
@@ -126,7 +129,7 @@
                                                         ONNX format makes it easier to visualize graphs via netron which can provide users information 
                                                         about placement of quantized nodes.
                                                     </td>
-                                                    <td>Dheeraj Peri, NVIDIA</td>
+                                                    <td>Dheeraj Peri, <i>NVIDIA</i></td>
                                                 </tr>
                                                 <tr>
                                                     <td>11:10 AM - 11:20 AM</td>
@@ -145,12 +148,301 @@
                                                         its usage in the FINN and hls4ml toolchains. Finally, we introduce the QONNX model zoo to 
                                                         share low precision quantized neural networks.
                                                     </td>
-                                                    <td>Alessandro Pappalardo, AMD</td>
+                                                    <td>Alessandro Pappalardo, <i>AMD</i></td>
                                                 </tr>
                                                 <tr>
-                                                    <td>5:00 PM</td>
-                                                    <td>ONNX Runtime-hosted Happy Hour</td>
-                                                    <td>Microsoft Silicon Valley Campus</td>
+                                                    <td>11:20 AM - 11:35 AM</td>
+                                                    <td>
+                                                        <strong>How to reconcile AI and privacy</strong>
+                                                        <br>
+                                                        AI is revolutionising many fields from healthcare to biometrics these recent years. However due 
+                                                        to security and privacy concerns, data is still being siloed and not shared enough due to the fear 
+                                                        of data exposure and IP leakage. Confidential Computing is a recent technology that enables 
+                                                        end-to-end encryption when analysing sensitive data. By leveraging Confidential Computing, 
+                                                        data owners can share their data to AI companies, for instance to train or consume an AI model, 
+                                                        without ever risking their data being stolen, leaked or used for any other purpose, as data 
+                                                        remains protected even when shared to third parties. This talk aims to introduce the high level 
+                                                        principles of Confidential Computing and how it can be used to deploy privacy friendly AI 
+                                                        models. We will present BlindAI (https://github.com/mithril-security/blindai), an AI deployment 
+                                                        solution, serving ONNX models with privacy guarantees, and see how it can be used to unlock 
+                                                        confidential medical document analysis in the Cloud, or facial recognition with privacy 
+                                                        guarantees.
+                                                    </td>
+                                                    <td>Daniel Huynh, <i>Mithril Security</i></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>11:35 AM - 11:55 AM</td>
+                                                    <td>
+                                                        <strong>Responsible AI @ ONNX: Metadata, Model Cards, and Provenance</strong>
+                                                        <br>
+                                                        The space of AI is growing rapidly. At this pace, it can be challenging for key AI stakeholders to 
+                                                        identify and address social and regulatory concerns with AI, motivating the need for tools and 
+                                                        methods to approach AI ethics challenges. A popular approach in the responsible AI space is 
+                                                        using metadata to encode a “model card,” a versatile report detailing the configuration, ethical 
+                                                        considerations, limitations, and quantitative analysis of an AI model. This approach can be used 
+                                                        to enable transparency and fairness of the use case, filtering of high-quality AI models, pain 
+                                                        point identification in AI pipelines, and help with establishing compliance and lineage. In this 
+                                                        session, we will present our proposal and end-to-end proof of concept for metadata fields and 
+                                                        model cards incorporated in Onnx to capture aspects of the model such as provenance & mixed 
+                                                        precision representation.
+                                                    </td>
+                                                    <td>Rodolfo Gabe Esteves, Bhargavi Karumanchi, Ria Cheruvu, <i>Intel</i></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>break</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>12:05 PM - 12:15 PM</td>
+                                                    <td>
+                                                        <strong>ONNX and the JVM</strong>
+                                                        <br>
+                                                        Integrating machine learning into enterprises requires building and deploying ML models in the 
+                                                        environments enterprises build their software in. Frequently this is in Java, or another language 
+                                                        running on the JVM. In this talk we'll cover some of our recent work bringing the ONNX 
+                                                        ecosystem to Java. We'll discuss uses of ONNX Runtime from Java, and also our work writing 
+                                                        model converters from our Java ML library into ONNX format.
+                                                    </td>
+                                                    <td>Adam Pocock, <i>Oracle</i></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>12:15 PM - 12:25 PM</td>
+                                                    <td>
+                                                        <strong>Build your high-performance model inference solution with DJL and ONNX Runtime</strong>
+                                                        <br>
+                                                        In many companies, Java is the primary language for the teams to build up services. To have 
+                                                        ONNX model onboard and integration, developers faced several technical challenges on the 
+                                                        resource allocation and performance tuning. In this talk, we will walk you through the inference 
+                                                        solution built by DJL, a ML library in Java. In the meantime, we will share some customer 
+                                                        success stories with model hosting using ONNXRuntime and DJL.
+                                                    </td>
+                                                    <td>Qing Lan, <i>AWS</i></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>12:25 PM - 12:35 PM</td>
+                                                    <td>
+                                                        <strong>Billions of NLP Inferences on the JVM using ONNX and DJL</strong>
+                                                        <br>
+                                                        This session outlines the recently rolled out Hypefactors' MLOps infrastructure designed for 
+                                                        billions NLP inferences a day. The workload serves media intelligence and OSINT use cases. The 
+                                                        infrastructure is designed with a Java Virtual Machine-first approach that is enabled by ONNX 
+                                                        interop and AWS' Deep Java Library. On top of that, we show how quantization drives further 
+                                                        performance optimizations.
+                                                    </td>
+                                                    <td>Viet Yen Nguyen, <i>Hypefactors</i></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Lunch</td>
+                                    
+                                                <tr>
+                                                    <td>1:15 PM - 1:25 PM</td>
+                                                    <td>
+                                                        <strong>What's New in ONNX Runtime</strong>
+                                                        <br>
+                                                        This talk will share highlights of the ONNX Runtime 1.10-1.12 releases, including details on 
+                                                        notable performance improvements, features, and platforms including mobile and web. 
+                                                    </td>
+                                                    <td>Ryan Hill, <i>Microsoft</i></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>1:25 PM - 1:35 PM</td>
+                                                    <td>
+                                                        <strong>Accelerating Machine Learning with ONNX Runtime and Hugging Face</strong>
+                                                        <br>
+                                                        Hugging Face has democratized state of the art machine learning with Transformers and the 
+                                                        Hugging Face Hub, but deploying these large and complex models into production with good 
+                                                        performance remains a challenge for most organizations. In this talk, Jeff Boudier will talk you 
+                                                        through the latest solutions from Hugging Face to deploy models at scale with great 
+                                                        performance leveraging ONNX and ONNX RunTime.                                                 </td>
+                                                    <td>Jeff Boudier, <i>Hugging Face</i></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>1:35 PM - 1:45 PM</td>
+                                                    <td>
+                                                        <strong>PyTorch-ONNX Converter</strong>
+                                                        <br>
+                                                        This session will present an overview of the PyTorch-ONNX converter, its implementation, and 
+                                                        recent improvements to support a wide range of models.                                                  </td>
+                                                    <td><i>Microsoft</i></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>1:45 PM - 1:55 PM</td>
+                                                    <td>
+                                                        <strong>Detect Safety Zone Violation in Manufacturing with SAS Event Stream Processing and ONNX models</strong>
+                                                        <br>
+                                                        This session will present an in-production solution that takes advantage of SAS Event Stream 
+                                                        Processing and ONNX runtime to support the detection of safety zone violations using 
+                                                        computer vision pre-trained ONNX Model and involving multiple cameras. This solution was 
+                                                        deployed at the factory edge with an architecture that, using Kubernetes and Kafka, ensures a 
+                                                        reliable and stable environment for productionized computer vision solutions complemented 
+                                                        with a cloud-centralized infrastructure to monitor, manage and collect information from 
+                                                        multiple factories                                                </td>
+                                                    <td>Allen Langlois, Saurabh Mishra, Daniele Cazzari, <i>SAS</i></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>1:55 PM - 2:05 PM</td>
+                                                    <td>
+                                                        <strong>Improving the online shopping experience with ONNX</strong>
+                                                        <br>
+                                                        Building and deploying AI solutions to the cloud at scale is complex. With massive datasets and 
+                                                        performance considerations - finding a harmonious balance is crucial. This session will outline 
+                                                        key learnings from deploying a Serverless application running inference on a sci-kit learn model 
+                                                        using ONNX Runtime, and will share how to utilize the capabilities of ONNX runtime to improve 
+                                                        the online shopping experience for shoppers and global brands.
+                                                    </td>
+                                                    <td>Matthew Leyburn, <i>Bazaarvoice</i></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2:05 PM - 2:15 PM</td>
+                                                    <td>
+                                                        <strong>High-Performance Inference for Video and Audio</strong>
+                                                        <br>
+                                                        ORT provides the foundations for inference for Adobe's audio and video products (Premiere 
+                                                        Pro, After Effects, Character Animator) on both Mac and Windows. In this talk, we'll discuss how 
+                                                        ORT with the DML backend is essential in enabling high-throughput inference for audio and 
+                                                        video workflows on Windows, and how we use ORT to enable speech to text on Mac.
+
+                                                        Video workflows are unique because of the sheer amount of data they process; our customers 
+                                                        frequently ingest high resolution video >= 4k@60fps of which each frame may need to be 
+                                                        passed through our models. Likewise, video workflows are inherently resource limited: the GPU 
+                                                        is also being used for hardware decode and render at the same time.
+
+                                                        ORT gives us the tools to build complex frameworks and workflows on top of so that we can 
+                                                        deliver ML-based features while ensuring that we're able to provide the best experience for our 
+                                                        customers.
+                                                    </td>
+                                                    <td>Nikhil Kalra, <i>Adobe</i></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2:15 PM - 2:25 PM</td>
+                                                    <td>
+                                                        <strong>Deploying on desktop with ONNX</strong>
+                                                        <br>
+                                                        ORT provides the foundations for inference for Adobe's audio and video products (Premiere 
+                                                        Topaz Labs develops deep learning based image quality software for professional and hobbyist 
+                                                        photographers, which means running on the user's desktop or laptop. ONNX is an essential part 
+                                                        of our solution to producing consistent results while making the most of a variety of consumer 
+                                                        hardware. This type of deployment poses unique challenges and opportunities. Some 
+                                                        experiences in this task have driven us to adopt certain useful strategies, tools, and techniques. 
+                                                        Others remain interesting avenues for future improvement.
+                                                        
+                                                    </td>
+                                                    <td>Alexander Zhang, <i>Topaz Labs</i></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>break</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2:40 PM - 2:50 PM</td>
+                                                    <td>
+                                                        <strong>ONNX Tools: Polygraphy and ONNX-GraphSurgeon</strong>
+                                                        <br>
+                                                        Over the years, NVIDIA's TensorRT team has developed tooling that makes it easy to generate, 
+                                                        transform, and debug ONNX models. Among other things, this includes a sanitizer that can 
+                                                        simplify your models, and an automated bisector for debugging ('git bisect' for ONNX!). In this 
+                                                        talk, I'll cover some of these tools and how you can effectively leverage them in your workflow.
+                                                        
+                                                    </td>
+                                                    <td>Pranav Marathe <i>NVIDIA</i></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2:50 PM - 3:05 PM</td>
+                                                    <td>
+                                                        <strong>TI Deep Learning (TIDL) Execution Provider in ONNX Runtime</strong>
+                                                        <br>
+                                                        ONNX models are widely used by TI customers for realizing several applications such as image 
+                                                        classification, segmentation, object detection etc. Traditionally custom inference engines 
+                                                        provided by silicon vendors have been used to deploy these Deep Learning models on 
+                                                        hardware. Such custom software approaches are optimal for given hardware, but lack in 
+                                                        keeping pace with rapidly evolving machine learning community in regards to new operators 
+                                                        and model architectures. Due to this, it results in inflexibility for evaluating various deep 
+                                                        learning model architecture tradeoffs by means of rapid prototyping. 
+
+                                                        This is where TI leverages ONNX runtime which is an open-source deep learning inference 
+                                                        framework, to quickly deploy any model architecture without performance/latency impact. TI 
+                                                        has incorporated its custom Deep Learning Runtime (TIDL-RT) as an Execution Provider in ONNX 
+                                                        Runtime there by providing ease of use and improved coverage for network types thanks to the 
+                                                        availability of fall back mechanism for features not supported on the custom runtime. We plan 
+                                                        to present the approach taken to integrate this offering as part of the ONNX runtime which 
+                                                        consists of automatic graph partitioning, Post-Training quantization and optimal tensor 
+                                                        management.
+                                                    </td>
+                                                    <td>Anand Patha, <i>Texas Instruments</i></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3:05 PM - 3:15 PM</td>
+                                                    <td>
+                                                        <strong>Onnx-mlir: an MLIR-based Compiler for ONNX Models - The Latest Status</strong>
+                                                        <br>
+                                                        Onnx-mlir is an open source compiler implemented using the Multi-Level Intermediate 
+                                                        Representation (MLIR) infrastructure recently integrated in the LLVM project. It compiles ONNX 
+                                                        models into native code for CPUs as well as specialized accelerators. It is able to compile models 
+                                                        for many platforms including x86 (Linux/Windows/macOS), Power (Linux) and z/Architecture 
+                                                        (Linux and z/OS). Onnx-mlir is a subproject inside the ONNX ecosystem and has attracted many 
+                                                        contributions from IBM, Microsoft, Facebook, Arm and Universities since its incubation in 2019. 
+                                                        In this talk, we will show the latest status of the project by providing the project overview as 
+                                                        well as the latest features.                                                    </td>
+                                                    <td>Tung D. Le, <i>IBM</i></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3:15 PM - 3:35 PM</td>
+                                                    <td>
+                                                        <strong>PFVM - A Neural Network Compiler that uses ONNX as its intermediate representation</strong>
+                                                        <br>
+                                                        PFVM is a neural network compiler developed by Preferred Networks, which relies on ONNX as 
+                                                        the Intermediate Representation format. PFVM is used in production environments to deploy 
+                                                        models to various devices such as GPUs, multiple edge computing architectures, and PFN's own 
+                                                        accelerator, MN-Core. PFVM's most salient features are; automatic checkpointing, operator 
+                                                        fusion, and graph simplification that can be applied even when models have dynamic axes or 
+                                                        unknown shapes. ONNX Shape inference becomes a critical element for all these optimizations, 
+                                                        and the importance of bringing up more advanced shape inference mechanisms to address 
+                                                        complex optimization scenarios is discussed in this talk.                                                    </td>
+                                                    <td>Zijian Xu, <i>Preferred Networks</i></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3:35 PM - 3:45 PM</td>
+                                                    <td>
+                                                        <strong>Bring the power of ONNX to Spark as it never happened before</strong>
+                                                        <br>
+                                                        Both data processing platforms and deep learning frameworks are evolving in their own fields. 
+                                                        Usually, Spark is used for offline data processing, and then various deep learning frameworks 
+                                                        are used for data inference. A simplified API for DL Inferencing is very important as a bridge.
+                                                        
+                                                        What does an ideal data and deep learning inference pipeline look like? We'll discuss how to 
+                                                        build your AI application using Spark and ONNX, the current status and initial idea of Spark 
+                                                        commiunty to improve this pipeline, and also make full use of the capabilities of Ascend 
+                                                        Hardware Platform.
+                                                        
+                                                        This topic help you know the latest progress of Ascend Hardware Platform integration in ONNX, 
+                                                        as well as the initial idea of the inference pipeline improvement in the Spark community.
+                                                                                                           </td>
+                                                    <td>Xiyuan Wang, Yikun Jiang, Zhipeng Huang <i>Huawei</i></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Break / end of virtual event</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>4:00 PM - 4:25 PM</td>
+                                                    <td>Roundtables Group 1
+                                                        <li>ONNX Runtime</li>
+                                                        <li>ONNX model deployment / ML Ops</li>
+                                                        <li>Training / Distributed Training</li>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>4:25 PM - 4:50 PM</td>
+                                                    <td>Roundtables Group 2
+                                                        <li>ONNX for mobile and edge</li> 
+                                                        <li>Quantization</li>
+                                                        <li>ONNX model conversion and operators</li>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>4:50 PM - 5:00 PM</td>
+                                                    <td>Roundtables wrap-up</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>5:00 PM - 6:00 PM</td>
+                                                    <td>ONNX Runtime-hosted Happy Hour + Networking</td>
                                                 </tr>
                                             </tbody>
                                         </table>
