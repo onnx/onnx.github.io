@@ -1,6 +1,16 @@
 {
     "newsContent": [
         {
+            "id": "65",
+            "newsId": "new65",
+            "newsTitle": "ONNX v1.12.0 Released",
+            "newsShortTitle": "ONNX v1.12.0 Released",
+            "newsDescription": "ONNX v1.12.0 is now available with exciting new features and updates! This release includes operator updates, shape inference enhancements, bug fixes, and documentation changes.",
+            "newsLinkText": "READ MORE",
+            "newsLinkURL": "https://github.com/onnx/onnx/releases/tag/v1.12.0",
+            "newsDate": "June 17, 2022"
+        },
+        {
             "id": "64",
             "newsId": "new64",
             "newsTitle": "June 2022 Community Meetup",
