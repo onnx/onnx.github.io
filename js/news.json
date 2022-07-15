@@ -1,6 +1,17 @@
 {
     "newsContent": [
         {
+            
+            "id": "66",
+            "newsId": "new66",
+            "newsTitle": "June Meetup Presentations and Recordings",
+            "newsShortTitle": "June Meetup Presentations and Recordings",
+            "newsDescription": "The June 2022 ONNX Community Day event presentation slides and recordings are now available.",
+            "newsLinkText": "View now",
+            "newsLinkURL": "https://onnx.ai/meetups/june2022",
+            "newsDate": "July 18, 2022"
+        },
+        {
             "id": "65",
             "newsId": "new65",
             "newsTitle": "ONNX v1.12.0 Released",
