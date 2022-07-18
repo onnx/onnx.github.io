@@ -20,7 +20,7 @@
     <a class="skip-main" id="topContent" href="#skipMain">Skip to main content</a>
     <!-- Partial header.html Start-->
     <div w3-include-html="partials/navigation.html"></div>
-    <!-- Partial header.html End--> 
+    <!-- Partial header.html End-->
     <div class="main-wrapper home-page-wrapper" role="main" id="skipMain" tabindex="-1">
 
         <div class="top-banner-bg">
@@ -163,7 +163,7 @@
                         <div class="container-fluid">
                             <h2 class="subheading-1 text-center mb-4 pb-2">NEWS AND ANNOUNCEMENTS</h2>
                             <div class="row equalHeight-2" id="homeNewsWrapper">
-                               
+
                             </div>
                         </div>
                     </section>
@@ -195,27 +195,27 @@
                     newsData += '<h3 class="subheading-3">' + value.newsTitle + '</h3>';
                     var len = value.newsDescription.length;
                     var str = value.newsDescription.substr(0,110);
-                    var lastIndexOf = str.lastIndexOf(" "); 
+                    var lastIndexOf = str.lastIndexOf(" ");
                     if(len>110) {
                         newsData += '<p class="text-break">' + str.substr(0, lastIndexOf) + '…' + '</p>';
                     }else{
                         newsData += '<p class="text-break">' + value.newsDescription + '</p>';
                     }
                     newsData += '<a aria-label="Learn more about ' + value.newsShortTitle +'" class="link" href="./news.html#' + value.newsId + '"><span class="link-content">LEARN MORE</span><span class="link-arrow fa fa-angle-right"></span></a>';
-                    newsData += '</div>'; 
+                    newsData += '</div>';
                     newsData += '</div>';
                 }
                 });
                 $('#homeNewsWrapper').append(newsData);
             });
-           
+
         });
 
         $(function(){
             $(".news-text").each(function () {
                 var len=$(this).text().length;
                 var str= $(this).text().substr(0,80);
-                var lastIndexOf = str.lastIndexOf(" "); 
+                var lastIndexOf = str.lastIndexOf(" ");
                 if(len>80) {
                     $(this).text(str.substr(0, lastIndexOf) + '…');
                 }
