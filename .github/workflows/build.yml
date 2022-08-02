@@ -1,0 +1,25 @@
+on:
+  schedule:
+  - cron: '00 00 * * MON'
+  workflow_dispatch:
+
+jobs:
+  docs-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install Dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build Docs
+        run: cd docs/ && make html
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v4
+        with:
+          branch: gh-pages-pr
+          base: main
+          title: '[Automated]: Update ONNX Python API and OpSchema Documentation'
+          commit-message: 'Update Python and Sphinx-generated documentation ${{ steps.vars.outputs.sha_short }}'
+          add-paths: docs/build
