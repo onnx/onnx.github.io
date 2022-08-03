@@ -1,10 +1,6 @@
 import os
 import sys
 import warnings
-import skl2onnx
-import pydata_sphinx_theme
-import onnx
-import sphinx_bootstrap_theme
 
 sys.path.append(os.path.abspath('exts'))
 # from github_link import make_linkcode_resolve  # noqa
@@ -55,10 +51,6 @@ html_logo = "_static/onnx_logo.png"
 # Navbar
 html_theme_options = {
     'navbar_title': "ONNX Docs",
-    'navbar_links': [
-        ("API Overview", "onnx-api/index"),
-        ("Op Schemas", "operators/index"),
-    ],
 }
 html_static_path = ["_static"]
 
