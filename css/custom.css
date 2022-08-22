@@ -58,7 +58,7 @@ hr.border-top{
     transition:all 200ms ease-in-out;
 }
 header.fixed-top.scrolled .navbar-custom{
-    padding: 8px 1rem;
+    padding: 16px 1rem;
     -webkit-transition:all 200ms ease-in-out;
     transition:all 200ms ease-in-out;
 }
@@ -111,7 +111,7 @@ header.scrolled .navbar-custom .navbar-nav .nav-item .nav-link:hover{
     color: #1fa2ff;
 }
 .navbar-custom .navbar-nav .nav-item:not(:last-child) .nav-link{
-    border-right: 2px solid #1fa2ff;   
+    border-right: 2px solid #1fa2ff;
 }
 header.header-collapse .navbar-custom{
     background-color: rgb(0, 0, 0);
