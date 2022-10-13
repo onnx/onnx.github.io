@@ -2,6 +2,17 @@
     "newsContent": [
         {
             
+            "id": "67",
+            "newsId": "new67",
+            "newsTitle": "Onnx Python Package",
+            "newsShortTitle": "Python Package",
+            "newsDescription": "Documentation of the Onnx Python Package  are now available.",
+            "newsLinkText": "View now",
+            "newsLinkURL": "https://onnx.ai/onnx",
+            "newsDate": "October 13, 2022"
+        },
+        {
+            
             "id": "66",
             "newsId": "new66",
             "newsTitle": "June Meetup Presentations and Recordings",
