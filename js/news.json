@@ -4,9 +4,9 @@
             
             "id": "67",
             "newsId": "new67",
-            "newsTitle": "Onnx Python Package",
-            "newsShortTitle": "Python Package",
-            "newsDescription": "Documentation of the Onnx Python Package  are now available.",
+            "newsTitle": "New ONNX Documentation Available",
+            "newsShortTitle": "New ONNX Documentation Available",
+            "newsDescription": "Check out the new revamped ONNX documentation. It is published on the website for easier searching and includes operator reference (comparisons between opsets too), Python API reference,and a new tutorial. The documentation is automatically generated from the code and published regularly.",
             "newsLinkText": "View now",
             "newsLinkURL": "https://onnx.ai/onnx",
             "newsDate": "October 13, 2022"
