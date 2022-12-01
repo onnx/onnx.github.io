@@ -1,0 +1,36 @@
+{
+    "copyright_text": "Needs to be clarifed",
+    "description": "ONNX Runtime allows us to export our models for different platforms and systems. Optimization, however, starts with design. Leaving it when everything seems ready to go a production could make effective optimization impossible. We will see the frequent mistakes and how to avoid them.",
+    "duration": "",
+    "language": "eng",
+    "recorded": "2022-06-24",
+    "related_urls": [
+        {
+            "label": "Conference schedule",
+            "url": "https://wiki.lfaidata.foundation/display/DL/ONNX+Community+Day+-+June+24"
+        },
+        {
+            "label": "Slides",
+            "url": "https://wiki.lfaidata.foundation/download/attachments/61964495/01_GhostwriterAI.pdf?version=1&modificationDate=1657154865000&api=v2"
+        }
+    ],
+    "speakers": [
+        "Mauro Bennici (GhostWriterAI)"
+    ],
+    "tags": [
+        "optimization",
+        "onnx runtime"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/2cMJrba4Pp8/hqdefault.jpg",
+    "title": "Designed to be Optimized",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://youtu.be/2cMJrba4Pp8"
+        },
+        {
+            "type": "lf4aidata confluence",
+            "url": "https://wiki.lfaidata.foundation/download/attachments/61964495/01video_GhostwriterAI.mp4?version=1&modificationDate=1657217407000&api=v2"
+        }
+    ]
+}

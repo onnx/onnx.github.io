@@ -1,0 +1,24 @@
+{
+    "copyright_text": "Needs to be clarifed",
+    "description": "",
+    "duration": "",
+    "language": "eng",
+    "recorded": "2021-10-24",
+    "related_urls": "",
+    "speakers": [
+        "Zhipeng Huang (Huawei)"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/rAit0evmJTg/hqdefault.jpg",
+    "title": "Ascend CANN and ONNX : inference interoperability for better performance",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://youtu.be/rAit0evmJTg"
+        }
+    ],
+    "tags": [
+        "cann",
+        "interoperability",
+        "performance"
+    ]
+}

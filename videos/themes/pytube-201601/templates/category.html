@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% from "helpers.html" import video_list %}
+
+{% block subtitle %} &middot; {{ category }}{% endblock %}
+
+{% block content %}
+  <h2>Event: {{ category }}</h2>
+
+  {% if category.meta and category.meta.description %}
+  <section class="event__description">
+      {{ category.meta.description|safe }}
+  </section>
+  {% endif %}
+
+    {% if category.series and category.series.members|length > 1 %}
+    <nav class="event-series">
+        <p>Other events in this series:</p>
+        <ul class="nav nav-pills">
+            {% for member in category.series.members %}
+                <li role="presentation" {% if member.series.label == category.series.label %}class="active"{% endif %}>
+                    <a href="{{ SITEURL }}/{{ member.url }}" title="{{ member.name }}">{{ member.series.label }}</a>
+                </li>
+            {% endfor %}
+        </ul>
+    </nav>
+    {% endif %}
+
+  <div class="row">
+    <div class="col-lg-12 col-md-12">
+      {{ video_list(articles, show_events=False) }}
+    </div>
+  </div>
+{% endblock %}

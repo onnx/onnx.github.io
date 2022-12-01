@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block subtitle %} &middot; Events{% endblock %}
+
+{% block content %}
+
+<h2>All Events</h2>
+
+<div class="row">
+    <nav class="events">
+        <div class="col-md-12">
+            <div class="row">
+            {% set batch_size=event_series|length / 2 %}
+            {% for batch in event_series|batch(batch_size|round(0, 'ceil')|int) %}
+                <div class="col-md-6 col-sm-12">
+                    <ul class="events">
+                        {% for event in batch %}
+                            <li role="presentation">
+                                {% if event.members %}
+                                    {{ event.name }}
+                                    <ul class="list-inline">
+                                        {% for member in event.members %}
+                                            <li role="presentation">
+                                                <a href="{{ SITEURL }}/{{ member.url }}" title="{{ member.name }}">{{ member.series.label }}</a>
+                                            </li>
+                                        {% endfor %}
+                                    </ul>
+                                {% else %}
+                                    <a href="{{ SITEURL }}/{{ event.url }}">{{ event.name }}</a>
+                                {% endif %}
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            {% endfor %}
+            </div>
+        </div>
+    </nav>
+</div>
+
+{% endblock %}

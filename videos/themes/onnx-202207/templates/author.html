@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% from "helpers.html" import video_list %}
+
+{% block subtitle %} &middot; {{ author }}{% endblock %}
+
+{% block content %}
+    <h2>Speaker: {{ author }}</h2>
+
+    <div class="row">
+      <div class="col-lg-12">
+      {{ video_list(articles, show_speakers=False) }}
+      </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,24 @@
+{
+    "copyright_text": "Needs to be clarifed",
+    "description": "ORT provides the foundations for inference for Adobe's audio and video products (Premiere Pro, After Effects, Character Animator) on both Mac and Windows. In this talk, we'll discuss how ORT with the DML backend is essential in enabling high-throughput inference for audio and video workflows on Windows, and how we use ORT to enable speech to text on Mac. Video workflows are unique because of the sheer amount of data they process; our customers frequently ingest high resolution video >= 4k@60fps of which each frame may need to be passed through our models. Likewise, video workflows are inherently resource limited: the GPU is also being used for hardware decode and render at the same time. ORT gives us the tools to build complex frameworks and workflows on top of so that we can deliver ML-based features while ensuring that we're able to provide the best experience for our customers. ",
+    "duration": "",
+    "language": "eng",
+    "recorded": "2022-06-24",
+    "related_urls": "",
+    "speakers": [
+        "Nikhil Kalra (Adobe )"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/I8Mvx91NvEc/hqdefault.jpg",
+    "title": "High-Performance Inference for Video and Audio",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://youtu.be/I8Mvx91NvEc"
+        }
+    ],
+    "tags": [
+        "High-performance",
+        "video",
+        "audio"
+    ]
+}
