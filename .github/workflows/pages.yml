@@ -49,6 +49,7 @@ jobs:
       # key: if you're using multiple Python versions, or multiple OSes, you'd need to include
       # them in the cache key. I'm not, so it can be simple and just depend on the poetry.lock.
       - name: cache deps
+        working-directory: ./video
         id: cache-deps
         uses: actions/cache@v2
         with:
