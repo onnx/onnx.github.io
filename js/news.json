@@ -1,7 +1,16 @@
 {
     "newsContent": [
         {
-            
+            "id": "68",
+            "newsId": "new68",
+            "newsTitle": "Contributing to the 2023 ONNX Roadmap ",
+            "newsShortTitle": "Contributing to the 2023 ONNX Roadmap",
+            "newsDescription": "Hello ONNX contributors and stakeholders, We are seeking your help to shape the direction of ONNX & create roadmap with shared future view for the timeframe (Jan'2023 to December'2023)
+            To capture your ideas for future development of ONNX, you can submit your proposals using a form reached from the link below.",
+            "newsLinkText": "Submit proposal",
+            "newsLinkURL": "https://github.com/onnx/steering-committee/blob/main/roadmap/README.md",
+            "newsDate": "December 1st, 2022"
+        },{
             "id": "67",
             "newsId": "new67",
             "newsTitle": "New ONNX Documentation Available",
@@ -12,7 +21,6 @@
             "newsDate": "October 13, 2022"
         },
         {
-            
             "id": "66",
             "newsId": "new66",
             "newsTitle": "June Meetup Presentations and Recordings",
