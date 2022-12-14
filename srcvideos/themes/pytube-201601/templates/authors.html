@@ -1,0 +1,20 @@
+{% extends "list_filterable.html" %}
+
+{% block subtitle %} &middot; Speakers{% endblock %}
+
+{% block content %}
+
+<h1>All Speakers</h1>
+
+<div class="row">
+    <ul id="element-list">
+      {% for author, articles in authors|sort %}
+        <li class="col-md-4  col-xs-6">
+          <a href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a> <span class="badge">{{ articles|length }}</span>
+        </li>
+      {% endfor %}
+    </ul>
+</div>
+
+{% endblock %}
+

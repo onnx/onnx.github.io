@@ -1,0 +1,4 @@
+1) create_json -> erzeugt json-Dateien in datadir
+2) make html -> erzeugt output-Dateien
+3) onnx_correct -> korrigiert links
+

@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+
+{% block head %}
+  {{ super() }}
+  <meta property="og:site_name" content="{{ SITENAME }}" />
+  <meta property="og:title" content="{{ article.title }}" />
+  <meta property="og:type" content="video" />
+  <meta property="og:url" content="{{ SITEURL }}/{{ article.url }}" />
+  {% if article.thumbnail_url.startswith("http") %}
+    <meta property="og:image" content="{{ article.thumbnail_url }}" />
+    <meta property="og:image:secure_url" content="{{ article.thumbnail_url.replace("http:", "https:") }}" />
+  {% else %}
+    <meta property="og:image" content="{{ SITEURL }}{{ article.thumbnail_url }}" />
+  {% endif %}
+  {% if article.thumbnail_url and article.thumbnail_url.endswith("pg") %}
+    <meta property="og:image:type" content="image/jpeg" />
+  {% endif %}
+  {% if article.media_url %}
+    <meta property="og:video:url" content="{{ article.media_url }}" />
+  {% endif %}
+
+  {% if article.description %}
+    <meta name="description" content="{{article.description}}" />
+  {% endif %}
+
+  {% for tag in article.tags %}
+    <meta name="tags" content="{{tag}}" />
+  {% endfor %}
+{% endblock %}
+
+{% block subtitle %} &middot; {{ article.title }}{% endblock %}
+
+{% block content %}
+<section id="content" class="body">
+  <header>
+    <h2 class="entry-title">
+      <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark"
+         title="Permalink to {{ article.title|striptags }}">{{ article.title }}
+      </a>
+    </h2>
+ {% import 'translations.html' as translations with context %}
+ {{ translations.translations_for(article) }}
+  </header>
+
+  <footer class="post-info">
+    <time class="published" datetime="{{ article.date.isoformat() }}">
+      <i class="fa fa-calendar"></i> {{ article.locale_date }}
+    </time>
+    {% if article.authors %}
+    <address class="vcard author">
+      By
+      {% for author in article.authors %}
+        <a class="url fn" href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>
+      {% endfor %}
+    </address>
+    {% endif %}
+  </footer><!-- /.post-info -->
+
+  <div class="entry-content">
+    {% include 'article_media.html' %}
+    {{ article.content }}
+  </div><!-- /.entry-content -->
+
+  {% include 'article_details.html' %}
+
+  {% if article.data_path %}
+    <a href="https://github.com/pyvideo/data/blob/master/{{ article.data_path }}">
+      <i class="fa fa-pencil-square-o"></i> Improve this page
+    </a>
+  {% endif %}
+
+</section>
+{% endblock %}
+

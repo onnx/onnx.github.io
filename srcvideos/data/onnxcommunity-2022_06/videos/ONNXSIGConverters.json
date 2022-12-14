@@ -1,0 +1,22 @@
+{
+    "copyright_text": "Needs to be clarifed",
+    "description": "",
+    "duration": "",
+    "language": "eng",
+    "recorded": "2022-06-24",
+    "related_urls": "",
+    "speakers": [
+        "Kevin Chen (NVIDIA)"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/rervhzv8C1c?t=873/hqdefault.jpg",
+    "title": "ONNX SIG: Converters",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://youtu.be/rervhzv8C1c?t=873"
+        }
+    ],
+    "tags": [
+        "converters"
+    ]
+}

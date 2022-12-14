@@ -1,0 +1,21 @@
+{
+  "copyright_text": "Creative Commons CC0 1.0 Universal Public Domain Dedication",
+  "description": "NaN",
+  "duration": 1547,
+  "language": "eng",
+  "recorded": "2022-06-24",
+  "related_urls": [
+    "https://wiki.lfaidata.foundation/download/attachments/61964495/20_Huawei.pdf?version=1&modificationDate=1657155796000&api=v2"
+  ],
+  "speakers": [
+    "Pranav Marathe"
+  ],
+  "thumbnail_url": "https://i.ytimg.com/vi/TPrmyAZZPi0/hqdefault.jpg",
+  "title": "ONNX Tools: Polygraphy and ONNX-GraphSurgeon",
+  "videos": [
+    {
+      "type": "youtube",
+      "url": "https://wiki.lfaidata.foundation/download/attachments/61964495/16video_NVIDIA_GraphSurgeon.mp4?version=1&modificationDate=1657155757000&api=v2"
+    }
+  ]
+}

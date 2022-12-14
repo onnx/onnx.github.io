@@ -1,0 +1,22 @@
+{
+    "copyright_text": "Needs to be clarifed",
+    "description": "AI is revolutionising many fields from healthcare to biometrics these recent years. However due to security and privacy concerns, data is still being siloed and not shared enough due to the fear of data exposure and IP leakage. Confidential Computing is a recent technology that enables end-to-end encryption when analysing sensitive data. By leveraging Confidential Computing, data owners can share their data to AI companies, for instance to train or consume an AI model, without ever risking their data being stolen, leaked or used for any other purpose, as data remains protected even when shared to third parties. This talk aims to introduce the high level principles of Confidential Computing and how it can be used to deploy privacy friendly AI models. We will present BlindAI, an AI deployment solution, serving ONNX models with privacy guarantees, and see how it can be used to unlock confidential medical document analysis in the Cloud, or facial recognition with privacy guarantees. ",
+    "duration": "",
+    "language": "eng",
+    "recorded": "2022-06-24",
+    "related_urls": "",
+    "speakers": [
+        "Daniel Huynh (Mithril Security)"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/OXrSvTG9310/hqdefault.jpg",
+    "title": "How to reconcile AI and privacy",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://youtu.be/OXrSvTG9310"
+        }
+    ],
+    "tags": [
+        "privacy"
+    ]
+}

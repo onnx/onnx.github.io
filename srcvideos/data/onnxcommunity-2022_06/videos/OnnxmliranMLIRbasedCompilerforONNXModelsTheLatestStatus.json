@@ -1,0 +1,22 @@
+{
+    "copyright_text": "Needs to be clarifed",
+    "description": "Onnx-mlir is an open source compiler implemented using the Multi-Level Intermediate Representation (MLIR) infrastructure recently integrated in the LLVM project. It compiles ONNX models into native code for CPUs as well as specialized accelerators. It is able to compile models for many platforms including x86 (Linux/Windows/macOS), Power (Linux) and z/Architecture (Linux and z/OS). Onnx-mlir is a subproject inside the ONNX ecosystem and has attracted many contributions from IBM, Microsoft, Facebook, Arm and Universities since its incubation in 2019. In this talk, we will show the latest status of the project by providing the project overview as well as the latest features. ",
+    "duration": "",
+    "language": "eng",
+    "recorded": "2022-06-24",
+    "related_urls": "",
+    "speakers": [
+        "Tung D. Le (IBM)"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/V70XXsPVrzg/hqdefault.jpg",
+    "title": "Onnx-mlir: an MLIR-based Compiler for ONNX Models - The Latest Status",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://youtu.be/V70XXsPVrzg"
+        }
+    ],
+    "tags": [
+        "mlir"
+    ]
+}
