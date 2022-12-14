@@ -1,6 +1,0 @@
-docutils
-jinja2
-jsonschema
-six
-unidecode
-pygments
