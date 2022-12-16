@@ -5,7 +5,7 @@ import json
 import os
 
 AUTHOR = 'Unknown'
-SITENAME = 'http://andife.github.io/onnx.github.io/docs'
+SITENAME = 'http://andife.github.io/onnx.github.io/videos/'
 TEMPLATE_PAGES = {
     'languages.html': 'languages.html',
 }
