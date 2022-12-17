@@ -1,0 +1,26 @@
+{
+    "copyright_text": "Needs to be clarifed",
+    "description": "",
+    "duration": "",
+    "language": "eng",
+    "recorded": "2021-10-24",
+    "related_urls": "",
+    "speakers": [
+        "Prasanth Pulavarthi (Microsoft)",
+        "Alexandre Eichenberger (IBM)",
+        "Wenming Ye (Amazon)",
+        "Rajeev Nalawadi (Intel)"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/HRW77NfwAUM/hqdefault.jpg",
+    "title": "SteeringCommitteeUpdates: ONNX Steering Committee Welcome, Progress, Roadmap, Release",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://youtu.be/HRW77NfwAUM"
+        }
+    ],
+    "tags": [
+        "Steering Committee",
+        "Roadmap"
+    ]
+}

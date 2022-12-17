@@ -1,0 +1,23 @@
+{
+    "copyright_text": "Needs to be clarifed",
+    "description": "",
+    "duration": "",
+    "language": "eng",
+    "recorded": "2021-03-10",
+    "related_urls": "",
+    "speakers": [
+        "Wenbing Li (Microsoft)"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/HEvpM323fEg&list=PLNqLlwTfo3216JwYg7oVExSULuFxf8Dl8&index=19/hqdefault.jpg",
+    "title": "Model Zoo/Tutorials SIG Update",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=HEvpM323fEg&list=PLNqLlwTfo3216JwYg7oVExSULuFxf8Dl8&index=19"
+        }
+    ],
+    "tags": [
+        "zoo",
+        "tutorials"
+    ]
+}

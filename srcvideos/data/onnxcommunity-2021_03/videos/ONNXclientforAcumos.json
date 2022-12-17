@@ -1,0 +1,22 @@
+{
+    "copyright_text": "Needs to be clarifed",
+    "description": "",
+    "duration": "",
+    "language": "eng",
+    "recorded": "2021-03-10",
+    "related_urls": "",
+    "speakers": [
+        "Philippe Dooze (Orange-France)"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/8BEmINNOw6g&list=PLNqLlwTfo3216JwYg7oVExSULuFxf8Dl8&index=6/hqdefault.jpg",
+    "title": "ONNX client for Acumos",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://www.youtube.com/watch?v=8BEmINNOw6g&list=PLNqLlwTfo3216JwYg7oVExSULuFxf8Dl8&index=6"
+        }
+    ],
+    "tags": [
+        "client"
+    ]
+}

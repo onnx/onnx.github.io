@@ -1,0 +1,22 @@
+{
+    "copyright_text": "Needs to be clarifed",
+    "description": "",
+    "duration": "",
+    "language": "eng",
+    "recorded": "2021-10-24",
+    "related_urls": "",
+    "speakers": [
+        "Ashwini Khade (Microsoft)"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/PpFveWQAhWM/hqdefault.jpg",
+    "title": "Architecture/Infrastructure SIG Update",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://youtu.be/PpFveWQAhWM"
+        }
+    ],
+    "tags": [
+        "sig"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "copyright_text": "Needs to be clarifed",
+    "description": "Both data processing platforms and deep learning frameworks are evolving in their own fields. Usually, Spark is used for offline data processing, and then various deep learning frameworks are used for data inference. A simplified API for DL Inferencing is very important as a bridge. What does an ideal data and deep learning inference pipeline look like? We'll discuss how to build your AI application using Spark and ONNX, the current status and initial idea of Spark community to improve this pipeline, and also make full use of the capabilities of Ascend Hardware Platform. This topic help you know the latest progress of Ascend Hardware Platform integration in ONNX, as well as the initial idea of the inference pipeline improvement in the Spark community. ",
+    "duration": "",
+    "language": "eng",
+    "recorded": "2022-06-24",
+    "related_urls": "",
+    "speakers": [
+        "Xiyuan Wang (Huawei)",
+        "Yikun Jiang (Huawei)",
+        "Zhipeng Huang (Huawei) "
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/khM13V4oiKE/hqdefault.jpg",
+    "title": "Bring the power of ONNX to Spark as it never happened before",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://youtu.be/khM13V4oiKE"
+        }
+    ],
+    "tags": [
+        "spark"
+    ]
+}

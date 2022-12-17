@@ -1,0 +1,40 @@
+<div class="details-content">
+  <h3>Details</h3>
+  <ul>
+      <li>
+        Event:
+        <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>
+      </li>
+      {% if article.language %}
+        <li>Language: {{ article.language|language_name }}</li>
+      {% endif %}
+      {% if article.videos %}
+        <li>
+            Media URL: {% for video in article.videos -%}
+                {% if not loop.first %}, {% endif %}<a href="{{ video.source_url }}" rel="external">{{ video.label }}</a>
+            {%- endfor %}
+        </li>
+      {% endif %}
+      {% if article.tags %}
+        <li>
+          Tags:
+          {% for tag in article.tags -%}
+            {% if not loop.first %}, {% endif %}<a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>
+          {%- endfor %}
+        </li>
+      {% endif %}
+      {% if article.related_urls %}
+        <li>
+          Related URLs:
+          <ul class="related-urls">
+            {% for url in article.related_urls -%}
+                <li><a href="{{ url.url }}">
+                    {% if url.label -%}{{ url.label }}{% else %}{{ url.url|truncate(100) }}{%- endif %}
+                </a></li>
+            {%- endfor %}
+          </ul>
+        </li>
+      {% endif %}
+
+  </ul>
+</div>
