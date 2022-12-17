@@ -42,7 +42,7 @@ jobs:
           python -m pip install -r srcvideos/requirements.txt
       - name: Build Docs
         run: |
-          cd videos
+          cd srcvideos
           make html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
