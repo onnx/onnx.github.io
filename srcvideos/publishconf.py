@@ -10,7 +10,7 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'https://andife.github.io/onnx.github.io/'
+SITEURL = 'https://andife.github.io/onnx.github.io/videos/'
 RELATIVE_URLS = False
 
 DELETE_OUTPUT_DIRECTORY = True
