@@ -13,6 +13,6 @@ find . -type f -name "*.html" -exec sed -i 's+<a href="/pytorch-devcon-2019/+<a 
 
 find . -type f -name "*.html" -exec sed -i 's+<a href="/tvmcon-2021/+<a href="https://andife.github.io/onnx.github.io/videos/tvmcon-2021/+g' {} +
 
-find . -type f -name "*.html" -exec sed -i 's+<a href="/speaker/+<a href="https://andife.github.io/onnx.github.io/videos/speaker/+g' {} +
+find . -type f -name "*.html" -exec sed -i 's+href="/speaker/+href="https://andife.github.io/onnx.github.io/videos/speaker/+g' {} +
 
 find . -type f -name "*.html" -exec sed -i 's+href="/events/+href="https://andife.github.io/onnx.github.io/videos/events/+g' {} +
