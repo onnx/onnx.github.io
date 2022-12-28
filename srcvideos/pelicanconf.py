@@ -69,8 +69,8 @@ DELETE_OUTPUT_DIRECTORY = True
 
 THEME = 'themes/onnx-202207/'
 
-GITHUB_URL = 'https://github.com/onnx/onnx.github.io/videos'
-CONTRIBUTE_URL = 'https://github.com/onnx/onnx.github.io/videos/contribute'
+GITHUB_URL = 'https://github.com/andife/onnx.github.io/srcvideos'
+CONTRIBUTE_URL = 'https://github.com/andife/onnx.github.io/srcvideos/contribute'
 #API_URL = 'https://api.pyvideo.org'
 
 STATIC_PATHS = [
