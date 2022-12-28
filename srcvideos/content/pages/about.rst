@@ -33,14 +33,13 @@ How?
 ----
 
 onnx.ai/videos is volunteer driven. If you are looking to volunteer, please check
-connect the our `volunteering page`_
+connect the our i
 
 
-`Looking to contribute media?`_
 
 Who?
 ----
 
-onnx.ai/media is maintained by volunteers listed in the `CONTRIBUTORS`_ file.
-Questions or concerns regarding the site can be addressed to
+onnx.ai/videos is maintained by volunteers.
+Questions or concerns regarding the site can be addressed to the steering committee.
 
