@@ -15,4 +15,4 @@ find . -type f -name "*.html" -exec sed -i 's+<a href="/tvmcon-2021/+<a href="ht
 
 find . -type f -name "*.html" -exec sed -i 's+<a href="/speaker/+<a href="https://andife.github.io/onnx.github.io/videos/speaker/+g' {} +
 
-find . -type f -name "*.html" -exec sed -i 's+<a href="/events/+<a href="https://andife.github.io/onnx.github.io/videos/events/+g' {} +
+find . -type f -name "*.html" -exec sed -i 's+href="/events/+href="https://andife.github.io/onnx.github.io/videos/events/+g' {} +
