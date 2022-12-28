@@ -16,3 +16,11 @@ find . -type f -name "*.html" -exec sed -i 's+<a href="/tvmcon-2021/+<a href="ht
 find . -type f -name "*.html" -exec sed -i 's+href="/speaker/+href="https://andife.github.io/onnx.github.io/videos/speaker/+g' {} +
 
 find . -type f -name "*.html" -exec sed -i 's+href="/events/+href="https://andife.github.io/onnx.github.io/videos/events/+g' {} +
+
+find . -type f -name "*.html" -exec sed -i 's+href="/speakers.html+href="https://andife.github.io/onnx.github.io/videos/speakers.html+g' {} +
+
+find . -type f -name "*.html" -exec sed -i 's+href="/languages.html+href="https://andife.github.io/onnx.github.io/videos/languages.html+g' {} +
+
+find . -type f -name "*.html" -exec sed -i 's+href="/tags.html+href="https://andife.github.io/onnx.github.io/videos/tags.html+g' {} +
+
+find . -type f -name "*.html" -exec sed -i 's+href="/events.html+href="https://andife.github.io/onnx.github.io/videos/events.html+g' {} +
