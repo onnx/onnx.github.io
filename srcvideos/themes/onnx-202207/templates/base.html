@@ -64,7 +64,7 @@
         {% for p in pages %}
           <li role="presentation"
               {% if p == page %} class="active"{% endif %}
-              {% if p.slug in ("thanks-will-and-sheila", "thank-you-contributors") %}style="display: none;"{% endif %}>
+              {% if p.slug in ("thank-you-contributors") %}style="display: none;"{% endif %}>
             <a href="{{ SITEURL }}/{{ p.url }}"><i class="fa fa-fw fa-info"></i> <span>{{ p.title }}</span></a>
           </li>
         {% endfor %}
@@ -72,7 +72,7 @@
     </div></nav>
     <div class="container">
       <h3 class="text-muted header__title">
-      <a href="{{ SITEURL }}/"><img src="/theme/images/centrallogo.png" alt="" style="height:50px"> <span><i>Onnx</i>Video</span> <strong>{{ SITESUBTITLE }}</strong></a>
+      <a href="{{ SITEURL }}/"><span><i>Onnx</i>Video</span> <strong>{{ SITESUBTITLE }}</strong></a>
       </h3>
       <!-- <div class="header__searchbox">
         <form method="GET" action="/search.html">
