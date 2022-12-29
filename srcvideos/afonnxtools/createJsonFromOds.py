@@ -9,6 +9,8 @@ import os
 import re
 import shutil
 
+# odfpy
+# pandas
 
 def create_json_files(outputpath, df, templatefile):
 
@@ -21,9 +23,9 @@ def create_json_files(outputpath, df, templatefile):
     outputdir = outputpath
     #pathlib.Path.mkdir(outputdir, mode=0o777, parents=False, exist_ok=True)
 
-    # print(datetimestr)
+    print('-----')
     for index, row in df.iterrows():
-
+        print('####################################')
         if (row['folder'] == 'onnxcommunity-2022_06'):
             recorded_val = "2022-06-24"
         
@@ -109,9 +111,6 @@ def create_json_files(outputpath, df, templatefile):
             json.dump(data, f, ensure_ascii=False, indent=4)
 
 
-# In[3]:
-
-
 def extractyoutube(text):
     print(text)
     if "youtu.be" in text:
@@ -146,13 +145,17 @@ if __name__ == "__main__":
 
     # This is available natively in pandas 0.25. So long as you have odfpy installed (conda install odfpy OR pip install odfpy) you can do
 
-    df = pd.read_excel(
-        "/home/andi/Andreas/onnxvideosrc/communityall2.ods", engine="odf"
-    )
+    df = pd.read_excel("communityall3.ods", engine="odf")
+    print('lendf: ' + str(len(df)))
+
+    #df = pd.read_excel(
+    #    "/home/andi/Andreas/onnxvideosrc/communityall2.ods", engine="odf"
+    #)
 
     print(df)
 
-    templatefile = r"/home/andi/Andreas/onnxvideosrc/template.json"
+    #templatefile = r"/home/andi/Andreas/onnxvideosrc/template.json"
+    templatefile = r"template.json"
 
     # if pathlib.Path(
     #     "/home/andi/Andreas/dev/onnxvideo_base/data/onnxcommunity-2021_03/videos"
@@ -175,6 +178,6 @@ if __name__ == "__main__":
     #         "/home/andi/Andreas/dev/onnxvideo_base/output/onnxcommunity-2022_06/videos"
     #     )
 
-    outputdir = r"/home/andi/Andreas/dev/onnxvid2/data"
+    outputdir = r"/home/unix/Andreas/dev/onnxvid2/data"
 
     run_create(df, templatefile, outputdir)
