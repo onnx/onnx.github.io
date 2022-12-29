@@ -8,12 +8,12 @@
     "speakers": [
         "Rohit Sharma (AITechSystems-USA_CA)"
     ],
-    "thumbnail_url": "https://i.ytimg.com/vi/cT87n24PGKQ&list=PLNqLlwTfo3216JwYg7oVExSULuFxf8Dl8&index=8/hqdefault.jpg",
+    "thumbnail_url": "https://i.ytimg.com/vi/cT87n24PGKQ/hqdefault.jpg",
     "title": "ONNX on microcontrollers",
     "videos": [
         {
             "type": "youtube",
-            "url": "https://www.youtube.com/watch?v=cT87n24PGKQ&list=PLNqLlwTfo3216JwYg7oVExSULuFxf8Dl8&index=8"
+            "url": "http://youtu.be/cT87n24PGKQ"
         }
     ],
     "tags": [

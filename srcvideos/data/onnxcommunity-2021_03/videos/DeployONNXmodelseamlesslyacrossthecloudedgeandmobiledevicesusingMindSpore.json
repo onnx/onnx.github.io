@@ -8,12 +8,12 @@
     "speakers": [
         "Leon Wang (Huawei-China)"
     ],
-    "thumbnail_url": "https://i.ytimg.com/vi/374hZaik6_k&list=PLNqLlwTfo3216JwYg7oVExSULuFxf8Dl8&index=5/hqdefault.jpg",
+    "thumbnail_url": "https://i.ytimg.com/vi/374hZaik6_k/hqdefault.jpg",
     "title": "Deploy ONNX model seamlessly across the cloud, edge, and mobile devices using MindSpore",
     "videos": [
         {
             "type": "youtube",
-            "url": "https://www.youtube.com/watch?v=374hZaik6_k&list=PLNqLlwTfo3216JwYg7oVExSULuFxf8Dl8&index=5"
+            "url": "http://youtu.be/374hZaik6_k"
         }
     ],
     "tags": [

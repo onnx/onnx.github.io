@@ -8,12 +8,12 @@
     "speakers": [
         "Philippe Dooze (Orange-France)"
     ],
-    "thumbnail_url": "https://i.ytimg.com/vi/8BEmINNOw6g&list=PLNqLlwTfo3216JwYg7oVExSULuFxf8Dl8&index=6/hqdefault.jpg",
+    "thumbnail_url": "https://i.ytimg.com/vi/8BEmINNOw6g/hqdefault.jpg",
     "title": "ONNX client for Acumos",
     "videos": [
         {
             "type": "youtube",
-            "url": "https://www.youtube.com/watch?v=8BEmINNOw6g&list=PLNqLlwTfo3216JwYg7oVExSULuFxf8Dl8&index=6"
+            "url": "http://youtu.be/8BEmINNOw6g"
         }
     ],
     "tags": [

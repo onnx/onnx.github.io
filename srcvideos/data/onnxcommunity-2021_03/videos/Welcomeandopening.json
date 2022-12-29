@@ -8,12 +8,12 @@
     "speakers": [
         "Ti Zhou (Baidu)"
     ],
-    "thumbnail_url": "https://i.ytimg.com/vi/ta9sBtL-4LQ&list=PLNqLlwTfo3216JwYg7oVExSULuFxf8Dl8&index=14/hqdefault.jpg",
+    "thumbnail_url": "https://i.ytimg.com/vi/ta9sBtL-4LQ/hqdefault.jpg",
     "title": "Welcome and opening",
     "videos": [
         {
             "type": "youtube",
-            "url": "https://www.youtube.com/watch?v=ta9sBtL-4LQ&list=PLNqLlwTfo3216JwYg7oVExSULuFxf8Dl8&index=14"
+            "url": "http://youtu.be/ta9sBtL-4LQ"
         }
     ],
     "tags": [

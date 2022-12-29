@@ -8,12 +8,12 @@
     "speakers": [
         "Mina Amiri (Zetane)"
     ],
-    "thumbnail_url": "https://i.ytimg.com/vi/K4hjaVjiw3I&list=PLNqLlwTfo3216JwYg7oVExSULuFxf8Dl8&index=17/hqdefault.jpg",
+    "thumbnail_url": "https://i.ytimg.com/vi/K4hjaVjiw3I/hqdefault.jpg",
     "title": "Visualizing ONNX models' internal data: Key thing to look for?",
     "videos": [
         {
             "type": "youtube",
-            "url": "https://www.youtube.com/watch?v=K4hjaVjiw3I&list=PLNqLlwTfo3216JwYg7oVExSULuFxf8Dl8&index=17"
+            "url": "http://youtu.be/K4hjaVjiw3I"
         }
     ],
     "tags": [

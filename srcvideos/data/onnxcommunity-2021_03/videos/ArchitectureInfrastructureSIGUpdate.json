@@ -8,12 +8,12 @@
     "speakers": [
         "Jacky Chen (Microsoft)"
     ],
-    "thumbnail_url": "https://i.ytimg.com/vi/rRIdWVe_5J8&list=PLNqLlwTfo3216JwYg7oVExSULuFxf8Dl8&index=2/hqdefault.jpg",
+    "thumbnail_url": "https://i.ytimg.com/vi/rRIdWVe_5J8/hqdefault.jpg",
     "title": "Architecture/Infrastructure SIG Update",
     "videos": [
         {
             "type": "youtube",
-            "url": "https://www.youtube.com/watch?v=rRIdWVe_5J8&list=PLNqLlwTfo3216JwYg7oVExSULuFxf8Dl8&index=2"
+            "url": "http://youtu.be/rRIdWVe_5J8"
         }
     ],
     "tags": [

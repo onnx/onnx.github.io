@@ -8,12 +8,12 @@
     "speakers": [
         "Peng Wang (Microsoft China)"
     ],
-    "thumbnail_url": "https://i.ytimg.com/vi/-wHzQHJLB7w&list=PLNqLlwTfo3216JwYg7oVExSULuFxf8Dl8&index=4/hqdefault.jpg",
+    "thumbnail_url": "https://i.ytimg.com/vi/-wHzQHJLB7w/hqdefault.jpg",
     "title": "ONNX Runtime Training",
     "videos": [
         {
             "type": "youtube",
-            "url": "https://www.youtube.com/watch?v=-wHzQHJLB7w&list=PLNqLlwTfo3216JwYg7oVExSULuFxf8Dl8&index=4"
+            "url": "http://youtu.be/-wHzQHJLB7w"
         }
     ],
     "tags": [

@@ -9,12 +9,12 @@
         "Haihao Shen (Intel - China)",
         "Saurabh Tangri (Intel)"
     ],
-    "thumbnail_url": "https://i.ytimg.com/vi/bOyPzPRfffU&list=PLNqLlwTfo3216JwYg7oVExSULuFxf8Dl8&index=3/hqdefault.jpg",
+    "thumbnail_url": "https://i.ytimg.com/vi/bOyPzPRfffU/hqdefault.jpg",
     "title": "Quantization support for ONNX using Intel Neural Compressor (formerly named Intel Low Precision Optimization Tool)",
     "videos": [
         {
             "type": "youtube",
-            "url": "https://www.youtube.com/watch?v=bOyPzPRfffU&list=PLNqLlwTfo3216JwYg7oVExSULuFxf8Dl8&index=3"
+            "url": "http://youtu.be/bOyPzPRfffU"
         }
     ],
     "tags": [
