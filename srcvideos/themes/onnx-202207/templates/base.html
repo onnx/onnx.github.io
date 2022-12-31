@@ -83,6 +83,13 @@
       </div> -->
     </div>
   </header>
+  
+      <!-- Partial footer.html Start-->
+    <div w3-include-html="../partials/footer.html"></div>
+    <!-- Partial footer.html End-->
+
+    <a id="back-to-top" href="JavaScript:void(0);" class="btn btn-lg back-to-top" role="button" aria-label="Back to top"><span class="fa fa-angle-up"></span></a>
+  
   <div class="container">
 
     {% block content %}
@@ -101,7 +108,44 @@
       <script src="https://andife.github.io/onnx.github.io/videos/theme/js/thumb.js"></script>
       <script src="https://andife.github.io/onnx.github.io/videos/theme/js/language.js"></script>
       <script src="https://andife.github.io/onnx.github.io/js/custom.js"></script>
-      {% include 'analytics.html' %}
+      <script>
+        $(document).ready(function() {
+            $.get("https://onnx.ai/js/news.json", function(data, status) {
+                var newsData = '';
+                $.each(data["newsContent"], function(index, value) {
+                   if(index<3){
+                    newsData += '<div class="col-12 col-md-4 mb-4 mb-md-0">';
+                    newsData += '<div class="col-news py-4 px-4 py-lg-5 px-lg-5">';
+                    newsData += '<h3 class="subheading-3">' + value.newsTitle + '</h3>';
+                    var len = value.newsDescription.length;
+                    var str = value.newsDescription.substr(0,110);
+                    var lastIndexOf = str.lastIndexOf(" ");
+                    if(len>110) {
+                        newsData += '<p class="text-break">' + str.substr(0, lastIndexOf) + '…' + '</p>';
+                    }else{
+                        newsData += '<p class="text-break">' + value.newsDescription + '</p>';
+                    }
+                    newsData += '<a aria-label="Learn more about ' + value.newsShortTitle +'" class="link" href="./news.html#' + value.newsId + '"><span class="link-content">LEARN MORE</span><span class="link-arrow fa fa-angle-right"></span></a>';
+                    newsData += '</div>';
+                    newsData += '</div>';
+                }
+                });
+                $('#homeNewsWrapper').append(newsData);
+            });
+
+        });
+
+        $(function(){
+            $(".news-text").each(function () {
+                var len=$(this).text().length;
+                var str= $(this).text().substr(0,80);
+                var lastIndexOf = str.lastIndexOf(" ");
+                if(len>80) {
+                    $(this).text(str.substr(0, lastIndexOf) + '…');
+                }
+            });
+        });
+    </script>
       {% block extrajs %}{% endblock extrajs %}
     {% endblock endbodyjs %}
   </div>
