@@ -1,6 +1,16 @@
 {
     "newsContent": [
         {
+            "id": "69",
+            "newsId": "new69",
+            "newsTitle": "ONNX v1.13.0 Released",
+            "newsShortTitle": "ONNX v1.13.0 Released",
+            "newsDescription": "ONNX v1.13.0 is now available with exciting new features and updates! This release includes operator and function updates, reference Python runtime, M1/M2 ARM support, bug fixes, documentation changes and more.",
+            "newsLinkText": "READ MORE",
+            "newsLinkURL": "https://github.com/onnx/onnx/releases/tag/v1.13.0",
+            "newsDate": "December 12, 2022"
+        },
+        {
             "id": "68",
             "newsId": "new68",
             "newsTitle": "Contributing to the 2023 ONNX Roadmap",
