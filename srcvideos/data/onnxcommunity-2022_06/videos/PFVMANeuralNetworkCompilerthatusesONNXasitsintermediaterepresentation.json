@@ -4,7 +4,12 @@
     "duration": "",
     "language": "eng",
     "recorded": "2022-06-24",
-    "related_urls": "",
+    "related_urls": [
+        {
+            "label": "Presentation (PDF)",
+            "url": "https://wiki.lfaidata.foundation/download/attachments/61964495/19_PreferredNetworks.pdf?version=1&modificationDate=1657155786000&api=v2"
+        }
+    ],
     "speakers": [
         "Zijian Xu (Preferred Networks)"
     ],
@@ -14,9 +19,14 @@
         {
             "type": "youtube",
             "url": "https://youtu.be/Gr3o2WQmNDY"
+        },
+        {
+            "type": "confluence",
+            "url": "https://wiki.lfaidata.foundation/download/attachments/61964495/preferrednetworks-updated_1.mp4?version=1&modificationDate=1657654246000&api=v2"
         }
     ],
     "tags": [
+        "Onnxcommunityday-2022_06",
         "pfvm"
     ]
 }

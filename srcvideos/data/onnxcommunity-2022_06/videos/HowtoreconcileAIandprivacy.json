@@ -4,7 +4,12 @@
     "duration": "",
     "language": "eng",
     "recorded": "2022-06-24",
-    "related_urls": "",
+    "related_urls": [
+        {
+            "label": "Presentation (PDF)",
+            "url": "https://wiki.lfaidata.foundation/download/attachments/61964495/04_MithrilSecurity.pdf?version=1&modificationDate=1657155109000&api=v2"
+        }
+    ],
     "speakers": [
         "Daniel Huynh (Mithril Security)"
     ],
@@ -14,9 +19,14 @@
         {
             "type": "youtube",
             "url": "https://youtu.be/OXrSvTG9310"
+        },
+        {
+            "type": "confluence",
+            "url": "https://wiki.lfaidata.foundation/download/attachments/61964495/mithrilsecurity-updated.mp4?version=1&modificationDate=1657640911000&api=v2"
         }
     ],
     "tags": [
+        "Onnxcommunityday-2022_06",
         "privacy"
     ]
 }

@@ -4,7 +4,12 @@
     "duration": "",
     "language": "eng",
     "recorded": "2022-06-24",
-    "related_urls": "",
+    "related_urls": [
+        {
+            "label": "Presentation (PDF)",
+            "url": "https://wiki.lfaidata.foundation/download/attachments/61964495/03_AMD.pdf?version=1&modificationDate=1657155097000&api=v2"
+        }
+    ],
     "speakers": [
         "Alessandro Pappalardo (AMD)"
     ],
@@ -14,9 +19,14 @@
         {
             "type": "youtube",
             "url": "https://youtu.be/b0ik9tDMJlg"
+        },
+        {
+            "type": "confluence",
+            "url": "https://wiki.lfaidata.foundation/download/attachments/61964495/amd-updated.mp4?version=1&modificationDate=1657637684000&api=v2"
         }
     ],
     "tags": [
+        "Onnxcommunityday-2022_06,",
         "qonnx"
     ]
 }

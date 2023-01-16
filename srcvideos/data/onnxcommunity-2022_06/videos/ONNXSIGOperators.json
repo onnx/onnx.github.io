@@ -4,7 +4,12 @@
     "duration": "",
     "language": "eng",
     "recorded": "2022-06-24",
-    "related_urls": "",
+    "related_urls": [
+        {
+            "label": "Presentation (PDF)",
+            "url": "https://wiki.lfaidata.foundation/download/attachments/61964495/03_Operators.pdf?version=1&modificationDate=1657154297000&api=v2"
+        }
+    ],
     "speakers": [
         "Ganesan Ramalingam (Microsoft)"
     ],
@@ -14,9 +19,14 @@
         {
             "type": "youtube",
             "url": "https://youtu.be/rervhzv8C1c?t=317"
+        },
+        {
+            "type": "confluence",
+            "url": "https://wiki.lfaidata.foundation/download/attachments/61964495/sig-wg-updated-ops.mp4?version=1&modificationDate=1657639479000&api=v2"
         }
     ],
     "tags": [
+        "Onnxcommunityday-2022_06",
         "Operators"
     ]
 }

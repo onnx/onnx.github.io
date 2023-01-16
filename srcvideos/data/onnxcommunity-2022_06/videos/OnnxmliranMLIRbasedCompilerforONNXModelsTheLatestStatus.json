@@ -4,7 +4,12 @@
     "duration": "",
     "language": "eng",
     "recorded": "2022-06-24",
-    "related_urls": "",
+    "related_urls": [
+        {
+            "label": "Presentation (PDF)",
+            "url": "https://wiki.lfaidata.foundation/download/attachments/61964495/18_IBM.pdf?version=1&modificationDate=1657155776000&api=v2"
+        }
+    ],
     "speakers": [
         "Tung D. Le (IBM)"
     ],
@@ -14,9 +19,14 @@
         {
             "type": "youtube",
             "url": "https://youtu.be/V70XXsPVrzg"
+        },
+        {
+            "type": "confluence",
+            "url": "https://wiki.lfaidata.foundation/download/attachments/61964495/ibm-updated.mp4?version=1&modificationDate=1657653347000&api=v2"
         }
     ],
     "tags": [
+        "Onnxcommunityday-2022_06",
         "mlir"
     ]
 }

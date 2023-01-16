@@ -4,7 +4,12 @@
     "duration": "",
     "language": "eng",
     "recorded": "2022-06-24",
-    "related_urls": "",
+    "related_urls": [
+        {
+            "label": "Presentation (PDF)",
+            "url": "https://wiki.lfaidata.foundation/download/attachments/61964495/11_Microsoft_PyTorchConverter.pdf?version=1&modificationDate=1657155333000&api=v2"
+        }
+    ],
     "speakers": [
         "Bowen Bao (Microsoft)"
     ],
@@ -14,9 +19,14 @@
         {
             "type": "youtube",
             "url": "https://youtu.be/R2mUT_s0PbE"
+        },
+        {
+            "type": "confluence",
+            "url": "https://wiki.lfaidata.foundation/download/attachments/61964495/microsoftbowen-updated.mp4?version=1&modificationDate=1657639709000&api=v2"
         }
     ],
     "tags": [
+        "Onnxcommunityday-2022_06",
         "pytorch",
         "converter"
     ]

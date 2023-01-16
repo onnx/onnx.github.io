@@ -59,7 +59,16 @@ def create_json_files(outputpath, df, templatefile):
         else:
             data.update({"description": row["Description"]})
         data.update({"duration": ""})
-        data.update({"related_urls": ""})
+
+        print(type(row["related_urls"]))
+        print(row["related_urls"])
+        if pd.isna(row["related_urls"]):
+            data.update({"related_urls": ""})
+        else:
+            print(row["related_urls"])
+            currrelated2 = json.loads('{' +row["related_urls"] + '}' )
+            data.update({'related_urls': [currrelated2]})
+        
         data.update({"copyright_text": "Needs to be clarifed"})
         data.update({"recorded": recorded_val})
         #print(row["recorded"])
@@ -70,7 +79,8 @@ def create_json_files(outputpath, df, templatefile):
 
         data.get("videos")[0].update({"url": row["Video_Url"]})
 
-        # print('videourl: ' + row['videos'])
+        if (row["Video_Url2"] != "NaN"):
+            data.get("videos").append({'type': 'confluence', 'url': row["Video_Url2"]})
 
         titlestr = row["Title"]
         # print(titlestr)
@@ -145,7 +155,7 @@ if __name__ == "__main__":
 
     # This is available natively in pandas 0.25. So long as you have odfpy installed (conda install odfpy OR pip install odfpy) you can do
 
-    df = pd.read_excel("communityall3.ods", engine="odf")
+    df = pd.read_excel("communityall4.ods", engine="odf")
     print('lendf: ' + str(len(df)))
 
     #df = pd.read_excel(
@@ -178,6 +188,6 @@ if __name__ == "__main__":
     #         "/home/andi/Andreas/dev/onnxvideo_base/output/onnxcommunity-2022_06/videos"
     #     )
 
-    outputdir = r"/home/unix/Andreas/dev/onnxvid2/data"
+    outputdir = r"onnxvid2data"
 
     run_create(df, templatefile, outputdir)

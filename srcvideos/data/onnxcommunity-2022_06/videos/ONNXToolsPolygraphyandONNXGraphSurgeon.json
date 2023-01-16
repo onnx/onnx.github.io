@@ -4,7 +4,12 @@
     "duration": "",
     "language": "eng",
     "recorded": "2022-06-24",
-    "related_urls": "",
+    "related_urls": [
+        {
+            "label": "Presentation (PDF)",
+            "url": "https://wiki.lfaidata.foundation/download/attachments/61964495/16_NVIDIA_GraphSurgeon.pdf?version=1&modificationDate=1657155746000&api=v2"
+        }
+    ],
     "speakers": [
         "Pranav Marathe (NVIDIA)"
     ],
@@ -14,9 +19,14 @@
         {
             "type": "youtube",
             "url": "https://youtu.be/OGMan5SQzhM"
+        },
+        {
+            "type": "confluence",
+            "url": "https://wiki.lfaidata.foundation/download/attachments/61964495/16video_NVIDIA_GraphSurgeon.mp4?version=1&modificationDate=1657155757000&api=v2"
         }
     ],
     "tags": [
+        "Onnxcommunityday-2022_06",
         "onnx",
         "tools",
         "graphsurgeon"

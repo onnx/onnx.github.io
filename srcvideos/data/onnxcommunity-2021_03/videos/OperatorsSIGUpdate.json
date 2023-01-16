@@ -7,7 +7,7 @@
     "related_urls": "",
     "speakers": [
         "Michał Karzyński (Intel)",
-        "G. Ramalingam (Microsoft)"
+        "Ganesan Ramalingam (Microsoft)"
     ],
     "thumbnail_url": "https://i.ytimg.com/vi/OS1hWTD9TJ8/hqdefault.jpg",
     "title": "Operators SIG Update",
@@ -15,6 +15,10 @@
         {
             "type": "youtube",
             "url": "http://youtu.be/OS1hWTD9TJ8"
+        },
+        {
+            "type": "confluence",
+            "url": NaN
         }
     ],
     "tags": [

@@ -4,7 +4,12 @@
     "duration": "",
     "language": "eng",
     "recorded": "2022-06-24",
-    "related_urls": "",
+    "related_urls": [
+        {
+            "label": "Presentation (PDF)",
+            "url": "https://wiki.lfaidata.foundation/download/attachments/61964495/17_Qualcomm.pdf?version=1&modificationDate=1657155763000&api=v2"
+        }
+    ],
     "speakers": [
         "Felix Baum (Qualcomm)"
     ],
@@ -14,9 +19,14 @@
         {
             "type": "youtube",
             "url": "https://youtu.be/bcnaShCscoM"
+        },
+        {
+            "type": "confluence",
+            "url": "https://wiki.lfaidata.foundation/download/attachments/61964495/qualcomm-updated_2.mp4?version=1&modificationDate=1657653030000&api=v2"
         }
     ],
     "tags": [
+        "Onnxcommunityday-2022_06",
         "edge"
     ]
 }

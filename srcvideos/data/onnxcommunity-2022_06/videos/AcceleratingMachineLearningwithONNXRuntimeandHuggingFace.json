@@ -4,7 +4,12 @@
     "duration": "",
     "language": "eng",
     "recorded": "2022-06-24",
-    "related_urls": "",
+    "related_urls": [
+        {
+            "label": "Presentation (PDF)",
+            "url": "https://wiki.lfaidata.foundation/download/attachments/61964495/10_HuggingFace.pdf?version=1&modificationDate=1657155322000&api=v2"
+        }
+    ],
     "speakers": [
         "Jeff Boudier (Hugging Face)"
     ],
@@ -14,9 +19,14 @@
         {
             "type": "youtube",
             "url": "https://youtu.be/9H7biU4eLZY"
+        },
+        {
+            "type": "confluence",
+            "url": "https://wiki.lfaidata.foundation/download/attachments/61964495/huggingface-updated_2.mp4?version=1&modificationDate=1657730389000&api=v2"
         }
     ],
     "tags": [
+        "Onnxcommunityday-2022_06",
         "hugging face",
         "onnx",
         "runtime"

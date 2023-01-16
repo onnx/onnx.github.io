@@ -4,9 +4,14 @@
     "duration": "",
     "language": "eng",
     "recorded": "2022-06-24",
-    "related_urls": "",
+    "related_urls": [
+        {
+            "label": "Presentation (PDF)",
+            "url": "https://wiki.lfaidata.foundation/download/attachments/61964495/14_Adobe.pdf?version=1&modificationDate=1657155692000&api=v2"
+        }
+    ],
     "speakers": [
-        "Nikhil Kalra (Adobe )"
+        "Nikhil Kalra (Adobe)"
     ],
     "thumbnail_url": "https://i.ytimg.com/vi/I8Mvx91NvEc/hqdefault.jpg",
     "title": "High-Performance Inference for Video and Audio",
@@ -14,9 +19,14 @@
         {
             "type": "youtube",
             "url": "https://youtu.be/I8Mvx91NvEc"
+        },
+        {
+            "type": "confluence",
+            "url": "https://wiki.lfaidata.foundation/download/attachments/61964495/14video_Adobe.mp4?version=1&modificationDate=1657155731000&api=v2"
         }
     ],
     "tags": [
+        "Onnxcommunityday-2022_06",
         "High-performance",
         "video",
         "audio"

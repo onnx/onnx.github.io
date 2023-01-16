@@ -4,7 +4,12 @@
     "duration": "",
     "language": "eng",
     "recorded": "2022-06-24",
-    "related_urls": "",
+    "related_urls": [
+        {
+            "label": "Presentation (PDF)",
+            "url": "https://wiki.lfaidata.foundation/download/attachments/61964495/01_SteeringCommittee.pdf?version=1&modificationDate=1657154266000&api=v2"
+        }
+    ],
     "speakers": [
         "Prasanth Pulavarthi (Microsoft)",
         "Alexandre Eichenberger (IBM)",
@@ -18,9 +23,13 @@
         {
             "type": "youtube",
             "url": "https://youtu.be/3vLtVL5n1y4"
+        },
+        {
+            "type": "confluence",
+            "url": "https://wiki.lfaidata.foundation/download/attachments/61964495/01video_SteeringCommittee.mp4?version=1&modificationDate=1657218148000&api=v2"
         }
     ],
     "tags": [
-        "Steering Committee"
+        "h"
     ]
 }

@@ -4,7 +4,12 @@
     "duration": "",
     "language": "eng",
     "recorded": "2022-06-24",
-    "related_urls": "",
+    "related_urls": [
+        {
+            "label": "Presentation (PDF)",
+            "url": "https://wiki.lfaidata.foundation/download/attachments/61964495/08_Hypefactors.pdf?version=1&modificationDate=1657155303000&api=v2"
+        }
+    ],
     "speakers": [
         "Viet Yen Nguyen (Hypefactors)"
     ],
@@ -14,9 +19,14 @@
         {
             "type": "youtube",
             "url": "https://youtu.be/NC-D_r4a-u8"
+        },
+        {
+            "type": "confluence",
+            "url": "https://wiki.lfaidata.foundation/download/attachments/61964495/hypefactors-updated.mp4?version=2&modificationDate=1657651218000&api=v2"
         }
     ],
     "tags": [
+        "Onnxcommunityday-2022_06",
         "nlp"
     ]
 }

@@ -4,7 +4,12 @@
     "duration": "",
     "language": "eng",
     "recorded": "2022-06-24",
-    "related_urls": "",
+    "related_urls": [
+        {
+            "label": "Presentation (PDF)",
+            "url": "https://wiki.lfaidata.foundation/download/attachments/61964495/20_Huawei.pdf?version=1&modificationDate=1657155796000&api=v2"
+        }
+    ],
     "speakers": [
         "Xiyuan Wang (Huawei)",
         "Yikun Jiang (Huawei)",
@@ -16,9 +21,14 @@
         {
             "type": "youtube",
             "url": "https://youtu.be/khM13V4oiKE"
+        },
+        {
+            "type": "confluence",
+            "url": "https://wiki.lfaidata.foundation/download/attachments/61964495/20video_Huawei.mp4?version=1&modificationDate=1657155829000&api=v2"
         }
     ],
     "tags": [
+        "Onnxcommunityday-2022_06",
         "spark"
     ]
 }

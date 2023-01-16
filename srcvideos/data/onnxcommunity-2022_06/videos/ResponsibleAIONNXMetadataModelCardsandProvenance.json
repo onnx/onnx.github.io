@@ -4,7 +4,12 @@
     "duration": "",
     "language": "eng",
     "recorded": "2022-06-24",
-    "related_urls": "",
+    "related_urls": [
+        {
+            "label": "Presentation (PDF)",
+            "url": "https://wiki.lfaidata.foundation/download/attachments/61964495/05_Intel.pdf?version=1&modificationDate=1657155276000&api=v2"
+        }
+    ],
     "speakers": [
         "Rodolfo Gabe Esteves (Intel)",
         "Bhargavi Karumanchi (Intel)",
@@ -17,9 +22,17 @@
         {
             "type": "youtube",
             "url": "https://youtu.be/U6L-bBKApA4"
+        },
+        {
+            "type": "confluence",
+            "url": "https://wiki.lfaidata.foundation/download/attachments/61964495/intel-updated.mp4?version=1&modificationDate=1657642990000&api=v2"
         }
     ],
     "tags": [
-        "responsible AI"
+        "Onnxcommunityday-2022_06",
+        "responsible AI",
+        "metadata",
+        "model card",
+        "provenance"
     ]
 }

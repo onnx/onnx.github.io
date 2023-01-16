@@ -14,6 +14,10 @@
         {
             "type": "youtube",
             "url": "http://youtu.be/rRIdWVe_5J8"
+        },
+        {
+            "type": "confluence",
+            "url": NaN
         }
     ],
     "tags": [

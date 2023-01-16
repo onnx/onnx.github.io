@@ -4,7 +4,12 @@
     "duration": "",
     "language": "eng",
     "recorded": "2022-06-24",
-    "related_urls": "",
+    "related_urls": [
+        {
+            "label": "Presentation (PDF)",
+            "url": "https://wiki.lfaidata.foundation/download/attachments/61964495/02_NVIDIA_TensorRT.pdf?version=1&modificationDate=1657155078000&api=v2"
+        }
+    ],
     "speakers": [
         "Dheeraj Peri (NVIDIA)"
     ],
@@ -14,9 +19,14 @@
         {
             "type": "youtube",
             "url": "https://www.youtube.com/watch?v=WEqzbBDqs2I"
+        },
+        {
+            "type": "confluence",
+            "url": "https://wiki.lfaidata.foundation/download/attachments/61964495/02video_NVIDIA_TensorRT.mp4?version=1&modificationDate=1657155092000&api=v2"
         }
     ],
     "tags": [
+        "Onnxcommunityday-2022_06",
         "int8",
         "qat",
         "tensorrt"

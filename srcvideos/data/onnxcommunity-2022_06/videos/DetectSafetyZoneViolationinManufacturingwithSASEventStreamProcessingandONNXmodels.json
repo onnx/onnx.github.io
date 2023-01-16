@@ -4,9 +4,14 @@
     "duration": "",
     "language": "eng",
     "recorded": "2022-06-24",
-    "related_urls": "",
+    "related_urls": [
+        {
+            "label": "Presentation (PDF)",
+            "url": "https://wiki.lfaidata.foundation/download/attachments/61964495/12_SAS.pdf?version=1&modificationDate=1657155342000&api=v2"
+        }
+    ],
     "speakers": [
-        "Allen Langlois  (SAS)",
+        "Allen Langlois (SAS)",
         "Saurabh Mishra (SAS)",
         "Daniele Cazzari (SAS)"
     ],
@@ -16,10 +21,14 @@
         {
             "type": "youtube",
             "url": "https://youtu.be/i1lLSf_7rjw"
+        },
+        {
+            "type": "confluence",
+            "url": "https://wiki.lfaidata.foundation/download/attachments/61964495/12video_SAS.mp4?version=1&modificationDate=1657155704000&api=v2"
         }
     ],
     "tags": [
-        "saftey",
-        ""
+        "Onnxcommunityday-2022_06",
+        "safety "
     ]
 }
