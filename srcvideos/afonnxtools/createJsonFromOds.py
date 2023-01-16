@@ -79,7 +79,10 @@ def create_json_files(outputpath, df, templatefile):
 
         data.get("videos")[0].update({"url": row["Video_Url"]})
 
-        if (row["Video_Url2"] != "NaN"):
+        if pd.isna(row["Video_Url2"]):
+            print('Na')
+        else:
+        #if (row["Video_Url2"] != "NaN"):
             data.get("videos").append({'type': 'confluence', 'url': row["Video_Url2"]})
 
         titlestr = row["Title"]
