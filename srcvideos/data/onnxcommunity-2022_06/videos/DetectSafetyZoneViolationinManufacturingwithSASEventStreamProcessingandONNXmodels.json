@@ -1,0 +1,34 @@
+{
+    "copyright_text": "Needs to be clarifed",
+    "description": "This session will present an in-production solution that takes advantage of SAS Event Stream Processing and ONNX runtime to support the detection of safety zone violations using computer vision pre-trained ONNX Model and involving multiple cameras. This solution was deployed at the factory edge with an architecture that, using Kubernetes and Kafka, ensures a reliable and stable environment for productionized computer vision solutions complemented with a cloud-centralized infrastructure to monitor, manage and collect information from multiple factories ",
+    "duration": "",
+    "language": "eng",
+    "recorded": "2022-06-24",
+    "related_urls": [
+        {
+            "label": "Presentation (PDF)",
+            "url": "https://wiki.lfaidata.foundation/download/attachments/61964495/12_SAS.pdf?version=1&modificationDate=1657155342000&api=v2"
+        }
+    ],
+    "speakers": [
+        "Allen Langlois (SAS)",
+        "Saurabh Mishra (SAS)",
+        "Daniele Cazzari (SAS)"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/i1lLSf_7rjw/hqdefault.jpg",
+    "title": "Detect Safety Zone Violation in Manufacturing with SAS Event Stream Processing and ONNX models",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://youtu.be/i1lLSf_7rjw"
+        },
+        {
+            "type": "confluence",
+            "url": "https://wiki.lfaidata.foundation/download/attachments/61964495/12video_SAS.mp4?version=1&modificationDate=1657155704000&api=v2"
+        }
+    ],
+    "tags": [
+        "Onnxcommunityday-2022_06",
+        "safety "
+    ]
+}

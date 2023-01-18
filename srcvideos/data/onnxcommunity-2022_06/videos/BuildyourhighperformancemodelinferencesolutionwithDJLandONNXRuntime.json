@@ -1,0 +1,33 @@
+{
+    "copyright_text": "Needs to be clarifed",
+    "description": "In many companies, Java is the primary language for the teams to build up services. To have ONNX model onboard and integration, developers faced several technical challenges on the resource allocation and performance tuning. In this talk, we will walk you through the inference solution built by DJL, a ML library in Java. In the meantime, we will share some customer success stories with model hosting using ONNXRuntime and DJL. ",
+    "duration": "",
+    "language": "eng",
+    "recorded": "2022-06-24",
+    "related_urls": [
+        {
+            "label": "Presentation (PDF)",
+            "url": "https://wiki.lfaidata.foundation/download/attachments/61964495/07_AWS.pdf?version=1&modificationDate=1657155294000&api=v2"
+        }
+    ],
+    "speakers": [
+        "Qing Lan (AWS)"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/aTAwpfK_bdE/hqdefault.jpg",
+    "title": "Build your high-performance model inference solution with DJL and ONNX Runtime",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://youtu.be/aTAwpfK_bdE"
+        },
+        {
+            "type": "confluence",
+            "url": "https://wiki.lfaidata.foundation/download/attachments/61964495/07video_AWS.mp4?version=1&modificationDate=1657214908000&api=v2"
+        }
+    ],
+    "tags": [
+        "Onnxcommunityday-2022_06",
+        "High-performance",
+        "djl"
+    ]
+}

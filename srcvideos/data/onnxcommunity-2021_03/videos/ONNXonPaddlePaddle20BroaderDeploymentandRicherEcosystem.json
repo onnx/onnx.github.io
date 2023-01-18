@@ -1,0 +1,22 @@
+{
+    "copyright_text": "Needs to be clarifed",
+    "description": "",
+    "duration": "",
+    "language": "eng",
+    "recorded": "2021-03-10",
+    "related_urls": "",
+    "speakers": [
+        "Wranky Wang (Baidu-China)"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/ciC4pCHdlRI/hqdefault.jpg",
+    "title": "ONNX on PaddlePaddle 2.0: Broader Deployment and Richer Ecosystem",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "http://youtu.be/ciC4pCHdlRI"
+        }
+    ],
+    "tags": [
+        "paddle"
+    ]
+}

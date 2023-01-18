@@ -1,0 +1,22 @@
+{
+    "copyright_text": "Needs to be clarifed",
+    "description": "",
+    "duration": "",
+    "language": "eng",
+    "recorded": "2021-03-10",
+    "related_urls": "",
+    "speakers": [
+        "Jacky Chen (Microsoft)"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/rRIdWVe_5J8/hqdefault.jpg",
+    "title": "Architecture/Infrastructure SIG Update",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "http://youtu.be/rRIdWVe_5J8"
+        }
+    ],
+    "tags": [
+        "sig"
+    ]
+}

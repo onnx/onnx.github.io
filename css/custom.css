@@ -119,14 +119,14 @@ header.header-collapse .navbar-custom{
     transition: all 200ms ease-in-out;
 }
 .navbar-toggler .navbar-toggler-icon {
-    background-image: url('../images/icon/menu-icon.svg');
+    background-image: url('https://onnx.ai/images/icon/menu-icon.svg');
     width: 40px;
     height: 30px;
     -webkit-transition:0.2s;
     transition:0.2s;
 }
 header.header-collapse .navbar-toggler .navbar-toggler-icon {
-    background-image: url('../images/icon/menu-cross-icon.svg');
+    background-image: url('https://onnx.ai/images/icon/menu-cross-icon.svg');
     width: 35px;
     height: 35px;
     -webkit-transition:0.2s;
@@ -268,7 +268,7 @@ a.link:active .link-arrow{
     transition:all 200ms ease-in-out;
 }
 .main-wrapper .top-banner-bg{
-    background-image:url(../images/ONNX-hero-banner.jpg);
+    background-image:url(https://onnx.ai/images/ONNX-hero-banner.jpg);
     background-size: auto;
     background-position: top center;
     background-repeat: repeat no-repeat;

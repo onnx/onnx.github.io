@@ -1,0 +1,23 @@
+{
+    "copyright_text": "Needs to be clarifed",
+    "description": "",
+    "duration": "",
+    "language": "eng",
+    "recorded": "2021-03-10",
+    "related_urls": "",
+    "speakers": [
+        "Tom Wildenhain (Microsoft-USA)",
+        "Scott McKay (Microsoft-Australia)"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/ta9sBtL-4LQ/hqdefault.jpg",
+    "title": "ONNX Runtime for Mobile Scenarios: From model to on-device inferencing",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "http://youtu.be/ta9sBtL-4LQ"
+        }
+    ],
+    "tags": [
+        "runeime"
+    ]
+}

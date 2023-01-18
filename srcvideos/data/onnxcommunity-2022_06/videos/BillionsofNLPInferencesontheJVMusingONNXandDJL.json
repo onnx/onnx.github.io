@@ -1,0 +1,32 @@
+{
+    "copyright_text": "Needs to be clarifed",
+    "description": "This session outlines the recently rolled out Hypefactors' MLOps infrastructure designed for billions NLP inferences a day. The workload serves media intelligence and OSINT use cases. The infrastructure is designed with a Java Virtual Machine-first approach that is enabled by ONNX interop and AWS' Deep Java Library. On top of that, we show how quantization drives further performance optimizations. ",
+    "duration": "",
+    "language": "eng",
+    "recorded": "2022-06-24",
+    "related_urls": [
+        {
+            "label": "Presentation (PDF)",
+            "url": "https://wiki.lfaidata.foundation/download/attachments/61964495/08_Hypefactors.pdf?version=1&modificationDate=1657155303000&api=v2"
+        }
+    ],
+    "speakers": [
+        "Viet Yen Nguyen (Hypefactors)"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/NC-D_r4a-u8/hqdefault.jpg",
+    "title": "Billions of NLP Inferences on the JVM using ONNX and DJL",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://youtu.be/NC-D_r4a-u8"
+        },
+        {
+            "type": "confluence",
+            "url": "https://wiki.lfaidata.foundation/download/attachments/61964495/hypefactors-updated.mp4?version=2&modificationDate=1657651218000&api=v2"
+        }
+    ],
+    "tags": [
+        "Onnxcommunityday-2022_06",
+        "nlp"
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "copyright_text": "Needs to be clarifed",
+    "description": "",
+    "duration": "",
+    "language": "eng",
+    "recorded": "2022-06-24",
+    "related_urls": [
+        {
+            "label": "Presentation (PDF)",
+            "url": "https://wiki.lfaidata.foundation/download/attachments/61964495/06_Preprocessing.pdf?version=2&modificationDate=1657225586000&api=v2"
+        }
+    ],
+    "speakers": [
+        "Joaquin Anton (NVIDIA)"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/rervhzv8C1c?t=1909/hqdefault.jpg",
+    "title": "ONNX WG: Pre-processing",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://youtu.be/rervhzv8C1c?t=1909"
+        },
+        {
+            "type": "confluence",
+            "url": "https://wiki.lfaidata.foundation/download/attachments/61964495/06video_Preprocessing.mp4?version=1&modificationDate=1657154328000&api=v2"
+        }
+    ],
+    "tags": [
+        "Onnxcommunityday-2022_06",
+        "Pre-processing"
+    ]
+}

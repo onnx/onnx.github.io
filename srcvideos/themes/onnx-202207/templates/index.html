@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+{% from "helpers.html" import video %}
+
+{% block content %}
+  <div class="index-content">
+    <div class="row">
+      <div class="col-lg-8 col-md-8 col-sm-7">
+        <h3>Latest talks</h3>
+        {% for article in articles_page.object_list[:6] %}
+          {% if loop.index0 % 2 == 0 %}<div class="row">{% endif %}
+            {{ video(article, class="col-lg-6 col-md-6") }}
+          {% if loop.last or loop.index0 % 2 == 1 %}</div>{% endif %}
+        {% endfor %}
+      </div>
+
+      <div class="col-lg-4 col-md-4 col-sm-5"><aside>
+        <p class="info info--stats">Want to find ONNX related videos? So far
+        we have indexed <strong>{{ articles|length|commafy }}</strong> of
+        those from <strong>{{ categories|length|commafy }} events</strong> all over the
+        world!</p>
+        <section>
+            <h3>Latest events</h3>
+            <ul>
+            {% for category in latest_categories %}
+                <li>
+                    <a href="{{ SITEURL }}/{{ category.url }}">{{ category.name }}</a> <span class="badge">{{ category.count }}</span>
+                </li>
+            {% endfor %}
+            </ul>
+            <p><a href="{{ SITE_URL }}/events.html">See all events...</a></p>
+        </section>
+        <section>
+            <h3>Most active speakers</h3>
+            <ul>
+            {% for speaker in active_speakers[:5] %}
+                <li><a href="{{ SITEURL }}/{{ speaker.url }}">{{ speaker.name }}</a> <span class="badge">{{ speaker.count }}</span></li>
+            {% endfor %}
+            </ul>
+            <p><a href="{{ SITE_URL }}/speakers.html">See all speakers...</a></p>
+        </section>
+        <section>
+            <h3>Most active tags</h3>
+            <ul>
+            {% for tag in active_tags[:10] %}
+                <li><a href="{{ SITEURL }}/{{ tag.url }}">{{ tag.name }}</a> <span class="badge">{{ tag.count }}</span></li>
+            {% endfor %}
+            </ul>
+            <p><a href="{{ SITE_URL }}/tags.html">See all tags...</a></p>
+        </section>
+        <section>
+            <h3>Most popular languages</h3>
+            <ul>
+            {% for count, name, lang in active_languages[:10] %}
+                <li><a href="{{ SITEURL }}/languages.html#{{ lang }}">{{ name }}</a> <span class="badge">{{ count }}</span></li>
+            {% endfor %}
+            </ul>
+            <p><a href="{{ SITE_URL }}/languages.html">See all languages...</a></p>
+        </section>
+      </aside></div>
+    </div>
+  </div>
+{% endblock content %}

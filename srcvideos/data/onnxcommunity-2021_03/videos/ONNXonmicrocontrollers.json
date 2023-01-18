@@ -1,0 +1,22 @@
+{
+    "copyright_text": "Needs to be clarifed",
+    "description": "",
+    "duration": "",
+    "language": "eng",
+    "recorded": "2021-03-10",
+    "related_urls": "",
+    "speakers": [
+        "Rohit Sharma (AITechSystems-USA_CA)"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/cT87n24PGKQ/hqdefault.jpg",
+    "title": "ONNX on microcontrollers",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "http://youtu.be/cT87n24PGKQ"
+        }
+    ],
+    "tags": [
+        "microcontroler"
+    ]
+}

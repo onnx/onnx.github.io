@@ -1,0 +1,25 @@
+{
+    "copyright_text": "Needs to be clarifed",
+    "description": "",
+    "duration": "",
+    "language": "eng",
+    "recorded": "2021-10-24",
+    "related_urls": "",
+    "speakers": [
+        "Ashwini Khade (Microsoft)",
+        "Mahan Salehi (Nvidia)"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/7l-wZz0qq4k/hqdefault.jpg",
+    "title": "Triton & ONNX Runtime",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://youtu.be/7l-wZz0qq4k"
+        }
+    ],
+    "tags": [
+        "Triton",
+        "onnx",
+        "Runtime"
+    ]
+}

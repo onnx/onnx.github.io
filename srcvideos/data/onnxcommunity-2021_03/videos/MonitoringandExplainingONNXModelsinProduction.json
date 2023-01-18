@@ -1,0 +1,22 @@
+{
+    "copyright_text": "Needs to be clarifed",
+    "description": "",
+    "duration": "",
+    "language": "eng",
+    "recorded": "2021-03-10",
+    "related_urls": "",
+    "speakers": [
+        "Krishna Gade (FiddlerAI-USA_CA)"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/9u4eH4s-R40/hqdefault.jpg",
+    "title": "Monitoring and Explaining ONNX Models in Production",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "http://youtu.be/9u4eH4s-R40"
+        }
+    ],
+    "tags": [
+        "monitoring"
+    ]
+}

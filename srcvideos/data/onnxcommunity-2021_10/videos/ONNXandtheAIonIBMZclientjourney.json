@@ -1,0 +1,23 @@
+{
+    "copyright_text": "Needs to be clarifed",
+    "description": "",
+    "duration": "",
+    "language": "eng",
+    "recorded": "2021-10-24",
+    "related_urls": "",
+    "speakers": [
+        "Elpida Tzortzatos (IBM)",
+        "Andrew M. Sica (IBM)"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/et--BlfJlYI/hqdefault.jpg",
+    "title": "ONNX and the AI on IBM Z client journey",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://youtu.be/et--BlfJlYI"
+        }
+    ],
+    "tags": [
+        "ibm"
+    ]
+}

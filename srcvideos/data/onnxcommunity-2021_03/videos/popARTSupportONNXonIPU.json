@@ -1,0 +1,22 @@
+{
+    "copyright_text": "Needs to be clarifed",
+    "description": "",
+    "duration": "",
+    "language": "eng",
+    "recorded": "2021-03-10",
+    "related_urls": "",
+    "speakers": [
+        "Han Zhao (GraphCore-China)"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/8LMtU7Nxjhs/hqdefault.jpg",
+    "title": "popART: Support ONNX on IPU",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "http://youtu.be/8LMtU7Nxjhs"
+        }
+    ],
+    "tags": [
+        "ipu"
+    ]
+}

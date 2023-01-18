@@ -1,0 +1,33 @@
+{
+    "copyright_text": "Needs to be clarifed",
+    "description": "This talk will share highlights of the ONNX Runtime 1.10-1.12 releases, including details on notable performance improvements, features, and platforms including mobile and web. ",
+    "duration": "",
+    "language": "eng",
+    "recorded": "2022-06-24",
+    "related_urls": [
+        {
+            "label": "Presentation (PDF)",
+            "url": "https://wiki.lfaidata.foundation/download/attachments/61964495/09_Microsoft_ONNXRuntime.pdf?version=1&modificationDate=1657155312000&api=v2"
+        }
+    ],
+    "speakers": [
+        "Ryan Hill (Microsoft)"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/uOE2K-yfnOU/hqdefault.jpg",
+    "title": "What's New in ONNX Runtime",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://youtu.be/uOE2K-yfnOU"
+        },
+        {
+            "type": "confluence",
+            "url": "https://wiki.lfaidata.foundation/download/attachments/61964495/microsoftryan-updated.mp4?version=1&modificationDate=1657651522000&api=v2"
+        }
+    ],
+    "tags": [
+        "Onnxcommunityday-2022_06",
+        "onnx",
+        "runtime"
+    ]
+}

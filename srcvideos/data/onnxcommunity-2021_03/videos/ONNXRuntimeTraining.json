@@ -1,0 +1,23 @@
+{
+    "copyright_text": "Needs to be clarifed",
+    "description": "",
+    "duration": "",
+    "language": "eng",
+    "recorded": "2021-03-10",
+    "related_urls": "",
+    "speakers": [
+        "Peng Wang (Microsoft China)"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/-wHzQHJLB7w/hqdefault.jpg",
+    "title": "ONNX Runtime Training",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "http://youtu.be/-wHzQHJLB7w"
+        }
+    ],
+    "tags": [
+        "runtime",
+        "training"
+    ]
+}

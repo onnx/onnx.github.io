@@ -1,0 +1,24 @@
+{
+    "copyright_text": "Needs to be clarifed",
+    "description": "",
+    "duration": "",
+    "language": "eng",
+    "recorded": "2021-03-10",
+    "related_urls": "",
+    "speakers": [
+        "Guenther Schmuelling (Microsoft)",
+        "Kevin Chen (Nvidia)",
+        "Chin Huang (IBM)"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/5SqHs2iLyQY/hqdefault.jpg",
+    "title": "Converters SIG Update",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "http://youtu.be/5SqHs2iLyQY"
+        }
+    ],
+    "tags": [
+        "sig"
+    ]
+}

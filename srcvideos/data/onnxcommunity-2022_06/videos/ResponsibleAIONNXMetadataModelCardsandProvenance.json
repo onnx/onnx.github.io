@@ -1,0 +1,38 @@
+{
+    "copyright_text": "Needs to be clarifed",
+    "description": "The space of AI is growing rapidly. At this pace, it can be challenging for key AI stakeholders to identify and address social and regulatory concerns with AI, motivating the need for tools and methods to approach AI ethics challenges. A popular approach in the responsible AI space is using metadata to encode a “model card,” a versatile report detailing the configuration, ethical considerations, limitations, and quantitative analysis of an AI model. This approach can be used to enable transparency and fairness of the use case, filtering of high-quality AI models, pain point identification in AI pipelines, and help with establishing compliance and lineage. In this session, we will present our proposal and end-to-end proof of concept for metadata fields and model cards incorporated in Onnx to capture aspects of the model such as provenance & mixed precision representation. ",
+    "duration": "",
+    "language": "eng",
+    "recorded": "2022-06-24",
+    "related_urls": [
+        {
+            "label": "Presentation (PDF)",
+            "url": "https://wiki.lfaidata.foundation/download/attachments/61964495/05_Intel.pdf?version=1&modificationDate=1657155276000&api=v2"
+        }
+    ],
+    "speakers": [
+        "Rodolfo Gabe Esteves (Intel)",
+        "Bhargavi Karumanchi (Intel)",
+        "Ria Cheruvu (Intel)",
+        "Rajeev Nalawadi (Intel) "
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/U6L-bBKApA4/hqdefault.jpg",
+    "title": "Responsible AI @ ONNX: Metadata, Model Cards, and Provenance ",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://youtu.be/U6L-bBKApA4"
+        },
+        {
+            "type": "confluence",
+            "url": "https://wiki.lfaidata.foundation/download/attachments/61964495/intel-updated.mp4?version=1&modificationDate=1657642990000&api=v2"
+        }
+    ],
+    "tags": [
+        "Onnxcommunityday-2022_06",
+        "responsible AI",
+        "metadata",
+        "model card",
+        "provenance"
+    ]
+}

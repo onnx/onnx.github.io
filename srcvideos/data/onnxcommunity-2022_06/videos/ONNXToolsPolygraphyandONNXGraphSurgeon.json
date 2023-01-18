@@ -1,0 +1,34 @@
+{
+    "copyright_text": "Needs to be clarifed",
+    "description": "Over the years, NVIDIA's TensorRT team has developed tooling that makes it easy to generate, transform, and debug ONNX models. Among other things, this includes a sanitizer that can simplify your models, and an automated bisector for debugging ('git bisect' for ONNX!). In this talk, I'll cover some of these tools and how you can effectively leverage them in your workflow.",
+    "duration": "",
+    "language": "eng",
+    "recorded": "2022-06-24",
+    "related_urls": [
+        {
+            "label": "Presentation (PDF)",
+            "url": "https://wiki.lfaidata.foundation/download/attachments/61964495/16_NVIDIA_GraphSurgeon.pdf?version=1&modificationDate=1657155746000&api=v2"
+        }
+    ],
+    "speakers": [
+        "Pranav Marathe (NVIDIA)"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/OGMan5SQzhM/hqdefault.jpg",
+    "title": "ONNX Tools: Polygraphy and ONNX-GraphSurgeon",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://youtu.be/OGMan5SQzhM"
+        },
+        {
+            "type": "confluence",
+            "url": "https://wiki.lfaidata.foundation/download/attachments/61964495/16video_NVIDIA_GraphSurgeon.mp4?version=1&modificationDate=1657155757000&api=v2"
+        }
+    ],
+    "tags": [
+        "Onnxcommunityday-2022_06",
+        "onnx",
+        "tools",
+        "graphsurgeon"
+    ]
+}

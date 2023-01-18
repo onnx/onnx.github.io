@@ -1,0 +1,32 @@
+{
+    "copyright_text": "Needs to be clarifed",
+    "description": "We present extensions to the Open Neural Network Exchange (ONNX) intermediate representation format to represent arbitrary-precision quantized neural networks. We first introduce support for low precision quantization in existing ONNX-based quantization formats by leveraging integer clipping, resulting in two new backward-compatible variants: the quantized operator format with clipping and quantize-clip-dequantize (QCDQ) format. We then introduce a novel higher-level ONNX format called quantized ONNX (QONNX) that introduces three new operators —Quant, BipolarQuant, and Trunc— in order to represent uniform quantization. By keeping the QONNX IR high-level and flexible, we enable targeting a wider variety of platforms. We also present utilities for working with QONNX, as well as examples of its usage in the FINN and hls4ml toolchains. Finally, we introduce the QONNX model zoo to share low precision quantized neural networks. ",
+    "duration": "",
+    "language": "eng",
+    "recorded": "2022-06-24",
+    "related_urls": [
+        {
+            "label": "Presentation (PDF)",
+            "url": "https://wiki.lfaidata.foundation/download/attachments/61964495/03_AMD.pdf?version=1&modificationDate=1657155097000&api=v2"
+        }
+    ],
+    "speakers": [
+        "Alessandro Pappalardo (AMD)"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/b0ik9tDMJlg/hqdefault.jpg",
+    "title": "QONNX: A proposal for representing arbitrary-precision quantized NNs in ONNX",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "https://youtu.be/b0ik9tDMJlg"
+        },
+        {
+            "type": "confluence",
+            "url": "https://wiki.lfaidata.foundation/download/attachments/61964495/amd-updated.mp4?version=1&modificationDate=1657637684000&api=v2"
+        }
+    ],
+    "tags": [
+        "Onnxcommunityday-2022_06,",
+        "qonnx"
+    ]
+}

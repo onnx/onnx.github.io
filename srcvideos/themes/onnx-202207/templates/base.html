@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="{{ DEFAULT_LANG }}">
+<head>
+    {% block head %}
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://use.fontawesome.com/2231f865fc.js"></script>
+
+    <link rel="shortcut icon" href="{{ FEED_DOMAIN }}/theme/images/favicon.png">
+
+    <title>{% block title %}{{ SITENAME }}{% endblock %}{% block subtitle %}{% endblock %}</title>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw=="
+          crossorigin="anonymous">
+	
+	
+	<!--
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	-->
+    <link href="https://andife.github.io/onnx.github.io/videos/theme/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="https://andife.github.io/onnx.github.io/videos/theme/css/base.css" rel="stylesheet">
+    <link href="https://andife.github.io/onnx.github.io/css/custom.css" rel="stylesheet">
+    <link href="https://andife.github.io/onnx.github.io/css/responsive.css" rel="stylesheet">
+
+
+
+
+    {% endblock head %}
+</head>
+
+<body>
+	<!-- <div w3-include-html="../partials/navigation.html"></div> -->
+
+  {% include 'github.html' %}
+  {% if PR_NUMBER %}
+    <div class="header pr-notice clearfix">
+      Viewing PR <a href="https://github.com/andife/onnx.github.io/pull/{{ PR_NUMBER }}">#{{ PR_NUMBER }}</a>
+    </div>
+  {% endif %}
+ <!-- <div class="header notice clearfix">
+    This page is under development (contact us, if you want to contribute):
+    <a href="https://andife.github.io/onnx.github.io/videos/pages/thank-you-contributors.html">Read More</a>
+ </div> -->
+  <header id="banner" class="header clearfix">
+    <nav class="header__nav"><div class="container">
+      <ul class="nav">
+        <li role="presentation"{% if output_file == "index.html" %} class="active"{% endif %}>
+          <a href="{{ SITEURL }}/index.html"><i class="fa fa-fw fa-home"></i> <span>Start</span></a>
+        </li>
+
+        <li role="presentation"{% if article or output_file == "events.html" or output_file.startswith("events/") %} class="active"{% endif %}>
+          <a href="{{ SITEURL }}/events.html"><i class="fa fa-fw fa-list-ul"></i> <span>Events</span></a>
+        </li>
+
+        <li role="presentation"{% if output_file == "tags.html" or output_file.startswith("tag/") %} class="active"{% endif %}>
+          <a href="{{ SITEURL }}/tags.html"><i class="fa fa-fw fa-tags"></i> <span>Tags</span></a>
+        </li>
+
+        <li role="presentation"{% if output_file == "speakers.html" or output_file.startswith("speaker/") %} class="active"{% endif %}>
+          <a href="{{ SITEURL }}/speakers.html"><i class="fa fa-fw fa-users"></i> <span>Speakers</span></a>
+        </li>
+
+        {% for p in pages %}
+          <li role="presentation"
+              {% if p == page %} class="active"{% endif %}
+              {% if p.slug in ("thank-you-contributors") %}style="display: none;"{% endif %}>
+            <a href="{{ SITEURL }}/{{ p.url }}"><i class="fa fa-fw fa-info"></i> <span>{{ p.title }}</span></a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div></nav>
+    <div class="container">
+      <h3 class="text-muted header__title">
+      <a href="{{ SITEURL }}/"><span><i>Onnx</i>Video</span> <strong>{{ SITESUBTITLE }}</strong></a>
+      </h3>
+      <!-- <div class="header__searchbox">
+        <form method="GET" action="/search.html">
+          <input name="q" type="search" placeholder="Search...">
+        </form>
+      </div> -->
+    </div>
+  </header>
+  
+
+
+    <!-- <a id="back-to-top" href="JavaScript:void(0);" class="btn btn-lg back-to-top" role="button" aria-label="Back to top"><span class="fa fa-angle-up"></span></a> -->
+  
+  <div class="container">
+
+    {% block content %}
+    {% endblock %}
+
+
+    {% block endbodyjs %}
+      <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+      <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo=  sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script> -->
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+	  
+	  <script src="https://www.w3schools.com/lib/w3.js"></script>
+      <script>w3.includeHTML();</script>
+      <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+      <script src="https://andife.github.io/onnx.github.io/videos/theme/js/ie10-viewport-bug-workaround.js"></script>
+      <script src="https://andife.github.io/onnx.github.io/videos/theme/js/thumb.js"></script>
+      <script src="https://andife.github.io/onnx.github.io/videos/theme/js/language.js"></script>
+      <script src="https://andife.github.io/onnx.github.io/js/custom.js"></script>
+      <script>
+        $(document).ready(function() {
+            $.get("https://onnx.ai/js/news.json", function(data, status) {
+                var newsData = '';
+                $.each(data["newsContent"], function(index, value) {
+                   if(index<3){
+                    newsData += '<div class="col-12 col-md-4 mb-4 mb-md-0">';
+                    newsData += '<div class="col-news py-4 px-4 py-lg-5 px-lg-5">';
+                    newsData += '<h3 class="subheading-3">' + value.newsTitle + '</h3>';
+                    var len = value.newsDescription.length;
+                    var str = value.newsDescription.substr(0,110);
+                    var lastIndexOf = str.lastIndexOf(" ");
+                    if(len>110) {
+                        newsData += '<p class="text-break">' + str.substr(0, lastIndexOf) + '…' + '</p>';
+                    }else{
+                        newsData += '<p class="text-break">' + value.newsDescription + '</p>';
+                    }
+                    newsData += '<a aria-label="Learn more about ' + value.newsShortTitle +'" class="link" href="./news.html#' + value.newsId + '"><span class="link-content">LEARN MORE</span><span class="link-arrow fa fa-angle-right"></span></a>';
+                    newsData += '</div>';
+                    newsData += '</div>';
+                }
+                });
+                $('#homeNewsWrapper').append(newsData);
+            });
+
+        });
+
+        $(function(){
+            $(".news-text").each(function () {
+                var len=$(this).text().length;
+                var str= $(this).text().substr(0,80);
+                var lastIndexOf = str.lastIndexOf(" ");
+                if(len>80) {
+                    $(this).text(str.substr(0, lastIndexOf) + '…');
+                }
+            });
+        });
+    </script>
+      {% block extrajs %}{% endblock extrajs %}
+    {% endblock endbodyjs %}
+  </div>
+
+</body>
+</html>

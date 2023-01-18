@@ -1,0 +1,22 @@
+{
+    "copyright_text": "Needs to be clarifed",
+    "description": "",
+    "duration": "",
+    "language": "eng",
+    "recorded": "2021-03-10",
+    "related_urls": "",
+    "speakers": [
+        "Mina Amiri (Zetane)"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/K4hjaVjiw3I/hqdefault.jpg",
+    "title": "Visualizing ONNX models' internal data: Key thing to look for?",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "http://youtu.be/K4hjaVjiw3I"
+        }
+    ],
+    "tags": [
+        "Visualization"
+    ]
+}

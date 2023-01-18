@@ -1,0 +1,22 @@
+{
+    "copyright_text": "Needs to be clarifed",
+    "description": "",
+    "duration": "",
+    "language": "eng",
+    "recorded": "2021-03-10",
+    "related_urls": "",
+    "speakers": [
+        "Fengwei Yu (SenseTime-China)"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/HRPxyx_lVhc/hqdefault.jpg",
+    "title": "Spring Project：Multi Backend Neural Network Auto Quantization and Deployment over ONNX",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "http://youtu.be/HRPxyx_lVhc"
+        }
+    ],
+    "tags": [
+        "Quantization"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "copyright_text": "Needs to be clarifed",
+    "description": "",
+    "duration": "",
+    "language": "eng",
+    "recorded": "2021-03-10",
+    "related_urls": "",
+    "speakers": [
+        "Michał Karzyński (Intel)",
+        "Ganesan Ramalingam (Microsoft)"
+    ],
+    "thumbnail_url": "https://i.ytimg.com/vi/OS1hWTD9TJ8/hqdefault.jpg",
+    "title": "Operators SIG Update",
+    "videos": [
+        {
+            "type": "youtube",
+            "url": "http://youtu.be/OS1hWTD9TJ8"
+        }
+    ],
+    "tags": [
+        "sig"
+    ]
+}
