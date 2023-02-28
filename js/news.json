@@ -1,5 +1,15 @@
 {
     "newsContent": [
+         {
+            "id": "70",
+            "newsId": "new70",
+            "newsTitle": "ONNX v1.13.1 Released",
+            "newsShortTitle": "ONNX v1.13.1 Released",
+            "newsDescription": "ONNX v1.13.1 is now available.",
+            "newsLinkText": "READ MORE",
+            "newsLinkURL": "https://github.com/onnx/onnx/releases/tag/v1.13.1",
+            "newsDate": "February 24, 2023"
+        },
         {
             "id": "69",
             "newsId": "new69",
