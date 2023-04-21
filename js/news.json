@@ -1,5 +1,15 @@
 {
     "newsContent": [
+                {
+            "id": "72",
+            "newsId": "new72",
+            "newsTitle": "Roadmap Process Videos 2023 are online at youtube",
+            "newsShortTitle": "Videos of the roadmap process are online",
+            "newsDescription": "Videos of the roadmap process are online at:",
+            "newsLinkText": "youtube",
+            "newsLinkURL": "https://www.youtube.com/playlist?list=PLNqLlwTfo322iKIdxZCB8SNzOtvGay15M",
+            "newsDate": "April 21, 2023"
+        },        
         {
             "id": "71",
             "newsId": "new71",
