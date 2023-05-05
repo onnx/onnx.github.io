@@ -1,6 +1,16 @@
 {
     "newsContent": [
         {
+            "id": "72",
+            "newsId": "new72",
+            "newsTitle": "ONNX v1.14.0 Released",
+            "newsShortTitle": "ONNX v1.14.0 Released",
+            "newsDescription": "ONNX v1.14.0 is now available with exciting new features and updates!",
+            "newsLinkText": "READ MORE",
+            "newsLinkURL": "https://github.com/onnx/onnx/releases/tag/v1.14.0",
+            "newsDate": "May 5, 2023"
+        },
+        {
             "id": "71",
             "newsId": "new71",
             "newsTitle": "Accepting Nominations for the Steering Committee",
