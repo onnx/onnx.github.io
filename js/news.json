@@ -1,8 +1,18 @@
 {
     "newsContent": [
         {
+            "id": "73",
+            "newsId": "news73",
+            "newsTitle": "Register now for June 2023 Community Meetup",
+            "newsShortTitle": "Register now for June 2023 Community Meetup",
+            "newsDescription": "NVIDIA and the LF AI & Data Foundation are pleased to sponsor the upcoming ONNX Community Meetup on June 28th at the NVIDIA campus in Santa Clara. Virtual attendees will be able to join the livestream and ask questions. The event will cover ONNX Community updates, lightning talks, and plenty of community networking. If you are using ONNX in your services and applications, building software or hardware that supports ONNX, or contributing to ONNX, you should attend! Last day to register for in-person is June 16th."
+            "newsLinkText": "Register now",
+            "newsLinkURL": "https://community.linuxfoundation.org/events/details/lfhq-lf-ai-data-foundation-presents-lf-ai-data-day-onnx-community-meetup-silicon-valley-1/",
+            "newsDate": "June 1, 2023"
+        },
+        {
             "id": "72",
-            "newsId": "new72",
+            "newsId": "news72",
             "newsTitle": "ONNX v1.14.0 Released",
             "newsShortTitle": "ONNX v1.14.0 Released",
             "newsDescription": "ONNX v1.14.0 is now available with exciting new features and updates!",
@@ -12,7 +22,7 @@
         },
         {
             "id": "71",
-            "newsId": "new71",
+            "newsId": "news71",
             "newsTitle": "Accepting Nominations for the Steering Committee",
             "newsShortTitle": "Accepting Nominations for the Steering Committee",
             "newsDescription": "The ONNX Steering Committee is elected every year by the Contributors of ONNX project. The candidates for the Steering Committee are self-nominated, and they are not required to be Contributors. Nominations are accepted until April 14. The candidate information gathered with this form will be shared publicly on 4/17/2023 (Monday). Contributors will have access to the list of candidates on ONNX Github and will be able to participate in the Steering Committee election on 5/1/2023 (Monday).",
@@ -22,7 +32,7 @@
         },
         {
             "id": "70",
-            "newsId": "new70",
+            "newsId": "news70",
             "newsTitle": "ONNX v1.13.1 Released",
             "newsShortTitle": "ONNX v1.13.1 Released",
             "newsDescription": "ONNX v1.13.1 is now available.",
@@ -32,7 +42,7 @@
         },
         {
             "id": "69",
-            "newsId": "new69",
+            "newsId": "news69",
             "newsTitle": "ONNX v1.13.0 Released",
             "newsShortTitle": "ONNX v1.13.0 Released",
             "newsDescription": "ONNX v1.13.0 is now available with exciting new features and updates! This release includes operator and function updates, reference Python runtime, M1/M2 ARM support, bug fixes, documentation changes and more.",
@@ -42,7 +52,7 @@
         },
         {
             "id": "68",
-            "newsId": "new68",
+            "newsId": "news68",
             "newsTitle": "Contributing to the 2023 ONNX Roadmap",
             "newsShortTitle": "Contributing to the 2023 ONNX Roadmap",
             "newsDescription": "Hello ONNX contributors and stakeholders, We are seeking your help to shape the direction of ONNX & create roadmap with shared future view for the timeframe (Jan'2023 to December'2023). To capture your ideas for future development of ONNX, you can submit your proposals using a form reached from the link below.",
@@ -51,7 +61,7 @@
             "newsDate": "December 1st, 2022"
         },{
             "id": "67",
-            "newsId": "new67",
+            "newsId": "news67",
             "newsTitle": "New ONNX Documentation Available",
             "newsShortTitle": "New ONNX Documentation Available",
             "newsDescription": "Check out the new revamped ONNX documentation. It is published on the website for easier searching and includes operator reference (comparisons between opsets too), Python API reference, and a new concept overview. The documentation is automatically generated from the code and published regularly.",
@@ -61,7 +71,7 @@
         },
         {
             "id": "66",
-            "newsId": "new66",
+            "newsId": "news66",
             "newsTitle": "June Meetup Presentations and Recordings",
             "newsShortTitle": "June Meetup Presentations and Recordings",
             "newsDescription": "The June 2022 ONNX Community Day event presentation slides and recordings are now available.",
@@ -71,7 +81,7 @@
         },
         {
             "id": "65",
-            "newsId": "new65",
+            "newsId": "news65",
             "newsTitle": "ONNX v1.12.0 Released",
             "newsShortTitle": "ONNX v1.12.0 Released",
             "newsDescription": "ONNX v1.12.0 is now available with exciting new features and updates! This release includes operator updates, shape inference enhancements, bug fixes, and documentation changes.",
@@ -81,7 +91,7 @@
         },
         {
             "id": "64",
-            "newsId": "new64",
+            "newsId": "news64",
             "newsTitle": "June 2022 Community Meetup",
             "newsShortTitle": "ONNX Community Meetup - June 24, 2022 - in-person and virtual",
             "newsDescription": "Microsoft and the LF AI & Data Foundation are pleased to sponsor the upcoming ONNX Community Meetup on June 24th at the Microsoft Silicon Valley campus and online. Our meetups are a great way to connect with others in the ONNX community and share how you are using ONNX to solve your business needs or how your product supports ONNX. Register now to attend and optionally submit your proposal for a 10 minute talk.",
@@ -91,7 +101,7 @@
         },
         {
             "id": "63",
-            "newsId": "new63",
+            "newsId": "news63",
             "newsTitle": "Accepting Nominations for the Steering Committee",
             "newsShortTitle": "Accepting Nominations for the Steering Committee",
             "newsDescription": "The ONNX Steering Committee is elected every year by the Contributors of ONNX project. The candidates for the Steering Committee are self-nominated, and they are not required to be Contributors. The candidate information gathered with this form will be shared publicly on 5/4/2022 (Wednesday). Contributors will have access to the list of candidates on ONNX Github and will be able to participate in the Steering Committee election on 5/9/2022 (Monday).",
@@ -101,7 +111,7 @@
         },
         {
             "id": "62",
-            "newsId": "new62",
+            "newsId": "news62",
             "newsTitle": "ONNX v1.11.0 Released",
             "newsShortTitle": "ONNX v1.11.0 Released",
             "newsDescription": "ONNX v1.11.0 is now available with exciting new features and updates! A new Model Hub feature is available for users to get started with state-of-the-art pre-trained ONNX models from the ONNX Model Zoo and for researchers and model developers to share models. ai.onnx and ai.onnx.ml opset versions are moved to 16 and 3, respectively, with new and updated ops. Model composing and function builder functionalities are added. Also included in the release are numerous enhancements and some needed bug fixes.",
@@ -111,7 +121,7 @@
         },
         {
             "id": "61",
-            "newsId": "new61",
+            "newsId": "news61",
             "newsTitle": "October Virtual Community Meetup.",
             "newsShortTitle": "October Virtual Community Meetup (Oct 21st, 8-11am US PST).",
             "newsDescription": "Intel and the LF AI & Data Foundation are pleased to sponsor the upcoming LF AI & Data Day ONNX Community Virtual Meetup – Fall 2021, to be held via Zoom on October 21st 8-11am PST. The virtual meetup will cover ONNX community updates, partner/end-user stories, and SIG/WG updates. If you are using ONNX in your services and applications, building software or hardware that supports ONNX, or contributing to ONNX, you should attend! This is a great opportunity to connect with and hear from people working with ONNX across many companies. Registration is now open and the event is free to attend. Capacity will be 500 attendees. For up to date information on this virtual meetup, please visit the event website.",
@@ -121,7 +131,7 @@
         }, 
         {
             "id": "60",
-            "newsId": "new60",
+            "newsId": "news60",
             "newsTitle": "Upcoming ONNX Roadmap discussions",
             "newsShortTitle": "Upcoming ONNX Roadmap discussions",
             "newsDescription": "The upcoming ONNX Roadmap discussions will be on Sept 8th (5:30 PST), 17th (10am PST), 22nd (5:30 PST), and Oct 1st (10am PST). Each meeting will last 30 min and will cover 3 topics, which are listed in document linked to the READ MORE link below. Join the discussion to provide valuable feedback.",
