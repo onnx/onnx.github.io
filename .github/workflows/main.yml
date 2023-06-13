@@ -1,4 +1,4 @@
-name: learn-github-actions
+name: linting-actions
 on: [push, pull_request]
 jobs:
   json-linter:
