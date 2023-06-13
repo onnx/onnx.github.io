@@ -1,0 +1,9 @@
+name: learn-github-actions
+on: [push, pull_request]
+jobs:
+  json-linter:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: json-lint
+        uses: ocular-d/json-linter@0.0.2
