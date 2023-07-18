@@ -1,6 +1,16 @@
 {
     "newsContent": [
         {
+            "id": "74",
+            "newsId": "news74",
+            "newsTitle": "Videos from the Community Meetup 2023",
+            "newsShortTitle": "June 2023 Community Meetup: Videos online",
+            "newsDescription": "Videos from the ONNX Community Meetup are online.", 
+            "newsLinkText": "READ MORE",
+            "newsLinkURL": "https://wiki.lfaidata.foundation/display/DL/ONNX+Community+Day+2023+-+June+28",
+            "newsDate": "July 12, 2023"
+        },
+        {
             "id": "73",
             "newsId": "news73",
             "newsTitle": "Register now for June 2023 Community Meetup",
