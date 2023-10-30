@@ -1,6 +1,16 @@
 {
     "newsContent": [
         {
+            "id": "75",
+            "newsId": "news75",
+            "newsTitle": "ONNX v1.15.0 Released",
+            "newsShortTitle": "ONNX v1.15.0 Released",
+            "newsDescription": "ONNX v1.15.0 is now available with many new and updated operations in both the ONNX and ONNX.ML domains, extending support for real-world ML models. The release includes numerous new features and necessary fixes.",
+            "newsLinkText": "READ MORE",
+            "newsLinkURL": "https://github.com/onnx/onnx/releases/tag/v1.15.0",
+            "newsDate": "October 30, 2023"
+        },
+        {
             "id": "74",
             "newsId": "news74",
             "newsTitle": "Videos from the Community Meetup 2023",
