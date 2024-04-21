@@ -18,48 +18,41 @@
 
 <body class="innerpage-main-wrapper">
     <a class="skip-main" href="#skipMain">Skip to main content</a>
-     <!-- Partial header.html Start-->
+    <!-- Partial header.html Start-->
     <div w3-include-html="partials/navigation.html"></div>
     <!-- Partial header.html End-->
     <div class="main-wrapper">
-
         <div class="top-banner-bg news-page-wrapper"></div>
-
-            <div id="skipMain" role="main" tabindex="-1">
-                <section class="blue-page-title-bar py-3 pb-3">
-                    <div class="outer-container mx-auto">
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="col-12">
-                                    <h1 id="latestNews" class="text-uppercase">News</h1>
-                                </div>
+        <div id="skipMain" role="main" tabindex="-1">
+            <section class="blue-page-title-bar py-3 pb-3">
+                <div class="outer-container mx-auto">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12">
+                                <h1 id="latestNews" class="text-uppercase">News</h1>
                             </div>
                         </div>
                     </div>
-                </section>
-                <div class="outer-container mx-auto">
-
-                    <section>
-                        <div class="container-fluid news-content-wrapper">
-                            <div id="newsWrapper" class="row" role="region" aria-labelledby="latestNews" aria-live="polite" aria-atomic="true">
-
-                            </div>
-                        </div>
-                    </section>
-
                 </div>
-
+            </section>
+            <div class="outer-container mx-auto">
+                <section>
+                    <div class="container-fluid news-content-wrapper">
+                        <div id="newsWrapper" class="row" role="region" aria-labelledby="latestNews" aria-live="polite" aria-atomic="true">
+                        </div>
+                    </div>
+                </section>
             </div>
-
-            <!-- Partial footer.html Start-->
-            <div w3-include-html="partials/footer.html"></div>
-            <!-- Partial footer.html End-->
-
-            <a id="back-to-top" href="#" class="btn btn-lg back-to-top" role="button" aria-label="Back to top"><span
-                    class="fa fa-angle-up"></span></a>
+        </div>
+        <!-- Partial footer.html Start-->
+        <div w3-include-html="partials/footer.html"></div>
+        <!-- Partial footer.html End-->
+        <a id="back-to-top" href="#" class="btn btn-lg back-to-top" role="button" aria-label="Back to top"><span class="fa fa-angle-up"></span></a>
     </div>
     <script src="https://www.w3schools.com/lib/w3.js"></script>
-    <script>w3.includeHTML();</script>
+    <script>
+        w3.includeHTML();
+    </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="./js/custom.js"></script>
@@ -70,16 +63,16 @@
                 $.each(data["newsContent"], function(index, value) {
                     if (index != 0) {
                         newsData += '<hr class="border-top my-0 mx-15 w-100"/>'
-                    } 
+                    }
                     newsData += '<div class="col-12 py-md-5 py-4" id="' + value.newsId + '">';
                     newsData += '<p class="mb-2 text-uppercase">' + value.newsDate + '</p>';
-                    if(value.newsTitle.length!=0){
+                    if (value.newsTitle.length != 0) {
                         newsData += '<h2 class="news-subheading blue-text bold-text">' + value.newsTitle + '</h2>';
-                    }else{
+                    } else {
                         newsData += '<h2 class="news-subheading blue-text bold-text">' + value.newsShortTitle + '</h2>';
                     }
                     newsData += '<p class="text-break">' + value.newsDescription + '</p>';
-                    newsData += '<a target="_blank" aria-label="'+ value.newsLinkText +' - ' + value.newsShortTitle +'" class="link subheading-6" href="' + value.newsLinkURL + '"><span class="link-content">' + value.newsLinkText + '</span><span class="link-arrow fa fa-angle-right"></span></a>';
+                    newsData += '<a target="_blank" aria-label="' + value.newsLinkText + ' - ' + value.newsShortTitle + '" class="link subheading-6" href="' + value.newsLinkURL + '"><span class="link-content">' + value.newsLinkText + '</span><span class="link-arrow fa fa-angle-right"></span></a>';
                     newsData += '</div>';
 
                 });
