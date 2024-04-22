@@ -22,116 +22,105 @@
     <!-- Partial header.html End-->
     <div class="main-wrapper">
         <div class="top-banner-bg"></div>
-            <div id="skipMain" role="main" tabindex="-1">
-                <section class="blue-page-title-bar py-3 pb-3">
-                    <div class="outer-container mx-auto">
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="col-12">
-                                    <h1 class="text-uppercase">About</h1>
-                                </div>
+        <div id="skipMain" role="main" tabindex="-1">
+            <section class="blue-page-title-bar py-3 pb-3">
+                <div class="outer-container mx-auto">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12">
+                                <h1 class="text-uppercase">About</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="outer-container mx-auto py-md-5 py-4">
+                <section class="blue-title-columns pb-md-5 pb-4">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12 col-md-9">
+                                <p class="mb-2">
+                                    We believe there is a need for greater interoperability in the AI tools community. Many people are working on great tools, but developers are often locked in to one framework or ecosystem. ONNX is the first step in enabling more of these tools to work together by allowing them to share models.
+                                </p>
+                                <p class="mb-0">
+                                    Our goal is to make it possible for developers to use the right combinations of tools for their project. We want everyone to be able to take AI from research to reality as quickly as possible without artificial friction from toolchains. We hope you'll join us in this mission!
+                                </p>
+                            </div>
+                            <div class="col-12 col-md-3 d-none d-md-block text-center">
+                                <img src="./images/icon/icon-ONNX-logo.svg" alt="ONNX Logo Icon" class="img-fluid img-about-onnx">
                             </div>
                         </div>
                     </div>
                 </section>
-                <div class="outer-container mx-auto py-md-5 py-4">
-
-                    <section class="blue-title-columns pb-md-5 pb-4">
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="col-12 col-md-9">
-
-                                    <p class="mb-2">
-                                        We believe there is a need for greater interoperability in the AI tools community. Many people are working on great tools, but developers are often locked in to one framework or ecosystem. ONNX is the first step in enabling more of these tools to work together by allowing them to share models.
-                                    </p>
-                                    <p class="mb-0">
-                                        Our goal is to make it possible for developers to use the right combinations of tools for their project. We want everyone to be able to take AI from research to reality as quickly as possible without artificial friction from toolchains. We hope you'll join us in this mission!
-                                    </p>
-
-                                </div>
-                                <div class="col-12 col-md-3 d-none d-md-block text-center">
-                                    <img src="./images/icon/icon-ONNX-logo.svg" alt="ONNX Logo Icon" class="img-fluid img-about-onnx">
-                                </div>
+                <hr class="border-top my-0 mx-15" />
+                <section class="blue-title-columns">
+                    <div class="container-fluid">
+                        <div class="row py-4 py-md-5">
+                            <div class="col-12 col-md-6 mb-4 mb-md-0 text-center pr-10">
+                                <img src="./images/community.svg" alt="Community image" class="img-fluid img-community">
+                            </div>
+                            <div class="col-12 col-md-6 pr-10 justify-content-center align-self-center">
+                                <h2>Community</h2>
+                                <p>
+                                    ONNX is a community project. We encourage you to join the effort and contribute feedback, ideas and code.
+                                </p>
+                                <p>For more information, check out our <a href="https://github.com/onnx/onnx/blob/main/CONTRIBUTING.md#development" target="_blank" class="link">contribution guide</a>, or join a <a target="_blank" href="https://github.com/onnx/onnx/blob/main/community/sigs.md#sigs---special-interest-groups" class="link">Special
+                                        Interest Group</a> (SIG) or <a href="https://github.com/onnx/onnx/blob/main/community/working-groups.md#working-groups" target="_blank" class="link">Working Group</a> today.</p>
                             </div>
                         </div>
-                    </section>
-                    <hr class="border-top my-0 mx-15"/>
-                    <section class="blue-title-columns">
-                        <div class="container-fluid">
-                            <div class="row py-4 py-md-5">
-                                <div class="col-12 col-md-6 mb-4 mb-md-0 text-center pr-10">
-                                    <img src="./images/community.svg" alt="Community image" class="img-fluid img-community">
-                                </div>
-                                <div class="col-12 col-md-6 pr-10 justify-content-center align-self-center">
-                                    <h2>Community</h2>
-                                    <p>
-                                        ONNX is a community project. We encourage you to join the effort and contribute feedback, ideas and code.
-                                    </p>
-                                    <p>For more information, check out our <a href="https://github.com/onnx/onnx/blob/main/CONTRIBUTING.md#development" target="_blank" class="link">contribution guide</a>, or join a <a target="_blank" href="https://github.com/onnx/onnx/blob/main/community/sigs.md#sigs---special-interest-groups" class="link">Special
-                                            Interest Group</a> (SIG) or <a href="https://github.com/onnx/onnx/blob/main/community/working-groups.md#working-groups" target="_blank" class="link">Working Group</a> today.</p>
+                    </div>
+                </section>
+                <hr class="border-top my-0 mx-15" />
+                <section class="py-md-5 py-4 bg-lightgray">
+                    <div class="outer-container mx-auto">
+                        <div class="container-fluid blue-title-columns">
+                            <div class="row mb-4">
+                                <div class="col-12">
+                                    <h2 class="text-center">Partners</h2>
+                                    <p class="text-center">ONNX is supported by a community of partners</p>
                                 </div>
                             </div>
-
+                            <!-- Partial partners.html Start-->
+                            <div w3-include-html="partials/partners.html"></div>
+                            <!-- Partial partners.html End-->
                         </div>
-                    </section>
-                    <hr class="border-top my-0 mx-15"/>
-                    <section class="py-md-5 py-4 bg-lightgray">
-                        <div class="outer-container mx-auto">
-                            <div class="container-fluid blue-title-columns">
-                                <div class="row mb-4">
-                                    <div class="col-12">
-                                        <h2 class="text-center">Partners</h2>
-                                        <p class="text-center">ONNX is supported by a community of partners</p>
-
-                                    </div>
-                                </div>
-                                <!-- Partial partners.html Start-->
-                                <div w3-include-html="partials/partners.html"></div>
-                                <!-- Partial partners.html End-->
+                    </div>
+                </section>
+                <hr class="border-top my-0 mx-15" />
+                <section class="pt-md-5 pt-4 blue-title-columns">
+                    <div class="container-fluid">
+                        <div class="row ">
+                            <div class="col-12 col-md-6 mb-4 mb-md-0 text-center pr-10 order-md-2">
+                                <img src="./images/technical-design.svg" alt="Technical Design image" class="img-fluid img-tecnical-design">
+                            </div>
+                            <div class="col-12 col-md-6 pr-10 order-md-1 justify-content-center align-self-center">
+                                <h2>Technical Design</h2>
+                                <p>
+                                    ONNX provides a definition of an extensible computation graph model, as well as definitions of built-in operators and standard data types.
+                                </p>
+                                <p>Each computation dataflow graph is structured as a list of nodes that form an acyclic graph. Nodes have one or more inputs and one or more outputs. Each node is a call to an operator. The graph also has metadata to help document its purpose, author, etc.</p>
+                                <p>
+                                    Operators are implemented externally to the graph, but the set of built-in operators are portable across frameworks. Every framework supporting ONNX will provide implementations of these operators on the applicable data types.
+                                </p>
+                                <p class="mb-0"><strong>More details can be found on</strong> <a href="https://github.com/onnx/" class="link" target="_blank">GitHub</a>.</p>
                             </div>
                         </div>
-                    </section>
-                    <hr class="border-top my-0 mx-15"/>
-                    <section class="pt-md-5 pt-4 blue-title-columns">
-                        <div class="container-fluid">
-                            <div class="row ">
-                                <div class="col-12 col-md-6 mb-4 mb-md-0 text-center pr-10 order-md-2">
-                                    <img src="./images/technical-design.svg" alt="Technical Design image" class="img-fluid img-tecnical-design">
-                                </div>
-                                <div class="col-12 col-md-6 pr-10 order-md-1 justify-content-center align-self-center">
-                                    <h2>Technical Design</h2>
-                                    <p>
-                                        ONNX provides a definition of an extensible computation graph model, as well as definitions of built-in operators and standard data types.
-                                    </p>
-                                    <p>Each computation dataflow graph is structured as a list of nodes that form an acyclic graph. Nodes have one or more inputs and one or more outputs. Each node is a call to an operator. The graph also has metadata to help document its purpose, author, etc.</p>
-                                    <p>
-                                        Operators are implemented externally to the graph, but the set of built-in operators are portable across frameworks. Every framework supporting ONNX will provide implementations of these operators on the applicable data types.
-                                    </p>
-                                    <p class="mb-0"><strong>More details can be found on</strong> <a href="https://github.com/onnx/" class="link" target="_blank">GitHub</a>.</p>
-                                </div>
-
-                            </div>
-
-                        </div>
-                    </section>
-
-                </div>
+                    </div>
+                </section>
             </div>
-
-            <!-- Partial footer.html Start-->
-            <div w3-include-html="partials/footer.html"></div>
-            <!-- Partial footer.html End-->
-
-            <a id="back-to-top" href="#" class="btn btn-lg back-to-top" role="button" aria-label="Back to top"><span
-                    class="fa fa-angle-up"></span></a>
-
+        </div>
+        <!-- Partial footer.html Start-->
+        <div w3-include-html="partials/footer.html"></div>
+        <!-- Partial footer.html End-->
+        <a id="back-to-top" href="#" class="btn btn-lg back-to-top" role="button" aria-label="Back to top"><span class="fa fa-angle-up"></span></a>
     </div>
     <script src="https://www.w3schools.com/lib/w3.js"></script>
-    <script>w3.includeHTML();</script>
+    <script>
+        w3.includeHTML();
+    </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="./js/custom.js"></script>
-
 </body>
 
 </html>
