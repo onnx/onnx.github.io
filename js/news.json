@@ -1,5 +1,15 @@
 {
-    "newsContent": [
+    "newsContent": [      
+        {
+            "id": "78",
+            "newsId": "news78",
+            "newsTitle": "Call for papers: Community Meetup",
+            "newsShortTitle": "ONNX Community Meetup 2024",
+            "newsDescription": "ONNX Community Meetup 2024: June 28th, 2024 at AMD, San Jose",
+            "newsLinkText": "Submit Abstract",
+            "newsLinkURL": "https://share.hsforms.com/1HcnE9jr1TLGA1-w5IrMrMg4tvhy",
+            "newsDate": "May 2, 2024"
+        },
         {
             "id": "77",
             "newsId": "news77",
