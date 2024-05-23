@@ -1,6 +1,16 @@
 {
     "newsContent": [
-	{
+        {
+            "id": "80",
+            "newsId": "news80",
+            "newsTitle": "ONNX v1.16.1 Released",
+            "newsShortTitle": "ONNX v1.16.1 Released",
+            "newsDescription": "ONNX v1.16.1 is now available.",
+            "newsLinkText": "Release Notes on GitHub",
+            "newsLinkURL": "https://github.com/onnx/onnx/releases/tag/v1.16.1",
+            "newsDate": "May 23, 2024"
+        },
+	    {
             "id": "79",
             "newsId": "news79",
             "newsTitle": "Register now for 2024 ONNX Community Meetup",
@@ -55,7 +65,7 @@
             "newsId": "news74",
             "newsTitle": "Videos from the Community Meetup 2023",
             "newsShortTitle": "June 2023 Community Meetup: Videos online",
-            "newsDescription": "Videos from the ONNX Community Meetup are online.", 
+            "newsDescription": "Videos from the ONNX Community Meetup are online.",
             "newsLinkText": "READ MORE",
             "newsLinkURL": "https://wiki.lfaidata.foundation/display/DL/ONNX+Community+Day+2023+-+June+28",
             "newsDate": "July 12, 2023"
@@ -65,7 +75,7 @@
             "newsId": "news73",
             "newsTitle": "Register now for June 2023 Community Meetup",
             "newsShortTitle": "Register now for June 2023 Community Meetup",
-            "newsDescription": "NVIDIA and the LF AI & Data Foundation are pleased to sponsor the upcoming ONNX Community Meetup on June 28th at the NVIDIA campus in Santa Clara. Virtual attendees will be able to join the livestream and ask questions. The event will cover ONNX Community updates, lightning talks, and plenty of community networking. If you are using ONNX in your services and applications, building software or hardware that supports ONNX, or contributing to ONNX, you should attend! Last day to register for in-person is June 16th.", 
+            "newsDescription": "NVIDIA and the LF AI & Data Foundation are pleased to sponsor the upcoming ONNX Community Meetup on June 28th at the NVIDIA campus in Santa Clara. Virtual attendees will be able to join the livestream and ask questions. The event will cover ONNX Community updates, lightning talks, and plenty of community networking. If you are using ONNX in your services and applications, building software or hardware that supports ONNX, or contributing to ONNX, you should attend! Last day to register for in-person is June 16th.",
             "newsLinkText": "Register now",
             "newsLinkURL": "https://community.linuxfoundation.org/events/details/lfhq-lf-ai-data-foundation-presents-lf-ai-data-day-onnx-community-meetup-silicon-valley-1/",
             "newsDate": "June 1, 2023"
@@ -188,7 +198,7 @@
             "newsLinkText": "Register",
             "newsLinkURL": "https://events.linuxfoundation.org/lf-ai-data-day-onnx-community-virtual-meetup-fall/",
             "newsDate": "October 21st, 2021, 8-11am US PST."
-        }, 
+        },
         {
             "id": "60",
             "newsId": "news60",
