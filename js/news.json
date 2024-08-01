@@ -1,6 +1,16 @@
 {
     "newsContent": [
         {
+            "id": "81",
+            "newsId": "news81",
+            "newsTitle": "ONNX v1.16.2 Released",
+            "newsShortTitle": "ONNX v1.16.2 Released",
+            "newsDescription": "ONNX v1.16.2 is now available.",
+            "newsLinkText": "Release Notes on GitHub",
+            "newsLinkURL": "https://github.com/onnx/onnx/releases/tag/v1.16.2",
+            "newsDate": "August 1, 2024"
+        },
+        {
             "id": "80",
             "newsId": "news80",
             "newsTitle": "ONNX v1.16.1 Released",
