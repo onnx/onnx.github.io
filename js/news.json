@@ -1,6 +1,16 @@
 {
     "newsContent": [
         {
+            "id": "82",
+            "newsId": "news82",
+            "newsTitle": "ONNX v1.17.0 Released",
+            "newsShortTitle": "ONNX v1.17.0 Released",
+            "newsDescription": "ONNX v1.17.0 is now available. This release includes numerous new features including support for bfloat16 data types for multiple operators and support for numpy >= 2.0, just to name a few. To see the complete list, including additional bug and security fixes, see https://github.com/onnx/onnx/releases/tag/v1.17.0.",
+            "newsLinkText": "Release Notes on GitHub",
+            "newsLinkURL": "https://github.com/onnx/onnx/releases/tag/v1.17.0",
+            "newsDate": "October 01, 2024"
+        },
+        {
             "id": "81",
             "newsId": "news81",
             "newsTitle": "ONNX v1.16.2 Released",
