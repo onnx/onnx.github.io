@@ -1,6 +1,16 @@
 {
     "newsContent": [
         {
+            "id": "83",
+            "newsId": "new83",
+            "newsTitle": "Seeking candidates for ONNX Steering Committee.",
+            "newsShortTitle": "Self-nomination for ONNX Steering Committee for year 2025-2026.",
+            "newsDescription": "The candidates for the ONNX Steering Committee are self-nominated, and they are not required to be Contributors. The nomination process is starting on Monday 21st April and will close on Math 5th. Candidates are to fill the form below, which will be made public on May 6. Active contributors to the ONNX project will vote from May 12 to May 19th. Elected Steering Committee members will serve for a one year term.",
+            "newsLinkText": "Nomination form",
+            "newsLinkURL": "https://forms.office.com/r/hj3iuESGv1",
+            "newsDate": "Nomination open from Monday 21st to May 5th 2025."
+        },
+        {
             "id": "82",
             "newsId": "news82",
             "newsTitle": "ONNX v1.17.0 Released",
