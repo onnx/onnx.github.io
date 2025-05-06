@@ -1,6 +1,16 @@
 {
     "newsContent": [
         {
+            "id": "84",
+            "newsId": "new84",
+            "newsTitle": "List of candidates for ONNX Steering Committee election.",
+            "newsShortTitle": "The official list of candidates to the ONNX Steering Committee for year 2025-2026.",
+            "newsDescription": "Active contributors to the ONNX project will be requested to vote from May 12 to May 19th. Elected Steering Committee members will serve for a one year term.",
+            "newsLinkText": "Candidate list",
+            "newsLinkURL": "https://github.com/onnx/steering-committee/blob/main/elections/2025/list-sc-candidates.md",
+            "newsDate": "Election to start May 12th, 2025."
+        },
+        {
             "id": "83",
             "newsId": "new83",
             "newsTitle": "Seeking candidates for ONNX Steering Committee.",
