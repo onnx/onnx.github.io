@@ -1,8 +1,18 @@
 {
     "newsContent": [
+	{
+            "id": "85",
+            "newsId": "news85",
+            "newsTitle": "Register now for 2025 ONNX Community Meetup",
+            "newsShortTitle": "Register now for 2025 ONNX Community Meetup",
+            "newsDescription": "Join us for the upcoming ONNX Community Meetup, sponsored by Intel and the LF AI & Data Foundation, on June 9th at the Intel campus in Santa Clara and online. Can't make it in person? Don't worry, we'll have a livestream available. This event promises updates on the ONNX Community, engaging partner and user stories, and ample opportunities for networking within the community. The main conference track will feature lightning talks, highlighting the innovative applications of ONNX across the ecosystem. To cap off the day, we'll host special topic round tables to address your questions and concerns. Whether you're utilizing ONNX in your services and applications, developing software or hardware that supports ONNX, or contributing to the ONNX project itself, this meetup is for you! It's a fantastic chance to connect with fellow ONNX enthusiasts, learn from industry leaders, and become a part of this vibrant and expanding community. We look forward to seeing you there!",
+            "newsLinkText": "Register now",
+            "newsLinkURL": "https://community.linuxfoundation.org/events/details/lfhq-lf-ai-data-foundation-presents-onnx-community-meet-up-1/?__hstc=253081366.348dfb68dea3daa4b468ebf66cf7d322.1727107754281.1747158989382.1747243463339.23&__hssc=253081366.1.1747243463339&__hsfp=1568139861",
+            "newsDate": "May 26, 2025"
+        },
         {
             "id": "84",
-            "newsId": "new84",
+            "newsId": "news84",
             "newsTitle": "List of candidates for ONNX Steering Committee election.",
             "newsShortTitle": "The official list of candidates to the ONNX Steering Committee for year 2025-2026.",
             "newsDescription": "Active contributors to the ONNX project will be requested to vote from May 12 to May 19th. Elected Steering Committee members will serve for a one year term.",
@@ -12,7 +22,7 @@
         },
         {
             "id": "83",
-            "newsId": "new83",
+            "newsId": "news83",
             "newsTitle": "Seeking candidates for ONNX Steering Committee.",
             "newsShortTitle": "Self-nomination for ONNX Steering Committee for year 2025-2026.",
             "newsDescription": "The candidates for the ONNX Steering Committee are self-nominated, and they are not required to be Contributors. The nomination process is starting on Monday 21st April and will close on Math 5th. Candidates are to fill the form below, which will be made public on May 6. Active contributors to the ONNX project will vote from May 12 to May 19th. Elected Steering Committee members will serve for a one year term.",
