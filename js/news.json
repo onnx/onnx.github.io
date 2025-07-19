@@ -1,5 +1,15 @@
 {
     "newsContent": [
+	    {
+            "id": "86",
+            "newsId": "news86",
+            "newsTitle": "Recordings of the 2025 ONNX Community Meetup online",
+            "newsShortTitle": "Recordings of 2025 Community Meetup",
+            "newsDescription": "Recordings could be found at https://www.youtube.com/watch?v=rhGyFl5NT6I&list=PLNqLlwTfo321Fk5SuWmWhjtTVAgdAYxH6",
+            "newsLinkText": "Recordings 2025",
+            "newsLinkURL": "https://www.youtube.com/watch?v=rhGyFl5NT6I&list=PLNqLlwTfo321Fk5SuWmWhjtTVAgdAYxH6",
+            "newsDate": "July 19, 2025"
+        },
 	{
             "id": "85",
             "newsId": "news85",
