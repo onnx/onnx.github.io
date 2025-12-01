@@ -5,7 +5,7 @@
             "newsId": "news87",
             "newsTitle": "ONNX v1.20.0 Released",
             "newsShortTitle": "ONNX v1.20.0 Released",
-            "newsDescription": "ONNX v1.20.0 is now available. This release includes numerous new features including support for additional data types, blocked quantization, a new TreeEnsemble operator, and Python 3.12 support just to name a few. To see the complete list, including additional bug and security fixes, see https://github.com/onnx/onnx/releases/tag/v1.20.0.",
+            "newsDescription": "ONNX v1.20.0 is now available. This release includes numerous new features. To see the complete list, including additional bug and security fixes, see https://github.com/onnx/onnx/releases/tag/v1.20.0.",
             "newsLinkText": "Release Notes on GitHub",
             "newsLinkURL": "https://github.com/onnx/onnx/releases/tag/v1.20.0",
             "newsDate": "December 1, 2025"
