@@ -1,6 +1,16 @@
 {
     "newsContent": [
-	    {
+		{
+            "id": "87",
+            "newsId": "news87",
+            "newsTitle": "ONNX Community Survey – Share Your Feedback",
+            "newsShortTitle": "Community Survey",
+            "newsDescription": "The Community Survey could be found at https://docs.google.com/forms/d/18yfgInQBjJu7GChzbpptIRgY1jopDyqEnxLw86FNwFI",
+            "newsLinkText": "Survey 2026",
+            "newsLinkURL": "https://docs.google.com/forms/d/18yfgInQBjJu7GChzbpptIRgY1jopDyqEnxLw86FNwFI",
+            "newsDate": "February 8, 2026"
+        },		
+		{
             "id": "86",
             "newsId": "news86",
             "newsTitle": "Recordings of the 2025 ONNX Community Meetup online",
@@ -10,7 +20,7 @@
             "newsLinkURL": "https://www.youtube.com/watch?v=rhGyFl5NT6I&list=PLNqLlwTfo321Fk5SuWmWhjtTVAgdAYxH6",
             "newsDate": "July 19, 2025"
         },
-	{
+		{
             "id": "85",
             "newsId": "news85",
             "newsTitle": "Register now for 2025 ONNX Community Meetup",
