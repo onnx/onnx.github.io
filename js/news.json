@@ -1,6 +1,16 @@
 {
     "newsContent": [
 		{
+            "id": "88",
+            "newsId": "news88",
+            "newsTitle": "ONNX v1.21.0 Released",
+            "newsShortTitle": "ONNX v1.21.0 Released",
+            "newsDescription": "ONNX v1.21.0 is now available. This release includes numerous new features, operator updates, bug fixes, and improvements. To see the complete list of changes and enhancements, visit the release notes on GitHub.",
+            "newsLinkText": "Release Notes on GitHub",
+            "newsLinkURL": "https://github.com/onnx/onnx/releases/tag/v1.21.0",
+            "newsDate": "March 27, 2026"
+        },
+		{
             "id": "87",
             "newsId": "news87",
             "newsTitle": "ONNX Community Survey – Share Your Feedback",
@@ -9,7 +19,7 @@
             "newsLinkText": "Survey 2026",
             "newsLinkURL": "https://docs.google.com/forms/d/18yfgInQBjJu7GChzbpptIRgY1jopDyqEnxLw86FNwFI",
             "newsDate": "February 8, 2026"
-        },		
+        },
 		{
             "id": "86",
             "newsId": "news86",
