@@ -1,6 +1,16 @@
 {
     "newsContent": [
-		        {
+		{
+            "id": "91",
+            "newsId": "news91",
+            "newsTitle": "ONNX Community Meetup 2026 (June 26)  - Call for Proposals.",
+            "newsShortTitle": "ONNX Community Meetup 2026 (June 26)  - Call for Proposals.",
+            "newsDescription": "Our ONNX Community Meetup is requesting proposal for presentations at the annual meetup, located in Mountain View, CA on June 26 2026. Proposal are due May 27th.",
+            "newsLinkText": "Link to submit proposal",
+            "newsLinkURL": "https://urldefense.proofpoint.com/v2/url?u=https-3A__forms.office.com_Pages_ResponsePage.aspx-3Fid-3Dv4j5cvGGr0GRqy180BHbR52bMPpA2KBKqx9J5f6Y2LJUQ1Q5Rko3OEc1MkZENTlZNEtJSkJDUFFDUy4u-26origin-3DInvitation-26channel-3D0&d=DwMFAg&c=BSDicqBQBDjDI9RkVyTcHQ&r=mNEnGM3cMp_4Dl-Rjqx_Erl_hgWJuKXMsyPkUZv-WcU&m=wOPVW8xt6uuiWnraY_-V_62C6iwtJaPFiGl3fceZUIytY29ahtsHcsUK5WvcTPdf&s=wrchygwIIge6s_jufmx91BzvV8P567q5uAFwD-XQZsY&e=",
+            "newsDate": "May 20, 2026"
+        },
+		{
             "id": "90",
             "newsId": "news90",
             "newsTitle": "Candidates for ONNX Steering Committee (Overview).",
