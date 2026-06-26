@@ -1,6 +1,15 @@
 {
     "newsContent": [
 		{
+            "id": "92",
+            "newsId": "news92",
+            "newsTitle": "ONNX Community Meetup 2026 (June 26)  - How to Attend.",
+            "newsShortTitle": "ONNX Community Meetup 2026 (June 26)  - How to Attend.",
+            "newsDescription": "Our ONNX Community Meetup is happening in Mountain View, CA on June 26 2026. You may attend virtually by registering.",
+            "newsLinkText": "Link to agenda",
+            "newsLinkURL": "https://github.com/onnx/community-meetups/blob/main/2026.06/readme.md",
+            "newsDate": "June 26, 2026"
+        },{
             "id": "91",
             "newsId": "news91",
             "newsTitle": "ONNX Community Meetup 2026 (June 26)  - Call for Proposals.",
