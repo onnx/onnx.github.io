@@ -1,5 +1,15 @@
 {
-    "newsContent": [
+   "newsContent": [	
+		{
+            "id": "93",
+            "newsId": "news93",
+            "newsTitle": "Presentation of the ONNX Community Meetup 2026 — June 26",
+            "newsShortTitle": "ONNX Community Meetup 2026 — June 26: Presentations",
+            "newsDescription": "Videos Online",
+            "newsLinkText": "Video Playlist",
+            "newsLinkURL": "https://www.youtube.com/playlist?list=PLLIyVy1DXx5M",
+            "newsDate": "July 25, 2026"
+        },
 		{
             "id": "92",
             "newsId": "news92",
