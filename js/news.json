@@ -1,5 +1,15 @@
 {
-   "newsContent": [	
+   "newsContent": [
+		{
+            "id": "94",
+            "newsId": "news94",
+            "newsTitle": "Save the date: First ONNX Meetup in Europe — December 10, Toulouse, France",
+            "newsShortTitle": "First ONNX Meetup in Europe — December 10, Toulouse",
+            "newsDescription": "The first European ONNX Meetup brings together industrial users, researchers, experts and tool providers in Toulouse, France on December 10, 2026, with a focus on quality, safety and certification, performance, interoperability and long-term sustainability. The call for presentations is open. Registration is free but mandatory, and the registration link will be available soon.",
+            "newsLinkText": "Event details",
+            "newsLinkURL": "./meetups/europe-dec2026.html",
+            "newsDate": "October 29, 2026"
+        },
 		{
             "id": "93",
             "newsId": "news93",
