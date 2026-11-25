@@ -153,12 +153,7 @@ header.header-collapse .bg-overlay{
     padding-top: 95px;
 }
 .shadow-box {
-    position: relative;
     max-width: 1140px;
-}
-.shadow-box .shadow{
-    position: absolute;
-    top: -30px;
 }
 .btn-blue{
     background-color: #0071bc;
