@@ -23,7 +23,6 @@ window.addEventListener('scroll', function () {
 document.addEventListener('DOMContentLoaded', function () {
     equalHeight();
     backTop();
-    shadowBoxHeight();
     newsTopScroll();
 
     setTimeout(function () {
@@ -109,7 +108,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
 window.addEventListener('resize', function () {
     equalHeight();
-    shadowBoxHeight();
     homeEqualHeight();
     topNewsHeight();
     topNewsInnerHeight();
@@ -158,17 +156,6 @@ function equalHeight() {
 function homeEqualHeight() {
     setMaxHeight('.equalHeight-2 .col-news h3');
     setMaxHeight('.equalHeight-2 .col-news p');
-}
-
-function shadowBoxHeight() {
-    const wrapper = document.querySelector('.page-content .key-benefits-wrapper');
-    if (!wrapper) return;
-    if (window.innerWidth < 767) {
-        const box = document.querySelector('.shadow-box .shadow');
-        if (box) wrapper.style.paddingTop = (box.offsetHeight - 65) + 'px';
-    } else {
-        wrapper.style.paddingTop = 'initial';
-    }
 }
 
 function topNewsHeight() {

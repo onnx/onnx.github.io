@@ -62,9 +62,6 @@
     .bg-lightblue.mt-90{
       margin-top: 75px;
     }
-    .shadow-box .shadow {
-        top:-30px;
-    }
     .community-intro{
       max-width: 75%;
       margin: 0 auto 30px;
@@ -278,9 +275,6 @@
     } 
     .partners-logo img {
       width: 130px;
-    }
-    .shadow-box .shadow {
-      top: -50px;
     }
     .col-5-1{
       -ms-flex: 0 0 100%;
