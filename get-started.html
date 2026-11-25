@@ -44,6 +44,44 @@
                 </div>
             </section>
             <div class="outer-container mx-auto page-get-started">
+                <section class="py-md-5 py-4" aria-labelledby="quickstart-title">
+                    <div class="container-fluid">
+                        <h2 id="quickstart-title" class="subheading-2 blue-text">Create and check your first ONNX model</h2>
+                        <p>ONNX defines a common model format and operators. The Python package lets you create, inspect, and check models. To run a model for inference, choose a compatible runtime.</p>
+                        <p>This example creates a tiny model with one ReLU operator, which replaces negative values with zero. It saves the model to a file, loads it, and checks its structure. No training framework or model download is needed.</p>
+                        <h3 class="subheading-4 blue-text">1. Install ONNX</h3>
+                        <p>With Python and pip available, run this in your terminal, preferably in a virtual environment:</p>
+                        <pre class="bg-lightblue p-3" tabindex="0" role="group" aria-label="Install ONNX command"><code>python -m pip install onnx</code></pre>
+                        <h3 class="subheading-4 blue-text">2. Save this as quickstart.py</h3>
+                        <pre class="bg-lightblue p-3" tabindex="0" role="group" aria-label="Python quickstart example"><code id="quickstart-python">import onnx
+from onnx import TensorProto, helper
+
+graph = helper.make_graph(
+    [helper.make_node("Relu", ["X"], ["Y"])],
+    "relu-example",
+    [helper.make_tensor_value_info("X", TensorProto.FLOAT, [3])],
+    [helper.make_tensor_value_info("Y", TensorProto.FLOAT, [3])],
+)
+model = helper.make_model(graph)
+onnx.save(model, "relu.onnx")
+
+loaded_model = onnx.load("relu.onnx")
+onnx.checker.check_model(loaded_model)
+print("Model structure is valid.")</code></pre>
+                        <h3 class="subheading-4 blue-text">3. Run the check</h3>
+                        <pre class="bg-lightblue p-3" tabindex="0" role="group" aria-label="Run the quickstart command"><code>python quickstart.py</code></pre>
+                        <p>You should see <samp>Model structure is valid.</samp> and a new <code>relu.onnx</code> file in your working directory. To check an existing model, use its path in <code>onnx.load()</code> and pass the loaded model to <code>onnx.checker.check_model()</code>.</p>
+                        <p>The checker validates model structure; it does not run inference or verify prediction accuracy. See the <a href="https://onnx.ai/onnx/api/checker.html">checker documentation</a> and <a href="https://onnx.ai/onnx/intro/python.html">ONNX with Python</a> for more examples.</p>
+                        <h3 class="subheading-4 blue-text">Export and run your own model</h3>
+                        <ul>
+                            <li><strong>Export:</strong> use your framework's ONNX exporter or a converter. Start with the <a href="https://onnx.ai/onnx/intro/converters.html">converter guide</a>.</li>
+                            <li><strong>Check:</strong> load the exported model and validate it with the checker, as above.</li>
+                            <li><strong>Run:</strong> choose a <a href="./supported-tools.html#deployModel">compatible runtime</a>. For one example, follow the <a href="https://onnxruntime.ai/docs/get-started/with-python.html">ONNX Runtime Python guide</a>.</li>
+                        </ul>
+                        <p class="mb-0">An opset version identifies the operator definitions a model uses. Choose an opset supported by both your exporter and target runtime, and check the runtime's support for the model's IR (file format) version, operators, and data types. Passing the checker alone does not guarantee runtime compatibility. Read more about <a href="https://onnx.ai/onnx/intro/concepts.html">ONNX concepts and versioning</a>.</p>
+                    </div>
+                </section>
+                <hr class="border-top my-0 mx-15" />
                 <section class="py-md-5 pt-4 pb-4">
                     <div class="container-fluid">
                         <div class="row build-model-wrapper">
