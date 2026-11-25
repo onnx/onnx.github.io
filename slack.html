@@ -2,12 +2,63 @@
 <html lang="en">
 
 <head>
-    <title>ONNX Slack Channel</title>
-    <meta http-equiv="refresh" content="0; url = https://lfaifoundation.slack.com/archives/C016UBNDBL2" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONNX | Slack</title>
+    <link rel="icon" href="./images/onnx-favicon.png" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 
-<body>
-    <a href="https://lfaifoundation.slack.com/archives/C016UBNDBL2">Click here to redirect</a>
+<body class="innerpage-main-wrapper">
+    <a class="skip-main" href="#skipMain">Skip to main content</a>
+    <div w3-include-html="partials/navigation.html"></div>
+    <div class="main-wrapper">
+        <div class="top-banner-bg"></div>
+        <main id="skipMain" tabindex="-1">
+            <section class="blue-page-title-bar py-3">
+                <div class="outer-container mx-auto">
+                    <div class="container-fluid">
+                        <h1 class="text-uppercase mb-0">ONNX on Slack</h1>
+                    </div>
+                </div>
+            </section>
+            <div class="outer-container mx-auto py-4 py-md-5">
+                <div class="container-fluid">
+                    <p>Join the ONNX community in the LF AI &amp; Data Slack workspace to ask questions and discuss ONNX.</p>
+                    <div class="row g-4">
+                        <section class="col-12 col-md-6" aria-labelledby="join-title">
+                            <div class="bg-lightblue p-4 h-100">
+                                <h2 id="join-title" class="subheading-4 blue-text">New to the workspace?</h2>
+                                <p>Accept the workspace invitation first. Once you have joined, open the ONNX channel using the link on this page.</p>
+                                <!-- Keep the invitation aligned with https://github.com/onnx/onnx#discuss. -->
+                                <a class="btn btn-primary rounded-0" href="https://join.slack.com/t/lfaifoundation/shared_invite/zt-3wx5vohc3-MeSYi3_dscb~u~cqs7zlPg">Join the workspace</a>
+                            </div>
+                        </section>
+                        <section class="col-12 col-md-6" aria-labelledby="channel-title">
+                            <div class="bg-lightblue p-4 h-100">
+                                <h2 id="channel-title" class="subheading-4 blue-text">Already a member?</h2>
+                                <p>Sign in to the LF AI &amp; Data workspace and open <strong>#onnx</strong> to join the conversation.</p>
+                                <a class="btn btn-primary rounded-0" href="https://lfaifoundation.slack.com/archives/C016UBNDBL2">Open the ONNX channel</a>
+                            </div>
+                        </section>
+                    </div>
+                    <p class="mt-4 mb-0">If the invitation has expired, check the <a href="https://github.com/onnx/onnx#discuss">ONNX README for the current invitation</a>. You can also use the <a href="./mailinglists.html">ONNX mailing lists</a>.</p>
+                </div>
+            </div>
+        </main>
+        <div w3-include-html="partials/footer.html"></div>
+    </div>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <script>
+        w3.includeHTML();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/custom.js"></script>
 </body>
 
 </html>
