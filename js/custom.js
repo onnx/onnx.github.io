@@ -13,7 +13,8 @@ fetch("js/news.json")
 
 window.addEventListener('scroll', function () {
     const scrolled = window.scrollY > 50;
-    document.querySelector('header').classList.toggle('scrolled', scrolled);
+    const header = document.querySelector('header');
+    if (header) header.classList.toggle('scrolled', scrolled);
     const toast = document.querySelector('.top-toast');
     if (toast) toast.classList.toggle('scrolled', scrolled);
     backTop();
@@ -37,14 +38,8 @@ document.addEventListener('DOMContentLoaded', function () {
         if (activeEl) activeEl.classList.add('active');
     }, 300);
 
-    const toggler = document.querySelector('button.navbar-toggler');
-    if (toggler) {
-        toggler.addEventListener('click', function () {
-            document.querySelector('header').classList.toggle('header-collapse');
-        });
-    }
-
-    document.querySelector('header').classList.toggle('scrolled', window.scrollY > 50);
+    const header = document.querySelector('header');
+    if (header) header.classList.toggle('scrolled', window.scrollY > 50);
 
     const backToTopBtn = document.getElementById('back-to-top');
     if (backToTopBtn) {
@@ -56,9 +51,17 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     document.addEventListener('click', function (event) {
+        // The shared header may arrive after DOMContentLoaded.
+        const toggler = event.target.closest('button.navbar-toggler');
+        if (toggler) {
+            toggler.closest('header').classList.toggle('header-collapse');
+            return;
+        }
         const navbarCollapse = document.querySelector('.navbar-collapse');
         const isOpen = navbarCollapse && navbarCollapse.classList.contains('show');
-        if (isOpen && !event.target.closest('.navbar-toggler')) {
+        const link = event.target.closest('.navbar-collapse a[href]');
+        const followsLink = link && !link.matches('[data-bs-toggle="dropdown"]');
+        if (isOpen && (followsLink || !event.target.closest('.navbar'))) {
             document.querySelector('.navbar-toggler').click();
         }
     });
@@ -83,16 +86,6 @@ document.addEventListener('DOMContentLoaded', function () {
             const table = document.getElementById('getStartedTable');
             if (table) window.scrollTo({ top: table.offsetTop - 100, behavior: 'smooth' });
         });
-    });
-
-    document.addEventListener('click', function (e) {
-        const link = e.target.closest('.top-toast p > a');
-        if (link) {
-            e.preventDefault();
-            const id = link.getAttribute('href').split('#')[1];
-            const target = document.getElementById(id);
-            if (target) window.scrollTo({ top: target.offsetTop - 120, behavior: 'smooth' });
-        }
     });
 
     const lastNavLink = document.querySelector('ul.navbar-nav li:last-child a');
